@@ -7,17 +7,19 @@ header {
    background: url(../images/hero-image-3.jpg) center / cover;
    height: 60vh;
    justify-content: center;
-   text-align: center;
- }
+   text-align: left ;
+
+   }
+
 
 
  h1 {
-   color: hsla(0, 0%, 100%, 0.9);
+   color: ;
    font-weight: bold;
  }
 
  .slogan {
-   color: hsla(0, 0%, 100%, 0.7);
+   color: ;
    font-weight: lighter;
    font-size: 1.6rem;
  }
@@ -54,4 +56,15 @@ footer.mdl-mini-footer > ul {
   header.mdl-layout__header {
     display: flex;
   }
+
+.logo{
+position: absolute;
+width: 62px;
+height: 81.78px;
+left: 26px;
+top: 25px;
+}
+
+
+
 }
