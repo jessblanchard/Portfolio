@@ -514,7 +514,174 @@ padding-top: 20px;
     font-weight: bold;
 }
 
+.molly{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+.angelica{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.competitive-analysis{
+padding-top: 50px;
+padding-bottom: 50px ;
+}
+
+.swot-logo{
+text-align: center;
+}
+
+
+.swot{
+  font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 19.4718px;
+line-height: 150%;
+/* identical to box height, or 29px */
+
+/* gray */
+color: #939BA5;
+opacity: 0.2;
+text-align: center;
+
+}
+
+.swot1{
+  font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 19.4718px;
+line-height: 150%;
+/* identical to box height, or 29px */
+
+/* gray */
+color: #939BA5;
+
+text-align: center;
+background-color: #EBD7D0;
+}
+
+.swot-points1{
+  font-family: Baskerville;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 167.23%;
+/* or 20px */
+
+/* Blue */
+color: #3A4E66;
+padding-left: 50px;
+background-color: #EBD7D0;
+
+
+}
+
+td{
+  padding:10px;
+
+}
+
+
+.swot2{
+  font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 19.4718px;
+line-height: 150%;
+/* identical to box height, or 29px */
+
+/* gray */
+color: #939BA5;
+
+text-align: center;
+
+}
+
+.swot-points2{
+  font-family: Baskerville;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 167.23%;
+/* or 20px */
+
+/* Blue */
+color: #3A4E66;
+padding-left: 50px;
+background-color: #FFFFFF;
+
+}
+
+
+.swot3{
+  font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 19.4718px;
+line-height: 150%;
+/* identical to box height, or 29px */
+
+/* gray */
+color: #939BA5;
+
+text-align: center;
+background-color: #EBD7D0;
+}
+
+.swot-points3{
+  font-family: Baskerville;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 167.23%;
+/* or 20px */
+
+/* Blue */
+color: #3A4E66;
+padding-left: 50px;
+background-color: #EBD7D0;
+
+}
+
+
+.swot4{
+  font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 19.4718px;
+line-height: 150%;
+/* identical to box height, or 29px */
+
+/* gray */
+color: #939BA5;
+
+text-align: center;
+border-left: 0.655242px solid #EBD7D0;
+border-right: 0.655242px solid #EBD7D0;
+
+}
+
+
+.swot-points4{
+  font-family: Baskerville;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 167.23%;
+/* or 20px */
+
+/* Blue */
+color: #3A4E66;
+padding-left: 50px;
+background-color: #FFFFFF;
+border-left: 0.655242px solid #EBD7D0;
+border-right: 0.655242px solid #EBD7D0;
+border-bottom: 0.655242px solid #EBD7D0;
+}
 
 
 
