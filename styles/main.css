@@ -555,6 +555,8 @@ color: rgba(147, 155, 165, 0.2);
 
 text-align: center;
 background-color: #EBD7D0;
+border-left: 0.655242px solid #EBD7D0;
+border-right: 0.655242px solid #EBD7D0;
 }
 
 .swot-points1{
@@ -569,6 +571,8 @@ line-height: 167.23%;
 color: #3A4E66;
 padding-left: 50px;
 background-color: #EBD7D0;
+border-left: 0.655242px solid #EBD7D0;
+border-right: 0.655242px solid #EBD7D0;
 
 
 }
@@ -636,6 +640,8 @@ color: rgba(147, 155, 165, 0.2);
 
 text-align: center;
 background-color: #EBD7D0;
+border-left: 0.655242px solid #EBD7D0;
+border-right: 0.655242px solid #EBD7D0;
 }
 
 .swot-points3{
@@ -650,6 +656,8 @@ line-height: 167.23%;
 color: #3A4E66;
 padding-left: 50px;
 background-color: #EBD7D0;
+border-left: 0.655242px solid #EBD7D0;
+border-right: 0.655242px solid #EBD7D0;
 
 }
 
@@ -697,7 +705,7 @@ border-bottom: 0.655242px solid #EBD7D0;
 .information-architecture{
   position: absolute;
   width: 325px;
-  height: 3928px;
+  height: 4268px;
   left: 25px;
   top: 7243px;
   margin-top: 100px;
@@ -705,27 +713,21 @@ border-bottom: 0.655242px solid #EBD7D0;
 
 .story-role{
 
-font-family: Baskerville;
-font-style: italic;
-font-weight: normal;
-font-size: 12px;
-line-height: 167.23%;
-/* or 20px */
-
-/* Blue */
-color: #3A4E66;
+  font-family: Baskerville;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 167.23%;
+  color: #3A4E66;
 }
 
 .story-activity{
   font-family: Baskerville;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 167.23%;
-/* or 20px */
-
-/* Blue */
-color: #3A4E66;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 167.23%;
+  color: #3A4E66;
 }
 
 .table-peach{
@@ -784,18 +786,14 @@ color: #3A4E66;
 }
 
 
-
-
-
-
 .branding{
-position: absolute;
-width: 325px;
-height: 9987.69px;
-left: 25px;
-top: 11271px;
-margin-top:100px;
-margin-bottom:100px;
+  position: absolute;
+  width: 325px;
+  height: 8200.69px;
+  left: 25px;
+  top: 11571px;
+  margin-top:100px;
+  margin-bottom:100px;
 }
 
 .branding-idea{
@@ -812,18 +810,18 @@ margin-bottom:100px;
 }
 
 .logo-design{
-width: 331px;
-height: 1579.3px;
-left: 25px;
-top: 12492.81px;
-margin-top: 5px;
+  width: 331px;
+  height: 1579.3px;
+  left: 25px;
+  top: 12492.81px;
+  margin-top: 5px;
 }
 
 .logo-sketches{
 
-width: 325px;
-height: 175.56px;
-left: 25px;
+  width: 325px;
+  height: 175.56px;
+  left: 25px;
 
 }
 
@@ -837,9 +835,9 @@ left: 25px;
 
 .type-study{
   position: absolute;
-width: 374px;
-height: 1127px;
-left: 0px;
+  width: 374px;
+  height: 1127px;
+  left: 0px;
 }
 
 
@@ -854,23 +852,23 @@ left: 0px;
 
 .hifi-pic{
   width: 100.67px;
-height: 218px;
-left: 22px;
-top: 17327.65px;
-display:inline-block;
+  height: 218px;
+  left: 22px;
+  top: 17327.65px;
+  display:inline-block;
 }
 
 .button-test{
   width: 174.44px;
-height: 190px;
-left: 90px;
-top: 18094px;
-display:block;
+  height: 190px;
+  left: 90px;
+  top: 18094px;
+  display:block;
 
 }
 
 .dashboard-test{
-    width: 325px;
+  width: 325px;
   height: 305px;
   left: 25px;
   top: 18304px;
@@ -879,17 +877,17 @@ display:block;
 
 .homepage-test{
   width: 325px;
-height: 277.25px;
-left: 25px;
-top: 18631px;
-display: block;
+  height: 277.25px;
+  left: 25px;
+  top: 18631px;
+  display: block;
 }
 
 .menus{
 
-width: 325px;
-height: 168px;
-left: 25px;
+  width: 325px;
+  height: 168px;
+  left: 25px;
 
 }
 
@@ -909,19 +907,18 @@ left: 25px;
 .lessons-learned{
   position: absolute;
   width: 325px;
-  height: 819px;
+  height: 770px;
   left: 25px;
-  top: 21358.69px;
+  top: 19900.69px;
+  margin-bottom: 50px;
 }
 
 .bottom-nav{
   position: absolute;
-width: 324.5px;
-height: 27px;
-left: 25px;
-top: 22228px;
-
-
+  width: 324.5px;
+  height: 27px;
+  left: 25px;
+  top: 20700px;
 
 }
 
@@ -948,11 +945,11 @@ top: 22228px;
 
 
 .verve-footer{
-
+  position: absolute;
   width: 375px;
   height: 148px;
   left: 0px;
-
+  Top:20800px;
   background-color: #3a4e66;
   text-align: center;
 }
@@ -965,6 +962,7 @@ top: 22228px;
   line-height: 150%;
   text-align: center;
   color: #D3AA6C;
+  padding-top: 20px;
 }
 
 
@@ -980,4 +978,6 @@ top: 22228px;
   text-align: center;
   text-transform: uppercase;
   color: #D3AA6C;
+  padding-bottom: 20px;
+  padding-top: 8px;
 }
