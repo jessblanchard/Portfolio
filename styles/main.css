@@ -33,6 +33,7 @@ cursor: default;
 text-transform: uppercase;
 width: 325px;
 height: 36px;
+margin-top: 20px;
 
 }
 
@@ -89,7 +90,6 @@ margin-bottom:20px;
 
 
 /* HOMEPAGE SPECIFIC */
-
 
 .navigation-work{
   position: absolute;
@@ -189,6 +189,10 @@ color: #3A4E66;
 
 }
 
+.hero-emphasis{
+  font-weight: bold;
+  font-style: italic;
+}
 .recent-work h1{
   position: absolute;
   width: 323px;
@@ -301,6 +305,7 @@ color: #3A4E66;
   top: 2083px;
   background-color: #3a4e66;
   text-align: center;
+
 }
 
 .footer-header{
@@ -529,24 +534,12 @@ padding-top: 50px;
 padding-bottom: 50px ;
 }
 
-.swot-logo{
-text-align: center;
-}
-
-
-.swot{
-  font-family: Avenir;
-font-style: normal;
-font-weight: 900;
-font-size: 19.4718px;
-line-height: 150%;
-/* identical to box height, or 29px */
-
-/* gray */
-color: #939BA5;
-opacity: 0.2;
-text-align: center;
-
+.swot-logo1{
+  text-align: center;
+  border-left: 0.655242px solid #EBD7D0;
+  border-right: 0.655242px solid #EBD7D0;
+  border-top: 0.655242px solid #EBD7D0;
+  background-color: #EBD7D0;
 }
 
 .swot1{
@@ -558,7 +551,7 @@ line-height: 150%;
 /* identical to box height, or 29px */
 
 /* gray */
-color: #939BA5;
+color: rgba(147, 155, 165, 0.2);
 
 text-align: center;
 background-color: #EBD7D0;
@@ -583,9 +576,14 @@ background-color: #EBD7D0;
 td{
   padding:10px;
 
+
 }
 
-
+.swot-logo2{
+  text-align: center;
+  border-left: 0.655242px solid #EBD7D0;
+  border-right: 0.655242px solid #EBD7D0;
+}
 .swot2{
   font-family: Avenir;
 font-style: normal;
@@ -595,9 +593,11 @@ line-height: 150%;
 /* identical to box height, or 29px */
 
 /* gray */
-color: #939BA5;
+color: rgba(147, 155, 165, 0.2);
 
 text-align: center;
+border-left: 0.655242px solid #EBD7D0;
+border-right: 0.655242px solid #EBD7D0;
 
 }
 
@@ -613,10 +613,16 @@ line-height: 167.23%;
 color: #3A4E66;
 padding-left: 50px;
 background-color: #FFFFFF;
-
+border-left: 0.655242px solid #EBD7D0;
+border-right: 0.655242px solid #EBD7D0;
 }
 
-
+.swot-logo3{
+  text-align: center;
+  border-left: 0.655242px solid #EBD7D0;
+  border-right: 0.655242px solid #EBD7D0;
+  background-color: #EBD7D0;
+}
 .swot3{
   font-family: Avenir;
 font-style: normal;
@@ -626,7 +632,7 @@ line-height: 150%;
 /* identical to box height, or 29px */
 
 /* gray */
-color: #939BA5;
+color: rgba(147, 155, 165, 0.2);
 
 text-align: center;
 background-color: #EBD7D0;
@@ -647,7 +653,11 @@ background-color: #EBD7D0;
 
 }
 
-
+.swot-logo4{
+  text-align: center;
+  border-left: 0.655242px solid #EBD7D0;
+  border-right: 0.655242px solid #EBD7D0;
+}
 .swot4{
   font-family: Avenir;
 font-style: normal;
@@ -657,7 +667,7 @@ line-height: 150%;
 /* identical to box height, or 29px */
 
 /* gray */
-color: #939BA5;
+color: rgba(147, 155, 165, 0.2);
 
 text-align: center;
 border-left: 0.655242px solid #EBD7D0;
@@ -684,53 +694,265 @@ border-bottom: 0.655242px solid #EBD7D0;
 }
 
 
-
-
-
-
-
 .information-architecture{
   position: absolute;
-  width: 375px;
+  width: 325px;
   height: 3928px;
-  left: 0px;
+  left: 25px;
   top: 7243px;
+  margin-top: 100px;
+}
+
+.story-role{
+
+font-family: Baskerville;
+font-style: italic;
+font-weight: normal;
+font-size: 12px;
+line-height: 167.23%;
+/* or 20px */
+
+/* Blue */
+color: #3A4E66;
+}
+
+.story-activity{
+  font-family: Baskerville;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 167.23%;
+/* or 20px */
+
+/* Blue */
+color: #3A4E66;
+}
+
+.table-peach{
+  background: #EBD7D0;
+}
+
+.onboard-flow{
+  background: #EBD7D0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top:20px;
+  height: 474px;
+  width: 375px;
+}
+
+.early-image{
+  width: 260.28px;
+ height: 247.83px;
+ display: block;
+}
+
+.wireframe1{
+  width: 100.49px;
+ height: 217.59px;
+}
+
+.wireframe2{
+  width: 100.49px;
+ height: 217.59px;
+}
+
+.wireframe3{
+  width: 100.49px;
+ height: 217.59px;
+}
+
+.wireframe4{
+  width: 100.49px;
+ height: 217.59px;
+}
+
+.wireframe5{
+  width: 100.49px;
+ height: 217.59px;
+}
+
+.wireframe6{
+  width: 100.49px;
+ height: 217.59px;
+}
+
+.user-testing{
+  padding-top: 50px;
 
 }
 
-.branding{
-  position: absolute;
-  width: 375px;
-  height: 9987.69px;
-  left: 0px;
-  top: 11271px;
 
+
+
+
+
+.branding{
+position: absolute;
+width: 325px;
+height: 9987.69px;
+left: 25px;
+top: 11271px;
+margin-top:100px;
+margin-bottom:100px;
+}
+
+.branding-idea{
+  width: 155.8px;
+  height: 155.13px;
+  display:inline-block;
+}
+
+.moodboard{
+
+  width: 325px;
+  height: 251.14px;
+  display: block;
+}
+
+.logo-design{
+width: 331px;
+height: 1579.3px;
+left: 25px;
+top: 12492.81px;
+margin-top: 5px;
+}
+
+.logo-sketches{
+
+width: 325px;
+height: 175.56px;
+left: 25px;
+
+}
+
+
+
+.final-logo{
+  width: 323.41px;
+  height: 154.16px;
+  left: 26px;
+}
+
+.type-study{
+  position: absolute;
+width: 374px;
+height: 1127px;
+left: 0px;
+}
+
+
+.final-colors{
+
+
+  width: 153px;
+  height: 106px;
+  left: 25px;
+  display: inline-block;
+}
+
+.hifi-pic{
+  width: 100.67px;
+height: 218px;
+left: 22px;
+top: 17327.65px;
+display:inline-block;
+}
+
+.button-test{
+  width: 174.44px;
+height: 190px;
+left: 90px;
+top: 18094px;
+display:block;
+
+}
+
+.dashboard-test{
+    width: 325px;
+  height: 305px;
+  left: 25px;
+  top: 18304px;
+
+}
+
+.homepage-test{
+  width: 325px;
+height: 277.25px;
+left: 25px;
+top: 18631px;
+display: block;
+}
+
+.menus{
+
+width: 325px;
+height: 168px;
+left: 25px;
+
+}
+
+.empty-state-dashboards{
+  width: 325.03px;
+  height: 154px;
+  left: 25px;
+
+}
+
+.final-revision-screens{
+  width: 325px;
+  height: 109.69px;
+  left: 25px;
 }
 
 .lessons-learned{
   position: absolute;
-width: 326px;
-height: 819px;
-left: 25px;
-top: 21358.69px;
+  width: 325px;
+  height: 819px;
+  left: 25px;
+  top: 21358.69px;
 }
 
 .bottom-nav{
-  display:inline;
   position: absolute;
-  width: 324.5px;
-  height: 27px;
-  left: 25px;
-  top: 22228px;
+width: 324.5px;
+height: 27px;
+left: 25px;
+top: 22228px;
+
+
 
 }
 
+.top{
+  display:inline;
+
+}
+
+.top-text{
+    display:inline;
+
+}
+
+.next-text{
+    display:inline;
+
+}
+
+.next{
+    display:inline;
+
+}
+
+
+
 .verve-footer{
-  position: absolute;
+
   width: 375px;
   height: 148px;
   left: 0px;
-  top: 22355px;
+
   background-color: #3a4e66;
   text-align: center;
 }
