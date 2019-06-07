@@ -12,6 +12,7 @@ padding-bottom: 5rem;
 
    justify-items: center;
    align-items: center;
+   box-sizing: border-box;
 }
 
 
@@ -43,6 +44,7 @@ font-weight: 900;
 font-family: avenir;
 font-size: 30px;
 line-height: 150%;
+
 }
 
 h2 {
@@ -87,7 +89,9 @@ margin-bottom:20px;
 }
 
 
-
+a{
+  text-decoration: none;
+}
 
 /* HOMEPAGE SPECIFIC */
 
@@ -298,13 +302,16 @@ color: #3A4E66;
 
 
 .footer{
+  box-sizing: border-box;
   position: absolute;
   width: 375px;
   height: 148px;
   left: 0px;
-  top: 2083px;
+  Top:2083px;
   background-color: #3a4e66;
   text-align: center;
+  display: block;
+  padding: 20px;
 
 }
 
@@ -316,21 +323,30 @@ color: #3A4E66;
   line-height: 150%;
   text-align: center;
   color: #D3AA6C;
+  line-height:normal;
+  margin-top: 0px;
+  margin-bottom: 7px;
 }
 
-
+.footer-links{
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: normal;
+}
 
 .footer-text{
 
   font-family: Avenir;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 12px; */
   line-height: 167.23%;
-  /* identical to box height, or 20px */
   text-align: center;
   text-transform: uppercase;
   color: #D3AA6C;
+  margin-top: 7px;
+  margin-bottom: 0px;
 }
 
 /* PROJECT SPECIFIC */
@@ -919,12 +935,17 @@ border-bottom: 0.655242px solid #EBD7D0;
   height: 27px;
   left: 25px;
   top: 20700px;
+}
+
+.bottom{
+width:325px;
+column-width: 93.75px;
 
 }
 
 .top{
   display:inline;
-
+  text-align: left;
 }
 
 .top-text{
@@ -945,6 +966,7 @@ border-bottom: 0.655242px solid #EBD7D0;
 
 
 .verve-footer{
+  box-sizing: border-box;
   position: absolute;
   width: 375px;
   height: 148px;
@@ -952,6 +974,10 @@ border-bottom: 0.655242px solid #EBD7D0;
   Top:20800px;
   background-color: #3a4e66;
   text-align: center;
+  display: block;
+  padding: 20px;
+
+
 }
 
 .verve-footer-header{
@@ -962,22 +988,28 @@ border-bottom: 0.655242px solid #EBD7D0;
   line-height: 150%;
   text-align: center;
   color: #D3AA6C;
-  padding-top: 20px;
+  line-height:normal;
+  margin-top: 0px;
+  margin-bottom: 7px;
 }
 
-
+.verve-footer-links{
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: normal;
+}
 
 .verve-footer-text{
 
   font-family: Avenir;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 12px; */
   line-height: 167.23%;
-  /* identical to box height, or 20px */
   text-align: center;
   text-transform: uppercase;
   color: #D3AA6C;
-  padding-bottom: 20px;
-  padding-top: 8px;
+  margin-top: 7px;
+  margin-bottom: 0px;
 }
