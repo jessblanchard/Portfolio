@@ -52,7 +52,6 @@ h2 {
 }
 
 h3 {
-  color: ;
   font-weight: 500;
   font-family: avenir;
   font-size: 20px;
@@ -311,7 +310,7 @@ a{
   font-family: Avenir;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px; */
+  font-size: 12px;
   line-height: 167.23%;
   text-align: center;
   text-transform: uppercase;
@@ -373,8 +372,6 @@ a{
 
 .roles{
   width: 100%;
-  margin-top: ;
-  margin-bottom: ;
 }
 
 .roles p {
@@ -927,7 +924,7 @@ td{
   font-family: Avenir;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px; */
+  font-size: 12px;
   line-height: 167.23%;
   text-align: center;
   text-transform: uppercase;
