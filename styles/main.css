@@ -12,6 +12,7 @@ padding-bottom: 5rem;
    box-sizing: border-box;
 }
 
+
 /* TYPOGRAPHY & GENERAL  */
 
 button{
@@ -370,6 +371,7 @@ a{
   padding: 85.5px;
 }
 
+
 .roles{
   width: 100%;
 }
@@ -456,7 +458,7 @@ a{
 .discovery{
   position: absolute;
   width: 325px;
-  height: 4616px;
+  height: 4490px;
   left: 25px;
   top: 2527px;
 }
@@ -517,6 +519,12 @@ a{
   padding-bottom: 50px ;
 }
 
+.swot-chart{
+
+  margin-right: 10px;
+
+}
+
 .swot-logo1{
   text-align: center;
   border-left: 0.655242px solid #EBD7D0;
@@ -552,7 +560,7 @@ a{
 }
 
 td{
-  padding:10px;
+  padding:5px;
 }
 
 .swot-logo2{
@@ -688,8 +696,8 @@ td{
   padding-bottom: 20px;
   margin-bottom: 20px;
   margin-top:20px;
-  height: 474px;
-  width: 375px;
+  height: 410.80px;
+  width: 325px;
 }
 
 .early-image{
@@ -735,7 +743,7 @@ td{
 .branding{
   position: absolute;
   width: 325px;
-  height: 8200.69px;
+  height: 9050.00px;
   left: 25px;
   top: 11571px;
   margin-top:100px;
@@ -775,9 +783,9 @@ td{
 }
 
 .type-study{
-  position: absolute;
-  width: 374px;
-  height: 1127px;
+
+  width: 325px;
+  height: 979.34px;
   left: 0px;
 }
 
@@ -847,16 +855,17 @@ td{
   width: 325px;
   height: 770px;
   left: 25px;
-  top: 19900.69px;
+  top: 20830.00px;
   margin-bottom: 50px;
 }
 
 .bottom-nav{
   position: absolute;
   width: 324.5px;
-  height: 27px;
+  height: 46px;
   left: 25px;
-  top: 20700px;
+  top: 21650px;
+  margin-bottom: 100px;
 }
 
 .bottom{
@@ -891,7 +900,7 @@ td{
   width: 375px;
   height: 148px;
   left: 0px;
-  Top:20800px;
+  Top:21796px;
   background-color: #3a4e66;
   text-align: center;
   display: block;
