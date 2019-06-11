@@ -171,7 +171,6 @@ a{
   font-size: 24px;
   line-height: 167.23%;
   color: #3A4E66;
-
 }
 
 .hero-emphasis{
@@ -326,7 +325,7 @@ a{
   position: absolute;
   width: 323px;
   height: 323px;
-  left: 26px;
+  left: 25px;
   top: 169px;
 }
 
@@ -357,9 +356,9 @@ a{
 
 .bulletpoints{
   position: absolute;
-  width: 325px;
+  width: 375px;
   height: 874px;
-  left: 25px;
+  left: 0px;
   top: 852px;
   background: #EBD7D0;
   text-align: center;
@@ -455,22 +454,31 @@ a{
   margin-bottom:20px;
 }
 
-.discovery{
+.discovery-indented1{
   position: absolute;
+  left:25px;
   width: 325px;
-  height: 4490px;
-  left: 25px;
   top: 2527px;
 }
 
+.discovery-fullwidth2{
+  position: absolute;
+  left:0px;
+  width: 375px;
+
+  top: 2700px;
+}
+
+
 .survey-chart{
   background-color: #EBD7D0;
-  width: 325px;
+  width: 375px;
   height: 381px;
   padding: 50px;
   align-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  left:0px;
 }
 
 .chart-header{
@@ -500,6 +508,21 @@ a{
   font-weight: bold;
 }
 
+.discovery-indented3{
+  position: absolute;
+  left:25px;
+  width: 325px;
+  top: 3150px;
+}
+
+.discovery-fullwidth4{
+  position: absolute;
+  left:0px;
+  width: 375px;
+  top: 3350px;
+}
+
+
 .persona{
   font-weight: bold;
 }
@@ -514,15 +537,20 @@ a{
   padding-bottom: 20px;
 }
 
+.discovery-indented5{
+  position: absolute;
+  left:25px;
+  width: 325px;
+  top: 5350px;
+}
+
 .competitive-analysis{
   padding-top: 50px;
   padding-bottom: 50px ;
 }
 
 .swot-chart{
-
   margin-right: 10px;
-
 }
 
 .swot-logo1{
@@ -662,12 +690,31 @@ td{
 .information-architecture{
   position: absolute;
   width: 325px;
-  height: 4268px;
+  height: 3898px;
   left: 25px;
   top: 7243px;
   margin-top: 100px;
 }
 
+.information-architecture-indented1{
+  position: absolute;
+  width: 325px;
+  left: 25px;
+  top: 7100px;
+  margin-top: 20px;
+}
+
+.information-architecture-fullwidth2{
+  position: absolute;
+  width: 375px;
+  left: 0px;
+  top: 7320px;
+  margin-top: 20px;
+}
+
+.user-stories{
+  width:375px;
+}
 .story-role{
   font-family: Baskerville;
   font-style: italic;
@@ -675,6 +722,7 @@ td{
   font-size: 12px;
   line-height: 167.23%;
   color: #3A4E66;
+  padding-left: 25px;
 }
 
 .story-activity{
@@ -690,14 +738,38 @@ td{
   background: #EBD7D0;
 }
 
+.information-architecture-indented3{
+  position: absolute;
+  width: 325px;
+  left: 25px;
+  top: 7740px;
+  margin-top: 20px;
+}
+
+.information-architecture-fullwidth4{
+  position: absolute;
+  width: 375px;
+  left: 0px;
+  top: 8080px;
+  margin-top: 20px;
+}
+
 .onboard-flow{
   background: #EBD7D0;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   margin-top:20px;
-  height: 410.80px;
+  height: 474px;
+  width: 375px;
+}
+
+.information-architecture-indented5{
+  position: absolute;
   width: 325px;
+  left: 25px;
+  top: 8640px;
+  margin-top: 20px;
 }
 
 .early-image{
@@ -740,12 +812,11 @@ td{
   padding-top: 50px;
 }
 
-.branding{
+.branding-indented1{
   position: absolute;
   width: 325px;
-  height: 9050.00px;
   left: 25px;
-  top: 11571px;
+  top: 11150px;
   margin-top:100px;
   margin-bottom:100px;
 }
@@ -782,11 +853,30 @@ td{
   left: 26px;
 }
 
+
+.branding-fullwidth2{
+  position: absolute;
+  width: 375px;
+  left: 0px;
+  top: 14250px;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
 .type-study{
 
-  width: 325px;
-  height: 979.34px;
+  width: 375px;
+  height: 1130.01px;
   left: 0px;
+}
+
+.branding-indented3{
+  position: absolute;
+  width: 325px;
+  left: 25px;
+  top: 15473px;
+  margin-top:50px;
+  margin-bottom:100px;
 }
 
 .final-colors{
@@ -809,10 +899,10 @@ td{
 .button-test{
   width: 174.44px;
   height: 190px;
-  left: 90px;
   top: 18094px;
-  display:block;
-
+  margin-left: 75.5px;
+  margin-right: 75.5px;
+  margin-bottom: 20px;
 }
 
 .dashboard-test{
@@ -820,7 +910,6 @@ td{
   height: 305px;
   left: 25px;
   top: 18304px;
-
 }
 
 .homepage-test{
@@ -855,7 +944,7 @@ td{
   width: 325px;
   height: 770px;
   left: 25px;
-  top: 20830.00px;
+  top: 20810.00px;
   margin-bottom: 50px;
 }
 
@@ -864,7 +953,7 @@ td{
   width: 324.5px;
   height: 46px;
   left: 25px;
-  top: 21650px;
+  top: 21660px;
   margin-bottom: 100px;
 }
 
@@ -900,7 +989,7 @@ td{
   width: 375px;
   height: 148px;
   left: 0px;
-  Top:21796px;
+  Top:21760px;
   background-color: #3a4e66;
   text-align: center;
   display: block;
