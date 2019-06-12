@@ -124,6 +124,8 @@
 
   }
 
+/* SITEWIDE HEADER NAVIGATION */
+
 
   .navigation{
     box-sizing: border-box;
@@ -179,12 +181,6 @@
   }
 
   .navigation-work{
-    /* position: absolute;
-    width: 49px;
-    height: 27px;
-    left: 149px;
-    top: 49px; */
-
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -197,11 +193,6 @@
   }
 
   .navigation-about{
-    /* position: absolute;
-    width: 56px;
-    height: 27px;
-    left: 212px;
-    top: 49px; */
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -214,11 +205,6 @@
   }
 
   .navigation-resume{
-    /* position: absolute;
-    width: 64px;
-    height: 27px;
-    left: 283px;
-    top: 49px; */
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -231,12 +217,6 @@
 
   @media screen and (min-width: 991px){
     .navigation-work{
-      /* position: absolute;
-      width: 49px;
-      height: 27px;
-      left: 149px;
-      top: 49px; */
-
       font-family: Avenir;
       font-style: normal;
       font-weight: 500;
@@ -249,11 +229,6 @@
     }
 
     .navigation-about{
-      /* position: absolute;
-      width: 56px;
-      height: 27px;
-      left: 212px;
-      top: 49px; */
       font-family: Avenir;
       font-style: normal;
       font-weight: 500;
@@ -266,11 +241,6 @@
     }
 
     .navigation-resume{
-      /* position: absolute;
-      width: 64px;
-      height: 27px;
-      left: 283px;
-      top: 49px; */
       font-family: Avenir;
       font-style: normal;
       font-weight: 500;
