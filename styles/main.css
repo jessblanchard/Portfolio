@@ -2,6 +2,13 @@
     padding-bottom: 5rem;
   }
 
+  /* @media screen and (min-width: 991px){
+    body {
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+  } */
+
   .container {
      display: grid;
      grid-auto-columns: 25%;
@@ -30,7 +37,25 @@
     width: 325px;
     height: 36px;
     margin-top: 20px;
+  }
 
+  @media screen and (min-width: 991px){
+    button{
+      background-color:#d3aa6c;
+      border:none;
+      color:#ffffff;
+      font-weight: 500px;
+      font-family: avenir;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: default;
+      text-transform: uppercase;
+      width: 317px;
+      height: 64px;
+      margin-top: 20px;
+    }
   }
 
   h1 {
@@ -80,19 +105,25 @@
     margin-bottom:20px;
   }
 
+  @media screen and (min-width: 991px){
+    p{
+      font-family: Baskerville;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 167.23%;
+      color: #3A4E66;
+      margin-top:20px;
+      margin-bottom:20px;
+    }
+  }
+
 
   a{
     text-decoration: none;
 
   }
 
-  @media screen and (min-width: 991px){
-
-    .nav-links{
-      position: absolute;
-      right: 30%;
-    }
-}
 
   .navigation{
     box-sizing: border-box;
@@ -100,13 +131,60 @@
     height: 132px;
   }
 
-  .navigation-work{
+  @media screen and (min-width: 991px){
+    .navigation{
+      box-sizing: border-box;
+      width: 992px;
+      height: 132px;
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+  }
+
+  .nav-links{
     position: absolute;
-    width: 49px;
+    width: auto;
     height: 27px;
     left: 149px;
     top: 49px;
 
+  }
+
+  @media screen and (min-width: 991px){
+    .nav-links{
+      position: absolute;
+      width: auto;
+      height: 38px;
+      left: 702px;
+      top: 71px;
+    }
+}
+
+.navigation-logo{
+  position: absolute;
+  width: 62px;
+  height: 81.78px;
+  left: 25px;
+  top: 25px;
+}
+
+  @media screen and (min-width: 991px){
+    .navigation-logo{
+      position: absolute;
+      width: 76px;
+      height: 100.25px;
+      left: 80px;
+      top: 40px;
+    }
+  }
+
+  .navigation-work{
+    /* position: absolute;
+    width: 49px;
+    height: 27px;
+    left: 149px;
+    top: 49px; */
+
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -115,14 +193,15 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #3A4E66;
+    margin-right:14px;
   }
 
   .navigation-about{
-    position: absolute;
+    /* position: absolute;
     width: 56px;
     height: 27px;
     left: 212px;
-    top: 49px;
+    top: 49px; */
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -130,14 +209,16 @@
     line-height: 167.23%;
     text-transform: uppercase;
     text-decoration: none;
-    color: #3A4E66;}
+    color: #3A4E66;
+    margin-right:14px;
+  }
 
   .navigation-resume{
-    position: absolute;
+    /* position: absolute;
     width: 64px;
     height: 27px;
     left: 283px;
-    top: 49px;
+    top: 49px; */
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -148,15 +229,61 @@
     color: #3A4E66;
   }
 
-  .navigation-logo{
-    position: absolute;
-    width: 62px;
-    height: 81.78px;
-    left: 26px;
-    top: 25px;
+  @media screen and (min-width: 991px){
+    .navigation-work{
+      /* position: absolute;
+      width: 49px;
+      height: 27px;
+      left: 149px;
+      top: 49px; */
+
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 167.23%;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #3A4E66;
+      margin-right:59px;
+    }
+
+    .navigation-about{
+      /* position: absolute;
+      width: 56px;
+      height: 27px;
+      left: 212px;
+      top: 49px; */
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 167.23%;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #3A4E66;
+      margin-right:59px;
+    }
+
+    .navigation-resume{
+      /* position: absolute;
+      width: 64px;
+      height: 27px;
+      left: 283px;
+      top: 49px; */
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 167.23%;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #3A4E66;
+    }
   }
 
     /* HOMEPAGE SPECIFIC */
+
 
   .hero h1{
     position: absolute;
@@ -175,14 +302,14 @@
   @media screen and (min-width: 991px){
     .hero h1{
       position: absolute;
-      width: 57%;
+      width: 654px;
       height: 68px;
       left: 249px;
-      top: 169px;
+      top: 279px;
       font-family: Avenir;
       font-style: normal;
       font-weight: 900;
-      font-size: 45px;
+      font-size: 50px;
       line-height: 150%;
       color: #D3AA6C;
     }
@@ -205,15 +332,15 @@
   @media screen and (min-width: 991px){
     .hero h2{
       position: absolute;
-      width: 57%;
-      height: 198px;
+      width: 654px;
+      height: 163px;
       left: 249px;
-      top: 257px;
+      top: 347px;
       font-family: Avenir;
       font-style: normal;
       font-weight: normal;
-      font-size: 24px;
-      line-height: 167.23%;
+      font-size: 35px;
+      line-height: 150%;
       color: #3A4E66;
     }
   }
@@ -225,7 +352,7 @@
 
   .recent-work h1{
     position: absolute;
-    width: 323px;
+    width: 325px;
     height: 45px;
     left: 26px;
     top: 555px;
@@ -236,6 +363,22 @@
     font-size: 30px;
     line-height: 150%;
     color: #D3AA6C;
+  }
+
+  @media screen and (min-width: 991px){
+    .recent-work h1{
+      position: absolute;
+      width: 992px;
+      height: 53px;
+      left: 80px;
+      top: 637px;
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      line-height: 150%;
+      color: #D3AA6C;
+    }
   }
 
   .project-image{
@@ -293,6 +436,7 @@
       height: 93px;
       left: 674px;
       top: 902.46px;
+      text-align: left;
       line-height: 167.23%;
     }
   }
@@ -329,6 +473,22 @@
     color: #D3AA6C;
   }
 
+  @media screen and (min-width: 991px){
+    .about-me h1{
+      position: absolute;
+      width: 992px;
+      height: 53px;
+      left: 80px;
+      top: 1296px;
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      line-height: 150%;
+      color: #D3AA6C;
+    }
+  }
+
   .personal-image{
     position: absolute;
     width: 323px;
@@ -337,11 +497,22 @@
     top: 1341.46px;
   }
 
+  @media screen and (min-width: 991px){
+    .personal-image{
+      position: absolute;
+      width: 256px;
+      height: 256px;
+      left: 817px;
+      top: 1399px;
+    }
+  }
+
+
   .about-me p{
     position: absolute;
     width: 324px;
     height: 243px;
-    left: 26px;
+    left: 25px;
     top: 1684px;
     font-family: Baskerville;
     font-style: normal;
@@ -361,7 +532,7 @@
       font-family: Baskerville;
       font-style: normal;
       font-weight: normal;
-      font-size: 16px;
+      font-size: 20px;
       line-height: 167.23%;
       color: #3A4E66;
     }
@@ -374,6 +545,16 @@
     height: 36px;
     left: 25px;
     top: 1947px;
+  }
+
+  @media screen and (min-width: 991px){
+    .about-me button{
+      position: absolute;
+      width: 317px;
+      height: 64px;
+      left: 81px;
+      top: 1617px;
+    }
   }
 
 
@@ -421,6 +602,55 @@
     color: #D3AA6C;
     margin-top: 7px;
     margin-bottom: 0px;
+  }
+
+  @media screen and (min-width: 991px){
+    .footer{
+      box-sizing: border-box;
+      position: absolute;
+      width: 100%;
+      height: 148px;
+      left: 0px;
+      Top:1811px;
+      background-color: #3a4e66;
+      text-align: center;
+      display: block;
+      padding: 20px;
+    }
+
+    .footer-header{
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 150%;
+      text-align: center;
+      color: #D3AA6C;
+      line-height:normal;
+      margin-top: 0px;
+      margin-bottom: 7px;
+    }
+
+    .footer-links{
+      text-decoration: none;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: normal;
+    }
+
+    .footer-text{
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 167.23%;
+      text-align: center;
+      text-transform: uppercase;
+      color: #D3AA6C;
+      margin-top: 7px;
+      margin-bottom: 0px;
+    }
+
   }
 
   /* PROJECT SPECIFIC */
