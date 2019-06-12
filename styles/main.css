@@ -85,7 +85,7 @@
     text-decoration: none;
 
   }
-  
+
   @media screen and (min-width: 991px){
 
     .nav-links{
@@ -350,6 +350,23 @@
     line-height: 167.23%;
     color: #3A4E66;
   }
+
+  @media screen and (min-width: 991px){
+    .about-me p{
+      position: absolute;
+      width: 656px;
+      height: 198px;
+      left: 80px;
+      top: 1399px;
+      font-family: Baskerville;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 167.23%;
+      color: #3A4E66;
+    }
+  }
+
 
   .about-me button{
     position: absolute;
