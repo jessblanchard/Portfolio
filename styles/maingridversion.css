@@ -17,7 +17,7 @@
     margin-top: 20px;
   }
 
-  @media screen and (min-width: 991px){
+  /* @media screen and (min-width: 991px){
     button{
       background-color:#d3aa6c;
       border:none;
@@ -33,7 +33,7 @@
       width: 317px;
       height: 64px;
       margin-top: 20px;
-    }
+    } */
   }
 
   h1 {
@@ -83,7 +83,7 @@
     margin-bottom:20px;
   }
 
-  @media screen and (min-width: 991px){
+  /* @media screen and (min-width: 991px){
     p{
       font-family: Baskerville;
       font-style: normal;
@@ -94,7 +94,7 @@
       margin-top:20px;
       margin-bottom:20px;
     }
-  }
+  } */
 
 
   a{
@@ -105,10 +105,41 @@
 /* SITEWIDE HEADER NAVIGATION */
 
 
-  .navigation{
-    display: grid;
+.navigation{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3A4E66;
+}
 
-  }
+.logo {
+  grid-column: span 2;
+  justify-self: center;
+  align-self: center;
+}
+
+.navigation-work{
+  grid-column-start: 4;
+  align-self: center;
+}
+
+.navigation-about{
+  grid-column-start: 5;
+  align-self: center;
+}
+
+.navigation-resume{
+  grid-column-start: 6;
+  align-self: center;
+}
+
 
   /* @media screen and (min-width: 991px){
     .navigation{
@@ -229,114 +260,100 @@
     }
   } */
 
-    /* HOMEPAGE SPECIFIC */
+/* HOMEPAGE SPECIFIC */
 
 
-  .hero h1{
-    position: absolute;
-    width: 325px;
-    height: 68px;
-    left: 25px;
-    top: 169px;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 150%;
-    color: #D3AA6C;
-  }
+.homepage{
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+}
 
-  @media screen and (min-width: 991px){
-    .hero h1{
-      position: absolute;
-      width: 654px;
-      height: 68px;
-      left: 249px;
-      top: 279px;
-      font-family: Avenir;
-      font-style: normal;
-      font-weight: 900;
-      font-size: 50px;
-      line-height: 150%;
-      color: #D3AA6C;
-    }
-  }
+/* Navigation position */
 
-  .hero h2{
-    position: absolute;
-    width: 325px;
-    height: 198px;
-    left: 25px;
-    top: 257px;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 167.23%;
-    color: #3A4E66;
-  }
+.navigation{
+  grid-column: span 4;
+}
 
-  @media screen and (min-width: 991px){
-    .hero h2{
-      position: absolute;
-      width: 654px;
-      height: 163px;
-      left: 249px;
-      top: 347px;
-      font-family: Avenir;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 35px;
-      line-height: 150%;
-      color: #3A4E66;
-    }
-  }
+/* Hero positioning & properties */
 
-  .hero-emphasis{
+.hero{
+  grid-column: 1/span 4;
+  grid-row: 2;
+}
+
+.hero h1{
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: ;
+  color: #D3AA6C;
+}
+
+.hero h2{
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: ;
+  color: #3A4E66;
+}
+
+.hero-emphasis{
     font-weight: bold;
     font-style: italic;
   }
 
-  .recent-work h1{
-    position: absolute;
-    width: 325px;
-    height: 45px;
-    left: 26px;
-    top: 555px;
+/* Recent work internal grid ,positioning on page & properties */
 
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 150%;
-    color: #D3AA6C;
-  }
+.recent-work{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, 1fr);
+}
 
-  @media screen and (min-width: 991px){
-    .recent-work h1{
-      position: absolute;
-      width: 992px;
-      height: 53px;
-      left: 80px;
-      top: 637px;
-      font-family: Avenir;
-      font-style: normal;
-      font-weight: 900;
-      font-size: 35px;
-      line-height: 150%;
-      color: #D3AA6C;
-    }
-  }
 
-  .project-image{
-    position: absolute;
-    width: 323px;
-    height: 323px;
-    left: 25px;
-    top: 620px;
-  }
 
-  @media screen and (min-width: 991px){
+.recent-work{
+  grid-column: 1/span 4;
+  grid-row-start: 4;
+}
+
+
+.recent-work h1{
+  grid-column: 1/span 2;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 150%;
+  color: #D3AA6C;
+}
+
+.project-image{
+  grid-row: 2;
+  grid-column: 1/span 2;
+}
+
+.verve-image{
+
+  width: 323px;
+  height: 323px;
+
+}
+
+.project-details{
+  grid-row: 3;
+  grid-column: 1/span 2;
+}
+
+
+
+  /* @media screen and (min-width: 991px){
 
     .project-image{
       position: absolute;
@@ -345,17 +362,14 @@
       left: 84px;
       top: 710px;
     }
-  }
+  } */
 
   .project-logo{
-    position: absolute;
     width: 155.38px;
     height: 56.46px;
-    left: 109px;
-    top: 963px;
   }
 
-  @media screen and (min-width: 991px){
+  /* @media screen and (min-width: 991px){
     .project-logo{
       position: absolute;
       width: 155.38px;
@@ -363,20 +377,17 @@
       left: 674px;
       top: 826px;
     }
-}
+} */
 
 
   .recent-work p{
-    position: absolute;
     width: 323px;
     height: 76px;
-    left: 25px;
-    top: 1039.46px;
     text-align: center;
     line-height: 167.23%;
   }
 
-  @media screen and (min-width: 991px){
+  /* @media screen and (min-width: 991px){
     .recent-work p{
       position: absolute;
       width: 402px;
@@ -386,17 +397,14 @@
       text-align: left;
       line-height: 167.23%;
     }
-  }
+  } */
 
   .recent-work button{
-    position: absolute;
     width: 153px;
     height: 36px;
-    left: 110px;
-    top: 1135.46px;
   }
 
-  @media screen and (min-width: 991px){
+  /* @media screen and (min-width: 991px){
     .recent-work button{
       position: absolute;
       width: 317px;
@@ -404,14 +412,15 @@
       left: 674px;
       top: 1015.46px;
     }
-  }
+  } */
+
+  /* About me internal grid ,positioning on page & properties */
+
+
 
   .about-me h1{
-    position: absolute;
     width: 325px;
     height: 50px;
-    left: 26px;
-    top: 1271.46px;
     font-family: Avenir;
     font-style: normal;
     font-weight: 900;
@@ -420,7 +429,7 @@
     color: #D3AA6C;
   }
 
-  @media screen and (min-width: 991px){
+  /* @media screen and (min-width: 991px){
     .about-me h1{
       position: absolute;
       width: 992px;
@@ -434,17 +443,14 @@
       line-height: 150%;
       color: #D3AA6C;
     }
-  }
+  } */
 
   .personal-image{
-    position: absolute;
     width: 323px;
     height: 323px;
-    left: 26px;
-    top: 1341.46px;
   }
 
-  @media screen and (min-width: 991px){
+/* @media screen and (min-width: 991px){
     .personal-image{
       position: absolute;
       width: 256px;
@@ -452,15 +458,12 @@
       left: 817px;
       top: 1399px;
     }
-  }
+  } */
 
 
   .about-me p{
-    position: absolute;
     width: 324px;
     height: 243px;
-    left: 25px;
-    top: 1684px;
     font-family: Baskerville;
     font-style: normal;
     font-weight: normal;
@@ -469,7 +472,7 @@
     color: #3A4E66;
   }
 
-  @media screen and (min-width: 991px){
+  /* @media screen and (min-width: 991px){
     .about-me p{
       position: absolute;
       width: 656px;
@@ -483,18 +486,15 @@
       line-height: 167.23%;
       color: #3A4E66;
     }
-  }
+  } */
 
 
   .about-me button{
-    position: absolute;
     width: 152px;
     height: 36px;
-    left: 25px;
-    top: 1947px;
   }
 
-  @media screen and (min-width: 991px){
+  /* @media screen and (min-width: 991px){
     .about-me button{
       position: absolute;
       width: 317px;
@@ -502,16 +502,15 @@
       left: 81px;
       top: 1617px;
     }
-  }
+  } */
+
+  /* Footer internal grid ,positioning on page & properties */
 
 
   .footer{
     box-sizing: border-box;
-    position: absolute;
     width: 375px;
     height: 148px;
-    left: 0px;
-    Top:2083px;
     background-color: #3a4e66;
     text-align: center;
     display: block;
@@ -551,7 +550,7 @@
     margin-bottom: 0px;
   }
 
-  @media screen and (min-width: 991px){
+  /* @media screen and (min-width: 991px){
     .footer{
       box-sizing: border-box;
       position: absolute;
@@ -598,7 +597,7 @@
       margin-bottom: 0px;
     }
 
-  }
+  } */
 
   /* PROJECT SPECIFIC */
 
