@@ -120,8 +120,8 @@
 }
 
 .logo {
-  grid-column: span 2;
-  justify-self: center;
+  grid-column: span 1;
+  justify-self: left;
   align-self: center;
 }
 
@@ -268,6 +268,7 @@
   grid-gap: 20px;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: auto;
+  margin:5%;
 }
 
 /* Navigation position */
@@ -282,6 +283,16 @@
   grid-column: 1/span 4;
   grid-row: 2;
 }
+
+@media screen and (min-width: 991px){
+
+  .hero{
+    grid-column: 2/span 2;
+    grid-row: 2;
+  }
+}
+
+
 
 .hero h1{
 
@@ -313,7 +324,7 @@
 .recent-work{
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-template-columns: repeat(auto-fill, 375px);
 }
 
 
@@ -322,6 +333,7 @@
   grid-column: 1/span 4;
   grid-row-start: 4;
 }
+
 
 
 .recent-work h1{
@@ -335,8 +347,10 @@
 }
 
 .project-image{
-  grid-row: 2;
-  grid-column: 1/span 2;
+
+  /* if displaying in a single colum, use below: */
+  /* grid-row: 2;
+  grid-column: 1; */
 }
 
 .verve-image{
@@ -347,10 +361,11 @@
 }
 
 .project-details{
-  grid-row: 3;
-  grid-column: 1/span 2;
-}
 
+    /* if displaying in a single colum, use below:
+  /* grid-row: 3;
+  grid-column: 1; */
+}
 
 
   /* @media screen and (min-width: 991px){
@@ -416,9 +431,21 @@
 
   /* About me internal grid ,positioning on page & properties */
 
+  .about-me{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-me{
+    grid-column: 1/span 4;
+    grid-row-start: 6;
+  }
+
 
 
   .about-me h1{
+    grid-column: 1/span 2;
     width: 325px;
     height: 50px;
     font-family: Avenir;
@@ -444,6 +471,11 @@
       color: #D3AA6C;
     }
   } */
+  .homepage-portrait{
+    grid-column: 1/span 2;
+
+  }
+
 
   .personal-image{
     width: 323px;
@@ -462,6 +494,7 @@
 
 
   .about-me p{
+    grid-column: 1/span 2;
     width: 324px;
     height: 243px;
     font-family: Baskerville;
@@ -490,6 +523,7 @@
 
 
   .about-me button{
+    grid-column: 1/span 2;
     width: 152px;
     height: 36px;
   }
@@ -508,13 +542,19 @@
 
 
   .footer{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
     box-sizing: border-box;
-    width: 375px;
-    height: 148px;
     background-color: #3a4e66;
     text-align: center;
     display: block;
     padding: 20px;
+  }
+
+  .footer{
+    grid-column: 1/span 4;
+    grid-row-start: 8;
   }
 
   .footer-header{
