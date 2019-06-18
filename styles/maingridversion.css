@@ -1,4 +1,4 @@
-
+/* SITEWIDE TEXT SETTINGS */
 
   button{
     background-color:#d3aa6c;
@@ -17,23 +17,17 @@
     margin-top: 20px;
   }
 
-  /* @media screen and (min-width: 991px){
+  @media screen and (min-width: 991px){
     button{
-      background-color:#d3aa6c;
-      border:none;
+
       color:#ffffff;
-      font-weight: 500px;
-      font-family: avenir;
+
       font-size: 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      cursor: default;
-      text-transform: uppercase;
+
       width: 317px;
       height: 64px;
-      margin-top: 20px;
-    } */
+
+    }
   }
 
   h1 {
@@ -83,7 +77,7 @@
     margin-bottom:20px;
   }
 
-  /* @media screen and (min-width: 991px){
+  @media screen and (min-width: 991px){
     p{
       font-family: Baskerville;
       font-style: normal;
@@ -94,13 +88,16 @@
       margin-top:20px;
       margin-bottom:20px;
     }
-  } */
+  }
 
 
   a{
     text-decoration: none;
 
   }
+
+
+
 
 /* SITEWIDE HEADER NAVIGATION */
 
@@ -116,7 +113,8 @@
   line-height: 1.5em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #3A4E66;
+  color: #3A4e66;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -128,18 +126,20 @@
 .navigation-work{
   grid-column-start: 4;
   align-self: center;
+  color: #3A4e66;
 }
 
 .navigation-about{
   grid-column-start: 5;
   align-self: center;
+  color: #3A4e66;
 }
 
 .navigation-resume{
   grid-column-start: 6;
   align-self: center;
+  color: #3A4e66;
 }
-
 
   /* @media screen and (min-width: 991px){
     .navigation{
@@ -260,6 +260,10 @@
     }
   } */
 
+
+
+
+
 /* HOMEPAGE SPECIFIC */
 
 
@@ -282,14 +286,7 @@
 .hero{
   grid-column: 1/span 4;
   grid-row: 2;
-}
-
-@media screen and (min-width: 991px){
-
-  .hero{
-    grid-column: 2/span 2;
-    grid-row: 2;
-  }
+  margin-bottom: 100px;
 }
 
 
@@ -304,6 +301,7 @@
   color: #D3AA6C;
 }
 
+
 .hero h2{
 
   font-family: Avenir;
@@ -312,6 +310,24 @@
   font-size: 24px;
   line-height: ;
   color: #3A4E66;
+}
+
+@media screen and (min-width: 991px){
+
+/* not sure if i want to make hero more narrow on desktop */
+  /* .hero{
+    grid-column: 2/span 2;
+    grid-row: 2;
+  } */
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero h2{
+    font-size: 35px;
+  }
+
 }
 
 .hero-emphasis{
@@ -324,7 +340,9 @@
 .recent-work{
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, 375px);
+  grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+  justify-items:center;
+  margin-bottom: 100px;
 }
 
 
@@ -336,36 +354,22 @@
 
 
 
-.recent-work h1{
-  grid-column: 1/span 2;
+.recent-work-header{
+  grid-column: 1/span 4;
   font-family: Avenir;
   font-style: normal;
   font-weight: 900;
   font-size: 30px;
   line-height: 150%;
-  color: #D3AA6C;
 }
 
-.project-image{
-
-  /* if displaying in a single colum, use below: */
-  /* grid-row: 2;
-  grid-column: 1; */
-}
 
 .verve-image{
-
   width: 323px;
   height: 323px;
 
 }
 
-.project-details{
-
-    /* if displaying in a single colum, use below:
-  /* grid-row: 3;
-  grid-column: 1; */
-}
 
 
   /* @media screen and (min-width: 991px){
@@ -396,10 +400,12 @@
 
 
   .recent-work p{
-    width: 323px;
-    height: 76px;
-    text-align: center;
+    text-align: left;
     line-height: 167.23%;
+  }
+
+  .recent-work-header h1{
+      color: #D3AA6C;
   }
 
   /* @media screen and (min-width: 991px){
@@ -414,10 +420,10 @@
     }
   } */
 
-  .recent-work button{
+  /* .recent-work button{
     width: 153px;
     height: 36px;
-  }
+  } */
 
   /* @media screen and (min-width: 991px){
     .recent-work button{
@@ -429,12 +435,14 @@
     }
   } */
 
-  /* About me internal grid ,positioning on page & properties */
+  /* About me internal grid, positioning on page & properties */
 
   .about-me{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+    justify-items:center;
+    margin-bottom: 100px;
   }
 
   .about-me{
@@ -444,8 +452,8 @@
 
 
 
-  .about-me h1{
-    grid-column: 1/span 2;
+  .about-me-header{
+    grid-column: 1/span 4;
     width: 325px;
     height: 50px;
     font-family: Avenir;
@@ -453,9 +461,11 @@
     font-weight: 900;
     font-size: 30px;
     line-height: 150%;
-    color: #D3AA6C;
   }
 
+.about-me-header h1{
+      color: #D3AA6C;
+    }
   /* @media screen and (min-width: 991px){
     .about-me h1{
       position: absolute;
@@ -473,7 +483,6 @@
   } */
   .homepage-portrait{
     grid-column: 1/span 2;
-
   }
 
 
@@ -493,9 +502,8 @@
   } */
 
 
-  .about-me p{
+  /* .about-me p{
     grid-column: 1/span 2;
-    width: 324px;
     height: 243px;
     font-family: Baskerville;
     font-style: normal;
@@ -503,7 +511,7 @@
     font-size: 16px;
     line-height: 167.23%;
     color: #3A4E66;
-  }
+  } */
 
   /* @media screen and (min-width: 991px){
     .about-me p{
@@ -522,11 +530,11 @@
   } */
 
 
-  .about-me button{
+  /* .about-me button{
     grid-column: 1/span 2;
     width: 152px;
     height: 36px;
-  }
+  } */
 
   /* @media screen and (min-width: 991px){
     .about-me button{
@@ -638,6 +646,40 @@
     }
 
   } */
+
+/* ABOUT PAGE SPECIFIC */
+
+.about-page{
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  margin:5%;
+}
+
+.bio-title{
+  grid-column: 1/span 4;
+  grid-row: 2;
+  margin-bottom: 100px;
+}
+
+.bio-title h1{
+  color:#D3AA6C;
+}
+
+.about-page-bio{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+    justify-items:center;
+    margin-bottom: 100px;
+}
+
+.about-page-bio{
+  grid-column: 1/span 4;
+  grid-row-start: 6;
+}
+
 
   /* PROJECT SPECIFIC */
 
