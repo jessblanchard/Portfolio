@@ -924,6 +924,11 @@
     justify-self:center;
   }
 
+  .sitemap-pic{
+    width:325px;
+  }
+
+
   @media screen and (min-width: 991px){
       .sitemap-pic{
       margin-left: 20%;
@@ -1117,6 +1122,21 @@
     }
   }
 
+  .type-chart{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+    justify-items:center;
+    margin-bottom: 100px;
+
+  }
+
+  .type-chart{
+    grid-column: 1/span 4;
+    grid-row-start: 22;
+  }
+
+
   .type-study{
     width:60%;
   }
@@ -1125,7 +1145,7 @@
     margin-top:50px;
     margin-bottom:100px;
     grid-column: 1/span 4;
-    grid-row-start: 22;
+    grid-row-start: 23;
   }
 
   @media screen and (min-width: 991px){
@@ -1203,7 +1223,7 @@
 
   @media screen and (min-width: 991px){
     .menus{
-      width:auto;
+      width: 100%;
     }
   }
 
@@ -1230,7 +1250,7 @@
   .lessons-learned {
     margin-bottom: 50px;
     grid-column: 1/span 4;
-    grid-row-start: 23;
+    grid-row-start: 24;
   }
 
   @media screen and (min-width: 991px){
@@ -1243,7 +1263,7 @@
   .bottom-nav{
     margin-bottom: 100px;
     grid-column: 1/span 4;
-    grid-row-start: 24;
+    grid-row-start: 25;
   }
 
   @media screen and (min-width: 991px){
@@ -1284,7 +1304,7 @@
     display: block;
     padding: 20px;
     grid-column: 1/span 4;
-    grid-row-start: 25;
+    grid-row-start: 26;
   }
 
 
