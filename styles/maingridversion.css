@@ -402,7 +402,7 @@
   margin:5%;
 }
 
-/*  */
+
 
 .project-page-hero{
   display: grid;
@@ -418,7 +418,6 @@
   grid-column: 1/span 4;
   grid-row-start: 2;
 }
-
 
   .bulletpoints{
     display: grid;
@@ -505,6 +504,7 @@
   .tldr{
     grid-column: 1/span 4;
     grid-row-start: 4;
+    margin-bottom: 100px;
   }
 
   @media screen and (min-width: 991px){
@@ -565,6 +565,7 @@
   .discovery-section3{
     grid-column: 1/span 4;
     grid-row-start: 7;
+    margin-bottom: 100px;
   }
 
   @media screen and (min-width: 991px){
@@ -579,7 +580,7 @@
     padding: 50px;
     align-content: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;;
   }
 
   .chart-header{
@@ -590,7 +591,8 @@
     line-height: 150%;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 20px;
+    padding-top: .5em;
+
   }
 
   .chart-body{
@@ -603,6 +605,8 @@
     color: #3A4E66;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 1em;
+    padding-bottom: 2em;
   }
 
   .chart-emphasis{
@@ -616,12 +620,8 @@
 
   .competitive-analysis{
     padding-top: 50px;
-    padding-bottom: 50px ;
   }
 
-  .swot-chart{
-    margin-right: 10px;
-  }
 
 
 
@@ -791,7 +791,6 @@
   }
 
   .information-architecture-indented1{
-    margin-top: 20px;
     grid-column: 1/span 4;
     grid-row-start: 8;
   }
@@ -804,7 +803,6 @@
   }
 
   .information-architecture-fullwidth2{
-    margin-top: 20px;
     grid-column: 1/span 4;
     grid-row-start: 9;
     justify-self: center;
@@ -856,7 +854,6 @@
   }
 
   .information-architecture-indented3{
-    margin-top: 20px;
     grid-column: 1/span 4;
     grid-row-start: 10;
   }
@@ -869,7 +866,6 @@
   }
 
   .information-architecture-fullwidth4{
-    margin-top: 20px;
     grid-column: 1/span 4;
     grid-row-start: 11;
     text-align: center;
@@ -879,10 +875,6 @@
 
   .onboard-flow{
     background: #EBD7D0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    margin-top:20px;
     width: 325px;
     height: auto;
 
@@ -896,14 +888,14 @@
     }
 
     .all-flows{
-      margin-top: 20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
       grid-column: 1/span 4;
       grid-row-start: 12;
       justify-self:center;
         }
 
   .site-map-and-content{
-    margin-top: 20px;
     grid-column: 1/span 4;
     grid-row-start: 13;
 
@@ -918,7 +910,6 @@
 
 
   .sitemap-pic{
-    margin-top: 20px;
     grid-column: 1/span 4;
     grid-row-start: 14;
     justify-self:center;
@@ -939,7 +930,6 @@
 
 
   .sketches-intro{
-    margin-top: 20px;
     grid-column: 1/span 4;
     grid-row-start: 15;
   }
@@ -952,7 +942,6 @@
   }
 
   .early-image{
-    margin-top: 20px;
     grid-column: 1/span 4;
     grid-row-start: 16;
     width:300px;
@@ -968,7 +957,7 @@
 
 
   .wireframes{
-    margin-top: 20px;
+    margin-bottom: 50px;
     grid-column: 1/span 4;
     grid-row-start: 17;
     justify-self:center;
@@ -997,7 +986,7 @@
   }
 
   .all-wireframes{
-    margin-top: 20px;
+    margin-bottom: 50px;
     grid-column: 1/span 4;
     grid-row-start: 18;
     justify-self:center;
@@ -1012,7 +1001,7 @@
 
 
   .user-testing{
-    margin-top: 20px;
+    margin-bottom: 100px;
     grid-column: 1/span 4;
     grid-row-start: 19;
   }
@@ -1024,13 +1013,9 @@
     }
   }
 
-  .user-testing{
-    padding-top: 50px;
-  }
 
   .branding-indented1{
-    margin-top:100px;
-    margin-bottom:100px;
+    margin-bottom:50px;
     grid-column: 1/span 4;
     grid-row-start: 20;
   }
@@ -1051,6 +1036,8 @@
   }
 
   .moodboard{
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: block;
     width:325px;
     margin: 0 auto;
@@ -1063,6 +1050,8 @@
     }
 
   .logo-sketches{
+      padding-top: 50px;
+      padding-bottom: 50px;
       display: block;
       width:325px;
       margin: 0 auto;
@@ -1079,6 +1068,8 @@
       }
 
   .logos-round-1{
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: block;
     width:325px;
     margin: 0 auto;
@@ -1093,6 +1084,8 @@
   }
 
   .final-logo{
+    padding-top: 50px;
+    padding-bottom: 100px;
     display: block;
     width:325px;
     margin: 0 auto;
@@ -1108,8 +1101,6 @@
 
 
   .branding-fullwidth2{
-    margin-top:100px;
-    margin-bottom:100px;
     grid-column: 1/span 4;
     grid-row-start: 21;
 
@@ -1127,7 +1118,7 @@
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
     justify-items:center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
   }
 
@@ -1139,10 +1130,10 @@
 
   .type-study{
     width:60%;
+
   }
 
   .branding-indented3{
-    margin-top:50px;
     margin-bottom:100px;
     grid-column: 1/span 4;
     grid-row-start: 23;
@@ -1156,6 +1147,8 @@
   }
 
   .final-colors{
+    margin-top:50px;
+    margin-bottom: 50px;
     width:100px;
     display:inline-block;
   }
@@ -1163,9 +1156,14 @@
   .color-palette button{
     display: block;
     margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom:50px;
 
   }
 
+.hifi-mockups p{
+  margin-bottom: 50px;
+}
 
   .hifi-mockups img {
     width: 80px;
@@ -1178,7 +1176,9 @@
     }
   }
 
-
+.preference-tests{
+  margin-top: 50px;
+}
 
 
 
@@ -1187,19 +1187,23 @@
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   justify-items:center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
 }
 
 .test-images2 {
   display:grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
   justify-items:center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
 }
 
   .button-test{
-    width: 325px;
+    width: 275px;
   }
 
 
@@ -1217,7 +1221,16 @@
     width: 325px;
   }
 
+.user-testing-hifi{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
   .menus{
+    margin-top: 50px;
+    margin-bottom: 50px;
     width:325px;
   }
 
@@ -1228,27 +1241,30 @@
   }
 
   .empty-state-dashboards{
+    margin-top: 50px;
+    margin-bottom: 50px;
     width:325px;
   }
 
   @media screen and (min-width: 991px){
     .empty-state-dashboards{
-      width:auto;
+      width:100%;
     }
   }
 
   .final-revision-screens{
+    margin-top: 50px;
     width: 325px;
    }
 
    @media screen and (min-width: 991px){
      .final-revision-screens{
-       width:auto;
+       width:100%;
      }
    }
 
   .lessons-learned {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     grid-column: 1/span 4;
     grid-row-start: 24;
   }
