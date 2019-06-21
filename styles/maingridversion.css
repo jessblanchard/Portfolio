@@ -147,7 +147,7 @@
 
 .homepage{
   display:grid;
-  grid-gap: 20px;
+  grid-gap: 0px;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: auto;
   margin:5%;
@@ -260,6 +260,11 @@
     line-height: 167.23%;
   }
 
+  .recent-work-header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   .recent-work-header h1{
       color: #D3AA6C;
   }
@@ -290,6 +295,8 @@
     font-weight: 900;
     font-size: 30px;
     line-height: 150%;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
 .about-me-header h1{
@@ -396,7 +403,7 @@
 
 .verve-case-study{
   display:grid;
-  grid-gap: 20px;
+  grid-gap: 0px;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: auto;
   margin:5%;
@@ -1085,7 +1092,6 @@
 
   .final-logo{
     padding-top: 50px;
-    padding-bottom: 100px;
     display: block;
     width:325px;
     margin: 0 auto;
@@ -1103,6 +1109,7 @@
   .branding-fullwidth2{
     grid-column: 1/span 4;
     grid-row-start: 21;
+    margin-bottom: 50px;
 
   }
 
@@ -1292,25 +1299,29 @@
 .bottom-nav{
   display:grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(6, 1fr);
-  justify-items:center;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
 
 }
 
   .top{
     grid-column: 1;
+    justify-self:right;
+
   }
 
   .top-text{
     grid-column: 2;
+    justify-self:left;
   }
 
   .next-text{
-      grid-column: 5;
+      grid-column: 7;
+      justify-self:right;
   }
 
   .next{
-      grid-column: 6;
+      grid-column: 8;
   }
 
   .verve-footer{
