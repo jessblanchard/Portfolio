@@ -224,10 +224,21 @@
 .recent-work{
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+  grid-template-columns: 1fr;
   justify-items:center;
   margin-bottom: 100px;
 }
+
+@media screen and (min-width: 991px){
+  .recent-work{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-items:center;
+    margin-bottom: 100px;
+  }
+}
+
 
 
 
@@ -287,12 +298,27 @@
   .about-me{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+    grid-template-columns: 1fr;
     justify-items:center;
     margin-bottom: 100px;
     margin-left: 5%;
     margin-right:5%;
   }
+
+  @media screen and (min-width: 991px){
+    .about-me{
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: 1fr 1fr;
+      justify-items:center;
+      margin-bottom: 100px;
+      margin-left: 5%;
+      margin-right:5%;
+    }
+  }
+
+
+
 
   .about-me{
     grid-column: 1/span 4;
@@ -422,13 +448,24 @@
 .about-page-bio{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+    grid-template-columns: 1fr;
     justify-items:center;
     margin-bottom: 100px;
     margin-left: 5%;
     margin-right: 5%;
 }
 
+  @media screen and (min-width: 991px){
+    .about-page-bio{
+        display: grid;
+        grid-gap:50px;
+        grid-template-columns: 1fr 1fr;
+        justify-items:center;
+        margin-bottom: 100px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }
 
 .about-page-bio{
   grid-column: 1/span 4;
@@ -454,13 +491,26 @@
 .project-page-hero{
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+  grid-template-columns: 1fr;
   justify-items:center;
   margin-bottom: 100px;
   margin-left: 5%;
   margin-right:5%;
 }
 
+
+@media screen and (min-width: 991px){
+  .project-page-hero{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-items:center;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right:5%;
+  }
+
+}
 
 
 .project-page-hero{
@@ -471,13 +521,31 @@
   .bulletpoints{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: 1fr;
     justify-items:center;
     align-items: top;
     padding: 2em;
     margin-bottom: 100px;
     background-color: #EBD7D0;
   }
+
+@media screen and (min-width: 991px){
+  .bulletpoints{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+    align-items: top;
+    padding: 2em;
+    margin-bottom: 100px;
+    background-color: #EBD7D0;
+  }
+
+
+}
+
+
+
 
   .bulletpoints{
 
@@ -599,10 +667,26 @@
   .discovery-section2{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    grid-template-columns: 1fr;
     justify-items:center;
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+
+  @media screen and (min-width: 991px){
+    .discovery-section2{
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: 1fr 1fr;
+      justify-items:center;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+
+
+
   }
 
   .discovery-section2{
@@ -1210,7 +1294,7 @@
   .type-chart{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    grid-template-columns: 1fr;
     justify-items:center;
     margin-bottom: 50px;
     margin-left: 5%;
@@ -1219,6 +1303,7 @@
 
   @media screen and (min-width: 991px){
     .type-chart{
+      grid-template-columns: 1fr 1fr;
       margin-left: 20%;
       margin-right: 20%;
     }
@@ -1310,7 +1395,7 @@
 .test-images1 {
   display:grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: 1fr;
   justify-items:center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -1320,10 +1405,34 @@
 .test-images2 {
   display:grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+  grid-template-columns: 1fr;
   justify-items:center;
   margin-top: 50px;
   margin-bottom: 50px;
+
+}
+
+
+@media screen and (min-width: 991px){
+  .test-images1 {
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-items:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .test-images2 {
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-items:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
 
 }
 
