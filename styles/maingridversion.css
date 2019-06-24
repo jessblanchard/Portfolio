@@ -392,6 +392,10 @@
     line-height: normal;
   }
 
+  .footer-links img{
+    width: 40px;
+  }
+
   .footer-text{
     font-family: Avenir;
     font-style: normal;
@@ -1590,6 +1594,10 @@
     margin-bottom: 0px;
     line-height: normal;
   }
+
+.verve-footer-links img{
+  width: 40px;
+}
 
   .verve-footer-text{
     font-family: Avenir;
