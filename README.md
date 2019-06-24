@@ -10,4 +10,4 @@ Implementing CSS grid was a challenge. After undertstanding the limitations and 
 
 continue to elevate responsivity and animations for a better UI, regularly update with new work and redesign as needed to address evolving user needs.
 
-![home page](/Users/jessicatribble-blanchard/program/portfolio/Readme-images/Screen Shot 2019-06-24 at 2.53.58 PM.png "screenshot of portfolio homepage" )
+![home page](Readme-images/homepage-screenshot.png "screenshot of portfolio homepage" )
