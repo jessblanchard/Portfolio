@@ -227,6 +227,7 @@
   grid-template-columns: 1fr;
   justify-items:center;
   margin-bottom: 100px;
+
 }
 
 @media screen and (min-width: 991px){
@@ -287,9 +288,42 @@
   }
 
   .recent-work p{
-    text-align: left;
+    text-align: center;
     line-height: 167.23%;
   }
+
+
+  @media screen and (min-width: 991px){
+    .recent-work p{
+      text-align: left;
+      line-height: 167.23%;
+    }
+  }
+
+  .recent-work img{
+     display: block;
+     margin: 0 auto;
+  }
+
+  @media screen and (min-width: 991px){
+    .recent-work img{
+       display: inline;
+
+    }
+  }
+
+  .project-details button{
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 991px){
+    .project-details button{
+    display: inline;
+    }
+  }
+
+
 
 
 
@@ -346,6 +380,7 @@
       color: #D3AA6C;
     }
 
+
   .homepage-portrait{
     grid-column: 1/span 2;
   }
@@ -355,6 +390,31 @@
     width: 325px;
     height: 325px;
   }
+
+  .about-me-details p{
+    text-align: center;
+    line-height: 167.23%;
+  }
+
+
+  @media screen and (min-width: 991px){
+      .about-me-details p{
+      text-align: left;
+      line-height: 167.23%;
+    }
+  }
+
+  .about-me-details button{
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 991px){
+    .about-me-details button{
+    display: inline;
+    }
+  }
+
 
   .footer{
     display: grid;
@@ -521,6 +581,53 @@
   grid-column: 1/span 4;
   grid-row-start: 2;
 }
+
+.project-page-hero p{
+  text-align: center;
+  line-height: 167.23%;
+}
+
+
+@media screen and (min-width: 991px){
+  .project-page-hero p{
+    text-align: left;
+    line-height: 167.23%;
+  }
+}
+
+.project-page-hero img{
+   display: block;
+   margin: 0 auto;
+}
+
+@media screen and (min-width: 991px){
+  .project-page-hero img{
+     display: inline;
+  }
+}
+
+.project-details button{
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 991px){
+  .project-details button{
+  display: inline;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
   .bulletpoints{
     display: grid;
