@@ -673,8 +673,8 @@
     grid-gap: 20px;
     grid-template-columns: 1fr;
     justify-items:center;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
   }
 
 
@@ -706,11 +706,11 @@
   }
 
   .molly{
-    width:325px;
+    /* width:325px; */
   }
 
   .angelica{
-    width:325px;
+    /* width:325px; */
   }
 
   .discovery-section3{
