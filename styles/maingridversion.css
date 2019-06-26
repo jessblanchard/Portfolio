@@ -221,6 +221,11 @@
 
 /* Recent work internal grid ,positioning on page & properties */
 
+
+
+
+
+
 .recent-work{
   display: grid;
   grid-gap: 20px;
@@ -275,6 +280,7 @@
   .recent-work-header h1{
       color: #D3AA6C;
       text-align: left;
+    
   }
 }
 
