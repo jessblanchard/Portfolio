@@ -4,7 +4,6 @@
     background-color:#d3aa6c;
     border:none;
     color:#ffffff;
-    font-weight: medium;
     font-family: avenir;
     font-size: 16px;
     text-align: center;
@@ -59,7 +58,7 @@
   }
 
   h4{
-    font-weight: medium;
+    /* font-weight: medium; */
     font-family: avenir;
     font-size: 16px;
     color:#3a4e66;
@@ -181,7 +180,6 @@
   font-style: normal;
   font-weight: 900;
   font-size: 45px;
-  line-height: ;
   color: #D3AA6C;
 }
 
@@ -192,7 +190,6 @@
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: ;
   color: #3A4E66;
 }
 
@@ -280,7 +277,7 @@
   .recent-work-header h1{
       color: #D3AA6C;
       text-align: left;
-    
+
   }
 }
 
@@ -656,7 +653,6 @@
     grid-gap: 20px;
     grid-template-columns: 1fr;
     justify-items:center;
-    align-items: top;
     padding: 2em;
     margin-bottom: 100px;
     background-color: #EBD7D0;
@@ -668,7 +664,6 @@
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items:center;
-    align-items: top;
     padding: 2em;
     margin-bottom: 100px;
     background-color: #EBD7D0;
@@ -943,7 +938,7 @@
   }
 
   .swot-points1 td{
-    padding-top: -top: 2em;
+    padding-top:2em;
     padding-bottom: 2em;
   }
 
