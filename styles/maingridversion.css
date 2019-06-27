@@ -965,18 +965,22 @@
     .google-logo{
 
       grid-column: 1/span 4;
+      padding-top: 1em;
     }
 
     .dropbox-logo{
       grid-column: 1/span 4;
+      padding-top: 1em;
     }
 
     .lovelyloot-logo{
       grid-column: 1/span 4;
+      padding-top: 1em;
     }
 
     .floka-logo{
       grid-column: 1/span 4;
+      padding-top: 1em;
 
     }
 
