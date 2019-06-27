@@ -914,25 +914,49 @@
 
 
 /* Potential new CSS for Swot Grid */
-  /* .swot-grid{
+
+  .swot-grid{
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: auto;
     justify-items:center;
-    padding: 1em;
+    padding:1em;
     margin-bottom: 100px;
     background-color: #EBD7D0;
+    border-color: #EBD7D0;
+    border-width: 5px;
+    font-size: 10px;
+
     }
 
-    @media screen and (min-width: 991px){
-      .swot-grid{
-
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
-
-        }
+    .swot-grid p{
+      font-size: 12px;
     }
 
+  @media screen and (min-width: 991px){
+
+    .swot-grid p{
+      font-size: 20px;
+    }
+  }
+
+
+  .swot-header{
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 150%;
+      color: rgba(147, 155, 165, 0.2);
+      text-align: center;
+  }
+
+  @media screen and (min-width: 991px){
+    .swot-header{
+        font-size: 30px;
+    }
+  }
 
 
     .google-logo{
@@ -951,12 +975,15 @@
     .floka-logo{
       grid-column: 1/span 4;
 
-    } */
+    }
+
+
+
 
 
 
 /* Existing CSS for Swot Chart */
-
+/*
 
   .swot-logo1{
     text-align: center;
@@ -1117,7 +1144,7 @@
   .swot-points4 td{
     padding-top: -top: 2em;
     padding-bottom: 2em;
-  }
+  } */
 
   .information-architecture{
     margin-top: 100px;
