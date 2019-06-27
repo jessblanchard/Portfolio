@@ -120,6 +120,12 @@
   padding-left:5%;
 }
 
+@media screen and (min-width: 991px){
+  .navigation{
+    font-size: 23px;
+  }
+}
+
 .logo {
   grid-column: span 1;
   justify-self: left;
@@ -153,6 +159,8 @@
   grid-gap: 0px;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: auto;
+  max-width: 1959px;
+  margin:0 auto;
   /* margin:5%; */
 }
 
@@ -497,6 +505,8 @@
   grid-gap: 20px;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: auto;
+  max-width: 1959px;
+  margin:0 auto;
   /* margin:5%; */
 }
 
@@ -567,6 +577,8 @@
   grid-gap: 0px;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: auto;
+  max-width: 1959px;
+  margin:0 auto;
   /* margin:5%; */
 }
 
