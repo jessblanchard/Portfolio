@@ -178,7 +178,6 @@
   margin-bottom: 100px;
   margin-left: 5%;
   margin-right:5%;
-
 }
 
 
@@ -912,6 +911,49 @@
   }
 
 
+/* Potential new CSS for Swot Grid */
+  /* .swot-grid{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    justify-items:center;
+    padding: 1em;
+    margin-bottom: 100px;
+    background-color: #EBD7D0;
+    }
+
+    @media screen and (min-width: 991px){
+      .swot-grid{
+
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+        }
+    }
+
+
+
+    .google-logo{
+
+      grid-column: 1/span 4;
+    }
+
+    .dropbox-logo{
+      grid-column: 1/span 4;
+    }
+
+    .lovelyloot-logo{
+      grid-column: 1/span 4;
+    }
+
+    .floka-logo{
+      grid-column: 1/span 4;
+
+    } */
+
+
+
+/* Existing CSS for Swot Chart */
 
 
   .swot-logo1{
