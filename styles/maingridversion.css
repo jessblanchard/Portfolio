@@ -96,6 +96,10 @@
 
   }
 
+  td{
+    padding:5px;
+  }
+
 
 
 
@@ -1027,9 +1031,7 @@
   }
 
 
-  td{
-    padding:5px;
-  }
+
 
   .swot-logo2{
     text-align: center;
