@@ -868,7 +868,9 @@
     padding: 50px;
     align-content: center;
     margin-top: 50px;
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .chart-header{
