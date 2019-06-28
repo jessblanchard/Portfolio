@@ -922,67 +922,116 @@
   .swot-grid{
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
     justify-items:center;
     padding:1em;
     background-color: #EBD7D0;
     border-color: #EBD7D0;
     border-width: 5px;
     font-size: 10px;
-
+    margin: 0 auto;
     }
 
     .swot-grid p{
-      font-size: 12px;
+      font-size: 16px;
     }
-
-  @media screen and (min-width: 991px){
-
-    .swot-grid p{
-      font-size: 20px;
-    }
-  }
-
-
-  .swot-header{
-      font-family: Avenir;
-      font-style: normal;
-      font-weight: 900;
-      font-size: 20px;
-      line-height: 150%;
-      color: #ffffff;
-      text-align: center;
-  }
-
-  @media screen and (min-width: 991px){
-    .swot-header{
-        font-size: 30px;
-    }
-  }
-
 
     .google-logo{
 
-      grid-column: 1/span 4;
+      grid-column: 1/span 2;
       padding-top: 1em;
+      align-self: center;
     }
 
     .dropbox-logo{
-      grid-column: 1/span 4;
+      grid-column: 1/span 2;
       padding-top: 1em;
+      align-self: center;
     }
 
     .lovelyloot-logo{
-      grid-column: 1/span 4;
+      grid-column: 1/span 2;
       padding-top: 1em;
+      align-self: center;
     }
 
     .floka-logo{
-      grid-column: 1/span 4;
+      grid-column: 1/span 2;
       padding-top: 1em;
-
+      align-self: center;
     }
+
+
+    /* white swot sections */
+
+    .swot-white{
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 1fr 1fr;
+      justify-items:center;
+      padding:1em;
+      background-color: #ffffff;
+      border: 1px solid  #EBD7D0;
+      border-width: 5px;
+      font-size: 10px;
+
+      }
+
+      .swot-white p{
+        font-size: 16px;
+      }
+
+      .swot-header{
+          font-family: Avenir;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 20px;
+          line-height: 150%;
+          color: #939BA5;
+          text-align: center;
+      }
+    }
+
+  @media screen and (min-width: 991px){
+
+    .swot-grid{
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr ;
+      justify-items:center;
+      padding:1em;
+      background-color: #EBD7D0;
+      border-color: #EBD7D0;
+      border-width: 5px;
+      font-size: 10px;
+      }
+
+    .swot-grid p{
+      font-size: 20px;
+    }
+
+    .swot-header{
+        font-size: 30px;
+    }
+
+
+    .swot-white p{
+      font-size: 20px;
+    }
+
+
+
+}
+
+
+
+
+
+/* --------- */
+
 
 
 
