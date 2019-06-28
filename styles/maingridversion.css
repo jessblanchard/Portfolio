@@ -96,6 +96,10 @@
 
   }
 
+  td{
+    padding:5px;
+  }
+
 
 
 
@@ -914,49 +918,128 @@
 
 
 /* Potential new CSS for Swot Grid */
-  /* .swot-grid{
+
+  .swot-grid{
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr 1fr;
     justify-items:center;
-    padding: 1em;
-    margin-bottom: 100px;
+    padding:1em;
     background-color: #EBD7D0;
+    border-color: #EBD7D0;
+    border-width: 5px;
+    font-size: 10px;
+    margin: 0 auto;
     }
 
-    @media screen and (min-width: 991px){
-      .swot-grid{
-
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
-
-        }
+    .swot-grid p{
+      font-size: 16px;
     }
-
-
 
     .google-logo{
 
-      grid-column: 1/span 4;
+      grid-column: 1/span 2;
+      padding-top: 1em;
+      align-self: center;
     }
 
     .dropbox-logo{
-      grid-column: 1/span 4;
+      grid-column: 1/span 2;
+      padding-top: 1em;
+      align-self: center;
     }
 
     .lovelyloot-logo{
-      grid-column: 1/span 4;
+      grid-column: 1/span 2;
+      padding-top: 1em;
+      align-self: center;
     }
 
     .floka-logo{
-      grid-column: 1/span 4;
+      grid-column: 1/span 2;
+      padding-top: 1em;
+      align-self: center;
+    }
 
-    } */
+
+    /* white swot sections */
+
+    .swot-white{
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 1fr 1fr;
+      justify-items:center;
+      padding:1em;
+      background-color: #ffffff;
+      border: 1px solid  #EBD7D0;
+      border-width: 5px;
+      font-size: 10px;
+
+      }
+
+      .swot-white p{
+        font-size: 16px;
+      }
+
+      .swot-header{
+          font-family: Avenir;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 20px;
+          line-height: 150%;
+          color: #939BA5;
+          text-align: center;
+      }
+    }
+
+  @media screen and (min-width: 991px){
+
+    .swot-grid{
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr ;
+      justify-items:center;
+      padding:1em;
+      background-color: #EBD7D0;
+      border-color: #EBD7D0;
+      border-width: 5px;
+      font-size: 10px;
+      }
+
+    .swot-grid p{
+      font-size: 20px;
+    }
+
+    .swot-header{
+        font-size: 30px;
+    }
+
+
+    .swot-white p{
+      font-size: 20px;
+    }
+
+
+
+}
+
+
+
+
+
+/* --------- */
+
+
+
+
 
 
 
 /* Existing CSS for Swot Chart */
-
+/*
 
   .swot-logo1{
     text-align: center;
@@ -1000,9 +1083,7 @@
   }
 
 
-  td{
-    padding:5px;
-  }
+
 
   .swot-logo2{
     text-align: center;
@@ -1117,7 +1198,7 @@
   .swot-points4 td{
     padding-top: -top: 2em;
     padding-bottom: 2em;
-  }
+  } */
 
   .information-architecture{
     margin-top: 100px;
