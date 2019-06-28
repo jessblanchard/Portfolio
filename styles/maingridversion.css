@@ -225,7 +225,7 @@
 
 .hero-emphasis{
     font-weight: bold;
-    font-style: italic;
+    /* font-style: italic; */
   }
 
 /* Recent work internal grid ,positioning on page & properties */
