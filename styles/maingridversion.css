@@ -646,18 +646,6 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
   .bulletpoints{
     display: grid;
     grid-gap: 20px;
@@ -681,8 +669,6 @@
 
 
 }
-
-
 
 
   .bulletpoints{
@@ -922,7 +908,7 @@
     padding:1em;
     background-color: #EBD7D0;
     border-color: #EBD7D0;
-    border-width: 5px;
+    border-width: 1px;
     font-size: 10px;
     margin: 0 auto;
     }
@@ -968,7 +954,6 @@
       padding:1em;
       background-color: #ffffff;
       border: 1px solid  #EBD7D0;
-      border-width: 5px;
       font-size: 10px;
 
       }
@@ -999,7 +984,7 @@
       padding:1em;
       background-color: #EBD7D0;
       border-color: #EBD7D0;
-      border-width: 5px;
+      border-width: 1px;
       font-size: 10px;
       }
 
