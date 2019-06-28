@@ -293,11 +293,17 @@
 }
 
 .verve-image{
-  width: 323px;
-  height: 323px;
-
+  width: 325px;
+  height: 237.25px;
 }
 
+
+  @media screen and (min-width: 991px){
+    .verve-image{
+      width: 500px;
+      height: 367.40px;
+    }
+  }
 
   .project-logo{
     width: 155.38px;
@@ -415,6 +421,14 @@
     width: 325px;
     height: 325px;
   }
+
+  @media screen and (min-width: 991px){
+    .personal-image{
+      width: 500px;
+      height: 500px;
+    }
+  }
+
 
   .about-me-details p{
     text-align: center;
