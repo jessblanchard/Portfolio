@@ -1772,6 +1772,11 @@ text-align: center;
      }
    }
 
+   .endprototype{
+     display: block;
+     margin : 50px auto 0 auto;
+   }
+
   .lessons-learned {
     margin-bottom: 100px;
     grid-column: 1/span 4;
@@ -1804,30 +1809,31 @@ text-align: center;
 
 .bottom-nav{
   display:grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 5px;
+  grid-template-columns: repeat(12, 1fr);
   align-items: center;
 
 }
 
   .top{
     grid-column: 1;
-    justify-self:right;
+    justify-self:center;
 
   }
 
   .top-text{
     grid-column: 2;
-    justify-self:left;
+    justify-self:center;
   }
 
   .next-text{
-      grid-column: 7;
-      justify-self:right;
+      grid-column: 11;
+      justify-self:center;
   }
 
   .next{
-      grid-column: 8;
+      grid-column: 12;
+      justify-self:center;
   }
 
   .verve-footer{
