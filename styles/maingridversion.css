@@ -1383,7 +1383,7 @@
   .early-image{
     grid-column: 1/span 4;
     grid-row-start: 16;
-    width:300px;
+    width:400px;
     justify-self:center;
     margin-top: 50px;
     margin-bottom: 50px;
