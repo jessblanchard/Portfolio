@@ -1976,7 +1976,7 @@ text-align: center;
     display: block;
     margin-bottom: 10px;
     height:20px;
-    width: 325px;
+    width: 100%;
     border:1px solid #EBD7D0;
     font-family: avenir;
     font-size: 16px;
@@ -1987,7 +1987,7 @@ text-align: center;
     display: block;
     margin-bottom: 50px;
     height: 200px;
-    width: 325px;
+    width: 100%;
     border:1px solid #EBD7D0;
     font-family: avenir;
     font-size: 16px;
@@ -1998,12 +1998,12 @@ text-align: center;
 
     .contact-page-details textarea{
       height: 200px;
-      width: 317px;
+      width: 100%;
     }
 
     .contact-page-details input{
       height:20px;
-      width: 317px;
+      width: 100%;
     }
 
   }
