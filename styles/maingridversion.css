@@ -1383,7 +1383,7 @@
   .early-image{
     grid-column: 1/span 4;
     grid-row-start: 16;
-    width:400px;
+    width:300px;
     justify-self:center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -1393,8 +1393,9 @@
 
   @media screen and (min-width: 991px){
       .early-image{
-      margin-left: 20%;
-      margin-right: 20%;
+        width:400px;
+        margin-left: 20%;
+        margin-right: 20%;
     }
   }
 
