@@ -1911,3 +1911,100 @@ text-align: center;
     margin-top: 7px;
     margin-bottom: 0px;
   }
+
+
+
+  /* Contact Page Specific */
+
+  .contact-page{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    max-width: 1959px;
+    margin:0 auto;
+    /* margin:5%; */
+  }
+
+  .contact-title{
+    grid-column: 1/span 4;
+    grid-row: 2;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
+
+  .contact-title h1{
+    color:#D3AA6C;
+  }
+
+  .contact-page-text{
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: 1fr;
+      justify-items:center;
+      margin-bottom: 100px;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+
+  @media screen and (min-width: 991px){
+    .contact-page-text{
+        display: grid;
+        grid-gap:50px;
+        grid-template-columns: 1fr 1fr;
+        justify-items:center;
+        margin-bottom: 100px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }
+
+  .contact-page-text{
+    grid-column: 1/span 4;
+    grid-row-start: 3;
+  }
+
+  .contact-page-text p{
+    margin-top: 0px;
+  }
+
+
+  .contact-page-details input{
+    display: block;
+    margin-bottom: 10px;
+    height:20px;
+    width: 325px;
+    border:1px solid #EBD7D0;
+    font-family: avenir;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .contact-page-details textarea{
+    display: block;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 325px;
+    border-color: #EBD7D0;
+    border:1px solid #EBD7D0;
+    font-family: avenir;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  @media screen and (min-width: 991px){
+
+    .contact-page-details textarea{
+      height: 200px;
+      width: 317px;
+    }
+
+    .contact-page-details input{
+      height:20px;
+      width: 317px;
+    }
+
+  }
