@@ -933,7 +933,7 @@
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
-    justify-items:center;
+    /* justify-items:center; */
     padding:1em;
     background-color: #EBD7D0;
     border-color: #EBD7D0;
@@ -942,9 +942,9 @@
     margin: 0 auto;
     }
 
-    .swot-grid p{
+    /* .swot-grid p{
       font-size: 16px;
-    }
+    } */
 
     .google-logo{
 
@@ -971,6 +971,9 @@
       align-self: center;
     }
 
+    .swot-grid img{
+      justify-self: center;
+    }
 
     /* white swot sections */
 
@@ -979,7 +982,7 @@
       grid-gap: 10px;
       grid-template-columns: 1fr 1fr ;
       grid-template-rows: 1fr 1fr;
-      justify-items:center;
+      /* justify-items:center; */
       padding:1em;
       background-color: #ffffff;
       border: 1px solid  #EBD7D0;
@@ -987,8 +990,12 @@
 
       }
 
-      .swot-white p{
+      /* .swot-white p{
         font-size: 16px;
+      } */
+
+      .swot-white img{
+        justify-self: center;
       }
 
       .swot-header{
@@ -1014,21 +1021,21 @@
       background-color: #EBD7D0;
       border-color: #EBD7D0;
       border-width: 1px;
-      font-size: 10px;
+      /* font-size: 10px; */
       }
 
-    .swot-grid p{
+    /* .swot-grid p{
       font-size: 20px;
-    }
+    } */
 
     .swot-header{
         font-size: 30px;
     }
 
 
-    .swot-white p{
+    /* .swot-white p{
       font-size: 20px;
-    }
+    } */
 
 
 
@@ -1765,6 +1772,7 @@ text-align: center;
 
 .revision-screens{
   text-align: center;
+  margin-top: 50px;
 }
 
 
