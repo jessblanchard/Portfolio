@@ -142,16 +142,31 @@
   color: #3A4e66;
 }
 
+.navigation-work:hover {
+    text-decoration: underline;
+    text-decoration-color: #D3AA6C;
+}
+
 .navigation-about{
   grid-column-start: 9;
   align-self: center;
   color: #3A4e66;
 }
 
+.navigation-about:hover {
+    text-decoration: underline;
+    text-decoration-color: #D3AA6C;
+}
+
 .navigation-resume{
   grid-column-start: 10;
   align-self: center;
   color: #3A4e66;
+}
+
+.navigation-resume:hover {
+    text-decoration: underline;
+    text-decoration-color: #D3AA6C;
 }
 
 
