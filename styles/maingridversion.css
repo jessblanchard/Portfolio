@@ -401,7 +401,6 @@
 
   .about-me-header{
     grid-column: 1/span 4;
-    width: 325px;
     height: 50px;
     font-family: Avenir;
     font-style: normal;
