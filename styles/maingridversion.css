@@ -15,6 +15,7 @@
     height: 36px;
     margin-top: 20px;
     cursor: pointer;
+    border-radius: 8px;
   }
 
   @media screen and (min-width: 991px){
@@ -25,7 +26,7 @@
       font-size: 20px;
 
       width: 317px;
-      height: 64px;
+      height: 50px;
 
     }
   }
@@ -2046,3 +2047,90 @@ text-align: center;
     }
 
   }
+
+
+/* intent partners specfic*/
+.intent-logo{
+  /*
+  width: 155.38px;
+  */
+
+  height: 56.46px;
+}
+
+
+  .intent-flows{
+    /* background: #EBD7D0; */
+    width: 325px;
+    height: auto;
+    display: none;
+}
+
+
+  @media screen and (min-width: 991px){
+      .intent-flows{
+      width:90%;
+      display:block;
+      margin: 0 auto;
+      }
+    }
+
+
+    .all-intent-flows{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      grid-column: 1/span 4;
+      grid-row-start: 12;
+      justify-self:center;
+        }
+
+    @media screen and (min-width: 991px){
+      .all-intent-flows{
+        display:none;
+          }
+      }
+
+.intent-sketch-notes{
+  text-align: left;
+
+}
+
+.intent-wireframes{
+  margin-bottom: 50px;
+  grid-column: 1/span 4;
+  grid-row-start: 17;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.intent-wireframes img {
+width: 150px;
+}
+
+@media screen and (min-width: 991px){
+.intent-wireframes img{
+  width:200px;
+
+}
+}
+
+
+@media screen and (min-width: 991px){
+  .intent-wireframes{
+  margin-left: 20%;
+  margin-right: 20%;
+
+  }
+}
+
+.intent-case-study{
+  display:grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  max-width: 1959px;
+  margin:0 auto;
+  scroll-behavior: smooth;
+  /* margin:5%; */
+}
