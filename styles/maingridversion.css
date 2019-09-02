@@ -2211,15 +2211,19 @@ text-align: center;
     padding:2%;
   }
 
-  .intent-hifi-mockups img {
+  .intent-hifi-pic{
     box-shadow: 0px 0px 15px grey;
     width: 325px;
   }
 
     @media screen and (min-width: 991px){
-    .intent-hifi-mockups img{
+    .intent-hifi-pic{
       box-shadow: 0px 0px 15px grey;
       width:325px;
 
     }
+  }
+
+  .intent-user-tests{
+    margin-top: 50px;
   }
