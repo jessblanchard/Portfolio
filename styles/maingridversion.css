@@ -16,6 +16,7 @@
     margin-top: 20px;
     cursor: pointer;
     border-radius: 8px;
+    /* box-shadow: 5px 5px 10px grey; */
   }
 
   @media screen and (min-width: 991px){
@@ -2178,14 +2179,25 @@ text-align: center;
     display:inline-block;
   }
 
+  .intent-logo-round{
+    display: block;
+    margin:0 auto;
+  }
+
   .intent-logo-option-1{
     width: 45%;
     display: inline;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .intent-logo-option-2{
     width: 45%;
     display: inline;
+    display: block;
+    margin: 0 auto;
   }
 
   @media screen and (min-width: 991px){
@@ -2194,12 +2206,16 @@ text-align: center;
       width: 25%;
       display: inline;
       justify-content: center;
+      display: inline-block;
+      margin: 0 auto;
     }
 
     .intent-logo-option-2{
       width: 25%;
       display: inline;
       justify-content: center;
+      display: inline-block;
+      margin: 0 auto;
     }
   }
 
@@ -2226,4 +2242,12 @@ text-align: center;
 
   .intent-user-tests{
     margin-top: 50px;
+  }
+
+  .full-analysis{
+    display: block;
+    margin: 0 auto;
+
+    justify-self: center;
+
   }
