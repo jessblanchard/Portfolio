@@ -2182,7 +2182,9 @@ text-align: center;
   .intent-logo-round{
     display: block;
     margin:0 auto;
-  }
+    text-align: center;
+}
+
 
   .intent-logo-option-1{
     width: 45%;
@@ -2220,11 +2222,23 @@ text-align: center;
   }
 
   .intent-final-colors{
-    margin-top:50px;
-    margin-bottom: 50px;
+    margin-top:20px;
+    margin-bottom: 20px;
     /* width:100px; */
     display:inline-block;
     padding:2%;
+    height:50px;
+  }
+
+  @media screen and (min-width: 991px){
+    .intent-final-colors{
+      margin-top:20px;
+      margin-bottom: 20px;
+      /* width:100px; */
+      display:inline-block;
+      padding:2%;
+      height:100px;
+    }
   }
 
   .intent-hifi-pic{
@@ -2247,6 +2261,7 @@ text-align: center;
   .full-analysis{
     display: block;
     margin: 0 auto;
+    margin-bottom: 50px;
 
     justify-self: center;
 
@@ -2282,6 +2297,9 @@ text-align: center;
     grid-row-start: 6;
   }
 
+.intent-discovery-section2 img{
+  width:375px;
+}
   /* @media screen and (min-width: 991px){
     .intent-discovery-section2{
       margin-left: 20%;
@@ -2294,6 +2312,10 @@ text-align: center;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #EBD7D0;
+    padding: 30px;
+    margin-bottom:30px;
+    margin-top: 30px;
   }
 
 @media screen and (min-width: 991px){
@@ -2303,6 +2325,9 @@ text-align: center;
     justify-content: space-between;
     max-width: 960px;
     margin: 0 auto;
+    background-color: #EBD7D0;
+    padding: 30px;
+    margin-bottom:30px;
   }
 }
 .research-findings-title{
@@ -2315,6 +2340,12 @@ text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 
+}
+
+@media screen and (min-width: 991px){
+.research-findings-title{
+  margin:20px;
+  }
 }
 
 
@@ -2331,12 +2362,21 @@ text-align: center;
 
 }
 
+@media screen and (min-width: 991px){
+.research-findings-body{
+    margin: 20px;
+}
+
 .intent-user-survey h4{
   text-align: left;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 991px){
 .intent-user-survey h4{
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 }
