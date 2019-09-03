@@ -2306,9 +2306,37 @@ text-align: center;
   }
 }
 .research-findings-title{
+    color: #3a4e66;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 167.23%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
+
+
 .research-findings-body{
-  
+    color: #3a4e66;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167.23%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.intent-user-survey h4{
+  text-align: left;
+}
+
+@media screen and (min-width: 991px){
+.intent-user-survey h4{
+  text-align: center;
+}
 }
