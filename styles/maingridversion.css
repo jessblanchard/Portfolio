@@ -2288,3 +2288,27 @@ text-align: center;
       margin-right: 20%;
     }
   } */
+
+
+  .user-research-flex{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+@media screen and (min-width: 991px){
+  .user-research-flex{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+.research-findings-title{
+
+}
+
+.research-findings-body{
+  
+}
