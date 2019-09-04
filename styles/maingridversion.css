@@ -2382,6 +2382,7 @@ text-align: center;
   text-align: left;
   padding-top: 50px;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 991px){
