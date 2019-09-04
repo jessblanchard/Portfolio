@@ -15,6 +15,8 @@
     height: 36px;
     margin-top: 20px;
     cursor: pointer;
+    border-radius: 8px;
+    /* box-shadow: 5px 5px 10px grey; */
   }
 
   @media screen and (min-width: 991px){
@@ -25,7 +27,7 @@
       font-size: 20px;
 
       width: 317px;
-      height: 64px;
+      height: 50px;
 
     }
   }
@@ -1603,8 +1605,8 @@
   @media screen and (min-width: 991px){
     .type-chart{
       grid-template-columns: 1fr 1fr;
-      margin-left: 20%;
-      margin-right: 20%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
   }
 
@@ -2046,3 +2048,359 @@ text-align: center;
     }
 
   }
+
+
+/* intent partners specfic*/
+.intent-logo{
+  /*
+  width: 155.38px;
+  */
+
+  height: 56.46px;
+}
+
+
+  .intent-flows{
+    /* background: #EBD7D0; */
+    width: 325px;
+    height: auto;
+    display: none;
+}
+
+
+  @media screen and (min-width: 991px){
+      .intent-flows{
+      width:90%;
+      display:block;
+      margin: 0 auto;
+      }
+    }
+
+
+    .all-intent-flows{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      grid-column: 1/span 4;
+      grid-row-start: 12;
+      justify-self:center;
+        }
+
+    @media screen and (min-width: 991px){
+      .all-intent-flows{
+        display:none;
+          }
+      }
+
+  .intent-sketch-notes{
+    text-align: left;
+
+  }
+
+  .intent-wireframes{
+    margin-bottom: 50px;
+    grid-column: 1/span 4;
+    grid-row-start: 17;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+
+  .intent-paper-wireframes{
+      width: 100%;
+
+  }
+
+
+  @media screen and (min-width: 991px){
+  .intent-paper-wireframes{
+    width:100%;
+  }
+  }
+
+  .intent-digital-wireframes{
+  width: 325px;
+  box-shadow: 0px 0px 10px grey ;
+  margin: 2%
+
+
+  }
+
+  @media screen and (min-width: 991px){
+  .intent-digital-wireframes{
+    width:325px;
+    box-shadow: 0px 0px 15px grey;
+    margin: 5%
+    }
+  }
+
+
+  @media screen and (min-width: 991px){
+    .intent-wireframes{
+    margin-left: 20%;
+    margin-right: 20%;
+
+    }
+  }
+
+  .intent-case-study{
+    display:grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    max-width: 1959px;
+    margin:0 auto;
+    scroll-behavior: smooth;
+    /* margin:5%; */
+  }
+
+  .intent-sketch{
+    grid-column: 1/span 4;
+    grid-row-start: 16;
+    width:300px;
+    justify-self:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  @media screen and (min-width: 991px){
+      .intent-sketch{
+        width:600px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+  }
+
+  .intent-mindmap{
+    width: 100%;
+    /* height: 155.13px; */
+    display:inline-block;
+  }
+
+  .intent-logo-round{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+  .intent-logo-option-1{
+    width: 45%;
+    display: inline;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .intent-logo-option-2{
+    width: 45%;
+    display: inline;
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 991px){
+
+    .intent-logo-option-1{
+      width: 25%;
+      display: inline;
+      justify-content: center;
+      display: inline-block;
+      margin: 0 auto;
+    }
+
+    .intent-logo-option-2{
+      width: 25%;
+      display: inline;
+      justify-content: center;
+      display: inline-block;
+      margin: 0 auto;
+    }
+  }
+
+  .intent-final-colors{
+    margin-top:20px;
+    margin-bottom: 20px;
+    /* width:100px; */
+    display:inline-block;
+    padding:2%;
+    height:50px;
+  }
+
+  @media screen and (min-width: 991px){
+    .intent-final-colors{
+      margin-top:20px;
+      margin-bottom: 20px;
+      /* width:100px; */
+      display:inline-block;
+      padding:2%;
+      height:100px;
+    }
+  }
+
+  .intent-hifi-pic{
+    box-shadow: 0px 0px 15px grey;
+    width: 325px;
+  }
+
+    @media screen and (min-width: 991px){
+    .intent-hifi-pic{
+      box-shadow: 0px 0px 15px grey;
+      width:325px;
+
+    }
+  }
+
+  .intent-user-tests{
+    margin-top: 50px;
+  }
+
+  .full-analysis{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    justify-self: center;
+
+  }
+
+
+  .intent-discovery-section2{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    justify-items:center;
+
+  }
+
+
+  @media screen and (min-width: 991px){
+    .intent-discovery-section2{
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items:center;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+
+
+
+  }
+
+  .intent-discovery-section2{
+    grid-column: 1/span 4;
+    grid-row-start: 6;
+  }
+
+.intent-discovery-section2 img{
+  width:375px;
+}
+  /* @media screen and (min-width: 991px){
+    .intent-discovery-section2{
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  } */
+
+
+  .user-research-flex{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EBD7D0;
+    padding: 30px;
+    margin-bottom:30px;
+    margin-top: 30px;
+  }
+
+@media screen and (min-width: 991px){
+  .user-research-flex{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #EBD7D0;
+    padding: 30px;
+    margin-bottom:30px;
+  }
+}
+.research-findings-title{
+    color: #3a4e66;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 167.23%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+@media screen and (min-width: 991px){
+.research-findings-title{
+  margin:20px;
+  }
+}
+
+
+
+.research-findings-body{
+    color: #3a4e66;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167.23%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+@media screen and (min-width: 991px){
+.research-findings-body{
+    margin: 20px;
+}
+
+.intent-user-survey h4{
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 991px){
+.intent-user-survey h4{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+}
+
+.intent-all-hifi{
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+
+}
+
+@media screen and (min-width: 991px){
+    .intent-all-hifi{
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom:50px;
+  }
+}
+
+
+.intent-hifi-group{
+  text-align: center;
+  margin-bottom:50px;
+}
