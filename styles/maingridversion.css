@@ -2469,3 +2469,8 @@ text-align: center;
     margin: 0 auto;
   }
 }
+
+.intent-landing-link{
+  font-weight: 800;
+  color:#3A4E66;
+}
