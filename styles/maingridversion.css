@@ -2451,3 +2451,11 @@ text-align: center;
     margin-top: 50px;
 
 }
+
+.coming-soon{
+  box-shadow: 0px 0px 15px grey;
+  width: 325px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
