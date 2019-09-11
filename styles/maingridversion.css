@@ -2459,3 +2459,13 @@ text-align: center;
   display: block;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 991px){
+  .coming-soon{
+    box-shadow: 0px 0px 15px grey;
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+}
