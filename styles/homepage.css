@@ -34,8 +34,6 @@
     font-weight: 800;
     font-size: 24px;
     line-height: 167.23%;
-    margin-top:20px;
-    margin-bottom:20px;
   }
 
   h3 {
@@ -77,11 +75,12 @@
 
 /* SITEWIDE HEADER NAVIGATION */
 
+/* Mobile navigation settings */
 
 .navigation{
-  display: grid;
+  display: none;
   grid-gap: 20px;
-  grid-template-columns: 80px auto 1fr 1fr 1fr 1fr 1fr auto auto auto auto 80px;
+  grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr 1fr 1fr auto auto auto auto auto;
   font-family: Avenir;
   font-style: normal;
   font-weight: 400;
@@ -99,86 +98,164 @@
 }
 
 
+/* Navigation position */
 
-.hero-image{
-  grid-column-start:1;
-  grid-column-end: 13;
-  grid-row: 1/span 2;
-  z-index: 0;
-  object-fit: cover;
-  width: 100%;
-
+.navigation{
+  grid-column-start:2;
+  grid-column-end: 14;
+  grid-row: 1;
+  z-index: 1;
 }
 
 
 .logo {
-  grid-column-start: 2;
+  grid-column-start: 1;
   align-self: center;
 }
 
 .navigation-work{
-  grid-column-start: 8;
-  align-self: center;
-  color: #3A4e66;
-}
-
-.navigation-work:hover {
-    text-decoration: underline;
-    text-decoration-color: #D3AA6C;
-}
-
-.navigation-about{
   grid-column-start: 9;
   align-self: center;
   color: #3A4e66;
 }
 
-.navigation-about:hover {
-    text-decoration: underline;
-    text-decoration-color: #D3AA6C;
+.navigation-work:hover {
+    color: #657348;
+    font-weight: bold;
 }
 
-.navigation-resume{
+.navigation-about{
   grid-column-start: 10;
   align-self: center;
   color: #3A4e66;
 }
 
-.navigation-resume:hover {
-    text-decoration: underline;
-    text-decoration-color: #D3AA6C;
+.navigation-about:hover {
+  color: #657348;
+  font-weight: bold;
 }
 
-.navigation-contact{
+.navigation-resume{
   grid-column-start: 11;
   align-self: center;
   color: #3A4e66;
 }
 
-.navigation-contact:hover {
-    text-decoration: underline;
-    text-decoration-color: #D3AA6C;
+.navigation-resume:hover {
+  color: #657348;
+  font-weight: bold;
 }
-/* HOMEPAGE SPECIFIC */
+
+.navigation-contact{
+  grid-column-start: 12;
+  align-self: center;
+  color: #3A4e66;
+}
 
 
-.homepage{
-  display:grid;
-  grid-gap: 0px;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-rows: auto;
-  max-width: 1959px;
-  margin:0px;
-  /* margin:5%; */
+
+/* Desktop navigation settings */
+
+@media screen and (min-width: 991px){
+
+.navigation{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr 1fr 1fr auto auto auto auto auto;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-transform: none;
+  text-decoration: none;
+  color: #3A4e66;
+  margin-bottom: 100px;
+  padding-top:5%;
+  padding-right:;
+  padding-left:;
+  align-content: center;
+  align-items: center;
 }
+
 
 /* Navigation position */
 
 .navigation{
-  grid-column-start:1;
-  grid-column-end: 13;
+  grid-column-start:2;
+  grid-column-end: 14;
   grid-row: 1;
   z-index: 1;
+}
+
+.logo {
+  grid-column-start: 1;
+  align-self: center;
+}
+
+.navigation-work{
+  grid-column-start: 9;
+  align-self: center;
+  color: #3A4e66;
+}
+
+.navigation-work:hover {
+    color: #657348;
+    font-weight: bold;
+}
+
+.navigation-about{
+  grid-column-start: 10;
+  align-self: center;
+  color: #3A4e66;
+}
+
+.navigation-about:hover {
+  color: #657348;
+  font-weight: bold;
+}
+
+.navigation-resume{
+  grid-column-start: 11;
+  align-self: center;
+  color: #3A4e66;
+}
+
+.navigation-resume:hover {
+  color: #657348;
+  font-weight: bold;
+}
+
+.navigation-contact{
+  grid-column-start: 12;
+  align-self: center;
+  color: #3A4e66;
+}
+
+}
+
+/* HOMEPAGE SPECIFIC */
+
+
+.hero-image{
+  grid-column-start:1;
+  grid-column-end: 15;
+  grid-row: 1/span 2;
+  z-index: 0;
+  /* object-fit: cover;
+  width:100%; */
+
+}
+
+
+.homepage{
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(14,1fr);
+  grid-template-rows: auto;
+  max-width: 1959px;
+  margin:0px;
+  /* margin:5%; */
 }
 
 /* Hero positioning & properties */
@@ -223,6 +300,21 @@
   color: #000000;
 }
 
+.herobutton1{
+  grid-column-start:2;
+  grid-column-end:;
+  grid-row: 3;
+  align-content: center;
+}
+
+
+.herobutton2{
+  grid-column-start:2;
+  grid-column-end:;
+  grid-row: 4;
+  align-content: center;
+}
+
 /* Desktop hero settings */
 
 @media screen and (min-width: 991px){
@@ -263,6 +355,21 @@
   font-weight: 400;
   font-size: 16px;
   color: #000000;
+}
+
+.herobutton1{
+  grid-column-start:2;
+  grid-column-end:;
+  grid-row: 3;
+  align-content: center;
+}
+
+
+.herobutton2{
+  grid-column-start:3;
+  grid-column-end:;
+  grid-row: 3;
+  align-content: center;
 }
 
 }
