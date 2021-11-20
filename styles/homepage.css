@@ -387,8 +387,8 @@
   grid-column-end: 15;
   grid-row: 1/span 2;
   z-index: 0;
-  /* object-fit: cover;
-  width:100%; */
+  object-fit:cover;
+  max-width: 1400px; overflow: hidden;
 
 }
 
