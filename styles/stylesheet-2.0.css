@@ -144,3 +144,68 @@ grid-row: 3/span 1;
   grid-column: 7/span 6;
   grid-row: 4/span 1;
 }
+
+.additional-work{
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 1;
+  grid-column: 1/span 12;
+  grid-row:3;
+}
+
+.card1{
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-column: 1/span 3;
+  grid-row:1;
+}
+
+.card2{
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-column: 4/span 3;
+  grid-row:1;
+}
+
+.card3{
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-column: 7/span 3;
+  grid-row:1;
+}
+
+.card4{
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-column: 10/span 3;
+  grid-row:1;
+}
+
+.card-project-image{
+  grid-column: 1/span 3;
+  grid-row:1;
+}
+
+.card-eyebrow-text{
+  grid-column: 1/span 3;
+  grid-row:2;
+}
+
+.card-project-title{
+  grid-column: 1/span 3;
+  grid-row:3;
+}
+
+.card-see-the-full-case-study{
+  grid-column: 1/span 3;
+  grid-row:4;
+}
