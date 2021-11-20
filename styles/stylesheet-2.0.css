@@ -92,3 +92,55 @@ grid-column: 4/span 3;
 grid-row: 3/span 1;
 
 }
+
+/* Work section */
+
+.work{
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: auto auto auto;
+  /* grid-template-rows: repeat(3,1fr); */
+  grid-column: 1/span 12;
+  grid-row:3;
+}
+
+
+.work-headline{
+  grid-column: 1/span 12;
+  grid-row: 1/span 1;
+}
+
+.featured-work{
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-column: 1/span 12;
+  grid-row:2;
+}
+
+.featured-project-image{
+  grid-column: 1/span 6;
+  grid-row: 1/span 4;
+}
+
+.eyebrow-text{
+  grid-column: 7/span 6;
+  grid-row: 1/span 1;
+}
+
+.featured-project-title{
+  grid-column: 7/span 6;
+  grid-row: 2/span 1;
+}
+
+.featured-project-description{
+  grid-column: 7/span 6;
+  grid-row: 3/span 1;
+}
+
+.see-the-full-case-study{
+  grid-column: 7/span 6;
+  grid-row: 4/span 1;
+}
