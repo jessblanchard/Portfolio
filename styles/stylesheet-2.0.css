@@ -2,13 +2,74 @@
 
 
 button{
-background: #2F80ED;
-border-radius: 28px;
-max-width: 256px;
-height: 39px;
-outline:0;
-}
+  background: #2F80ED;
+  border-radius: 28px;
+  max-width: 256px;
+  min-width: 149px;
+  height: 39px;
+  outline:0;
+  }
 
+h1{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 150%;
+  }
+
+h2{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 150%;
+  }
+
+  h3{
+
+  }
+
+  h4{
+
+  }
+
+  h5{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  h6{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+
+
+
+
+p{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  }
+
+  .nav-work, .nav-about, .nav-resume, .nav-contact{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    white-space: nowrap;
+  }
 
 /* Desktop Body Grid */
 
@@ -99,6 +160,7 @@ Hero section */
 .hero-headline{
   grid-column: 1/span 7;
   grid-row: 1/span 1;
+  align-self:flex-end;
 }
 
 
@@ -321,7 +383,6 @@ grid-row: 3/span 1;
 .featured-project-image{
   grid-column: 1/span 6;
   grid-row: 1/span 4;
-  -webkit-box-shadow: 0px 0px 19px -6px #000000;
   box-shadow: 0px 0px 19px -6px #000000;
 }
 
@@ -358,56 +419,67 @@ grid-row: 3/span 1;
   display:grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-rows: auto auto 1fr 1fr;
   grid-column: 1/span 3;
   grid-row:1;
+  box-shadow: 0px 0px 19px -6px #000000;
 }
 
 .card2{
   display:grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-rows: auto auto 1fr 1fr;
   grid-column: 4/span 3;
   grid-row:1;
+  box-shadow: 0px 0px 19px -6px #000000;
 }
 
 .card3{
   display:grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-rows: auto auto 1fr 1fr;
   grid-column: 7/span 3;
   grid-row:1;
+  box-shadow: 0px 0px 19px -6px #000000;
 }
 
 .card4{
   display:grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-rows: auto auto 1fr 1fr;
   grid-column: 10/span 3;
   grid-row:1;
+  box-shadow: 0px 0px 19px -6px #000000;
 }
 
 .card-project-image{
   grid-column: 1/span 3;
   grid-row:1;
+  width:100%;
+  overflow:hidden;
 }
 
 .card-eyebrow-text{
   grid-column: 1/span 3;
   grid-row:2;
+  align-self:flex-end;
+  margin:10px;
+  height: 36px;
 }
 
 .card-project-title{
   grid-column: 1/span 3;
   grid-row:3;
+  margin:10px;
 }
 
 .card-see-the-full-case-study{
   grid-column: 1/span 3;
   grid-row:4;
+  margin:10px;
 }
 
 
