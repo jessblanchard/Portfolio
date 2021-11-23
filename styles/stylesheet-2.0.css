@@ -62,13 +62,14 @@ p{
   line-height: 150%;
   }
 
-  .nav-work, .nav-about, .nav-resume, .nav-contact{
+  .logo, .nav-work, .nav-about, .nav-resume, .nav-contact{
     font-family: Avenir;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 150%;
     white-space: nowrap;
+    align-self: center;
   }
 
 /* Desktop Body Grid */
@@ -113,9 +114,18 @@ Desktop Primary Navigation Grid & settings
     display:grid;
     grid-gap: 20px;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: auto;
     max-width: 1366px;
-    margin:80px;
+    margin:0px;
+    padding-left:80px;
+    padding-right:80px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.9);
+    height:auto;
+
+
 
     grid-column: 1/span 12;
   }
@@ -138,7 +148,11 @@ Desktop Primary Navigation Grid & settings
     grid-column: 12/span 1;
   }
 
+/* This line ensures that anchor links dont scroll up behind sticky nav */
 
+  html {
+    scroll-padding-top: 82px;
+  }
 
 
 /*
@@ -364,7 +378,6 @@ grid-row: 3/span 1;
   grid-row:3;
 }
 
-
 .work-headline{
   grid-column: 1/span 12;
   grid-row: 1/span 1;
@@ -384,6 +397,7 @@ grid-row: 3/span 1;
   grid-column: 1/span 6;
   grid-row: 1/span 4;
   box-shadow: 0px 0px 19px -6px #000000;
+  width: 100%;
 }
 
 .eyebrow-text{
@@ -459,6 +473,7 @@ grid-row: 3/span 1;
   grid-column: 1/span 3;
   grid-row:1;
   width:100%;
+  height:auto;
   overflow:hidden;
 }
 
@@ -480,6 +495,35 @@ grid-row: 3/span 1;
   grid-column: 1/span 3;
   grid-row:4;
   margin:10px;
+}
+
+/* About section */
+
+.about{
+  Display: grid;
+  grid-gap:20px;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: auto auto auto;
+  max-width: 1366px;
+  margin:80px;
+
+  grid-column: 1/span 12;
+  grid-row-start: 4;
+}
+
+.about-headline{
+  grid-column: 1/span 6;
+  grid-row:1;
+}
+
+.about-copy{
+  grid-column: 1/span 6;
+  grid-row:2;
+}
+
+.about-button{
+  grid-column: 1/span 6;
+  grid-row:3;
 }
 
 
@@ -504,9 +548,14 @@ grid-row: 3/span 1;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto auto;
     max-width: 1366px;
-    margin:80px;
+    margin:0px;
+    margin:0px;
+    padding:80px;
+    background-color: #c4c4c4;
+
     grid-column: 1/span 12;
     grid-row-start: 4;
+
   }
 
 
