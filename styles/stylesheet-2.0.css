@@ -1,21 +1,31 @@
 
 
+
+button{
+background: #2F80ED;
+border-radius: 28px;
+max-width: 256px;
+height: 39px;
+outline:0;
+}
+
+
 /* Desktop Body Grid */
 
 .body{
-  display:grid;
+  /* display:grid;
   grid-gap: 20px;
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: auto;
   max-width: 1366px;
-  margin:80px;
+  margin:80px; */
 }
 
 
 
 /* Mobile Body Grid  */
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
 
   .body{
     display:grid;
@@ -26,7 +36,7 @@
     margin:15px;
   }
 
-}
+} */
 
 /*
 Desktop Primary Navigation Grid & settings
@@ -43,6 +53,9 @@ Desktop Primary Navigation Grid & settings
     grid-gap: 20px;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: 100px 1fr;
+    max-width: 1366px;
+    margin:80px;
+
     grid-column: 1/span 12;
   }
 
@@ -73,9 +86,12 @@ Hero section */
   grid-gap: 20px;
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: repeat(3,1fr);
+  max-width: 1366px;
+  margin:80px;
+  height:416px;
+
   grid-column: 1/span 12;
   grid-row:2;
-  height:416px;
 }
 
 .hero-headline{
@@ -277,7 +293,9 @@ grid-row: 3/span 1;
   grid-gap: 20px;
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: auto auto auto;
-  /* grid-template-rows: repeat(3,1fr); */
+  max-width: 1366px;
+  margin:80px;
+
   grid-column: 1/span 12;
   grid-row:3;
 }
@@ -295,11 +313,14 @@ grid-row: 3/span 1;
   grid-template-rows: repeat(4,1fr);
   grid-column: 1/span 12;
   grid-row:2;
+  margin-bottom: 50px;
 }
 
 .featured-project-image{
   grid-column: 1/span 6;
   grid-row: 1/span 4;
+  -webkit-box-shadow: 0px 0px 19px -6px #000000;
+  box-shadow: 0px 0px 19px -6px #000000;
 }
 
 .eyebrow-text{
@@ -391,12 +412,6 @@ grid-row: 3/span 1;
 /* Footer Settings */
 
 
-  .footer{
-    display:grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: auto;
-    max-width: 1366px;
 
 
     /* display: grid;
@@ -407,13 +422,15 @@ grid-row: 3/span 1;
     text-align: center;
     display: block;
     padding: 20px; */
-  }
+
 
   .footer{
     Display: grid;
     grid-gap:20px;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto auto;
+    max-width: 1366px;
+    margin:80px;
     grid-column: 1/span 12;
     grid-row-start: 4;
   }
@@ -426,11 +443,12 @@ grid-row: 3/span 1;
 
 
   .footer-links{
-    display:grid;
-    text-decoration: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: normal;
+    display: grid;
+    grid-gap:5px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows; 1;
+    grid-column: 9/span 4;
+    grid-row-start:1;
   }
 
   .footer-links img{
