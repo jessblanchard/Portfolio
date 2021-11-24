@@ -17,6 +17,22 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles/stylesheet-2.0.css">
     <link rel="shortcut icon" type="image/x-icon" href="jess-logo-blue.ico">
+
+    <!-- Mobile nav settings to close on clicking anchor link -->
+
+    <!-- <script>
+    var menu = document.getElementById('menu');
+      var closeIcon = document.getElementById("closeIcon");
+
+      menu.addEventListener('click', handleMenuClick);
+
+      function handleMenuClick(event) {
+        if (event.target instanceof HTMLAnchorElement) {
+          closeIcon.checked = false;
+        }
+      }
+    </script> -->
+
   </head>
 
   <body class="body">
@@ -28,10 +44,10 @@
       <a class="nav-about" href="#about">About me</a>
       <a class="nav-resume" href="documents/jessica_blanchard_resume_2.9.2.pdf" target="_blank">Download my resume</a>
       <button class="nav-contact" href="https://www.jessblanchard.design/contact.html">Get in contact</button>
-      <!-- MOBILE NAV -->
+      <!-- Original MOBILE NAV -->
           <nav class="mobilescreen">
                     <div title="Menu" id="menuToggle">
-                      <input type="checkbox">
+                      <input id="closeIcon" type="checkbox">
                         <span></span>
                         <span></span>
                         <span></span>

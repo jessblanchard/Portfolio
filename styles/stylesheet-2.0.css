@@ -2,14 +2,20 @@
 /* Global Settings */
 
 button{
-  background: #3A4E66;
+  background: #35435F;
   border-radius: 10px;
   max-width: 256px;
   min-width: 149px;
   height: 39px;
   border-style: none;
-  color: #ffffff;
+  color: #EBD7D0;
   }
+
+button:hover{
+  background: #EBD7D0;
+  border: solid 1px #35435F;
+  color: #35435F;
+}
 
 h1{
   font-family: Avenir;
@@ -17,6 +23,7 @@ h1{
   font-weight: 900;
   font-size: 24px;
   line-height: 150%;
+  color: #35435F;
   }
 
 h2{
@@ -25,6 +32,7 @@ h2{
   font-weight: 900;
   font-size: 20px;
   line-height: 150%;
+  color: #35435F;
   }
 
   h3{
@@ -41,6 +49,7 @@ h2{
     font-weight: 800;
     font-size: 16px;
     line-height: 150%;
+    color: #35435F;
   }
 
   h6{
@@ -49,6 +58,7 @@ h2{
     font-weight: normal;
     font-size: 12px;
     line-height: 150%;
+    color: #35435F;
   }
 
 p{
@@ -57,6 +67,7 @@ p{
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
+  color: #35435F;
   }
 
 /* Navigation text styling */
@@ -69,6 +80,17 @@ p{
     line-height: 150%;
     white-space: nowrap;
     align-self: center;
+    text-decoration: none;
+  }
+
+  /* color for all but the button in nav */
+
+  .logo, .nav-work, .nav-about, .nav-resume{
+    color: #35435F;
+  }
+
+  .logo:hover, .nav-work:hover, .nav-about:hover, .nav-resume:hover{
+    text-decoration: underline;
   }
 
 /* Desktop primary navigation settings */
@@ -122,7 +144,7 @@ p{
    }
  }
 
-/* Mobile Primary Navigation settings */
+/* Original Mobile Primary Navigation settings */
 
 @media screen and (max-width: 768px){
 
@@ -170,7 +192,7 @@ p{
    text-align: center;
  }
 
- /* .newburgerintown {
+ /* .intown {
    position: absolute;
    left: 0;
    right: 0;
@@ -181,12 +203,12 @@ p{
    margin: 0 auto;
  }
 
- .newburgerintown h1 {
+ .intown h1 {
      font-weight: 300;
      color: #ECF0F1;
  }
 
- .newburgerintown p {
+ .intown p {
      font-weight: 100;
      color: #ECF0F1;
      letter-spacing: .1em;
@@ -199,8 +221,8 @@ p{
    {
        display: block;
        position: absolute;
-       top: 50px;
-       left: 50px;
+       top: 25px;
+       left: 25px;
        z-index: 1;
        -webkit-user-select: none;
        user-select: none;
@@ -297,12 +319,12 @@ p{
        line-height: 1.5em;
        text-transform: none;
        text-decoration: none;
-       color: #3A4e66;
+       color: #35435F;
        padding-top:5%;
    }
 
    #menu li a {
-         color: #3A4e66;
+         color: #35435F;
          text-decoration: none;
          text-transformation: uppercase
    }
@@ -320,6 +342,7 @@ p{
    }
 
 }
+
 
 /*Desktop Hero section */
 
@@ -724,12 +747,13 @@ grid-row: 3/span 1;
     max-width: 1366px;
     margin:0px;
     padding:80px;
-    background-color: #c4c4c4;
+    background-color: #35435F;
   }
 
   .footer-email{
     grid-column: 1/span 8;
     grid-row-start:1;
+    color: #EBD7D0;
   }
 
   .footer-links{
@@ -748,6 +772,7 @@ grid-row: 3/span 1;
   .footer-text{
     grid-column: 1/span 8;
     grid-row-start:2;
+    color: #EBD7D0;
   }
 
 /* Mobile footer settings */
@@ -761,12 +786,12 @@ grid-row: 3/span 1;
     max-width: 768px;
     margin:0px;
     padding:25px;
-    background-color: #c4c4c4;
   }
 
   .footer-email{
     grid-column: 1/span 4;
     grid-row-start:1;
+    color: #EBD7D0;
   }
 
   .footer-links{
@@ -785,5 +810,6 @@ grid-row: 3/span 1;
   .footer-text{
     grid-column: 1/span 4;
     grid-row-start:3;
+    color: #EBD7D0;
   }
 }
