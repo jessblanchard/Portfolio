@@ -20,8 +20,8 @@ button:hover{
 h1{
   font-family: Avenir;
   font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 40px;
   line-height: 150%;
   color: #35435F;
   margin-bottom: 20px;
@@ -30,8 +30,8 @@ h1{
 h2{
   font-family: Avenir;
   font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 30px;
   line-height: 150%;
   color: #35435F;
   margin-bottom: 20px;
@@ -40,8 +40,8 @@ h2{
   h3{
     font-family: Avenir;
     font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 24px;
     line-height: 150%;
     color: #35435F;
     margin-bottom: 20px;
@@ -54,8 +54,8 @@ h2{
   h5{
     font-family: Avenir;
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 14px;
     line-height: 150%;
     color: #35435F;
 
@@ -64,7 +64,7 @@ h2{
   h6{
     font-family: Avenir;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 12px;
     line-height: 150%;
     color: #35435F;
@@ -378,6 +378,13 @@ grid-row: 2/span 1;
 
 }
 
+.hero-image{
+  grid-column: 8/span 4;
+  grid-row: 1/span 3;
+  width: 100%;
+
+}
+
 .hero-work{
 grid-column: 1/span 3;
 grid-row: 3/span 1;
@@ -398,6 +405,7 @@ grid-row: 3/span 1;
     grid-template-rows: auto auto auto 1fr;
     max-width: 768px;
     margin:25px;
+    height:auto;
   }
 
   .hero-headline{
@@ -409,6 +417,13 @@ grid-row: 3/span 1;
   .hero-copy{
   grid-column: 1/span 4;
   grid-row: 2/span 1;
+
+  }
+
+  .hero-image{
+    grid-column: 1/span 4;
+    grid-row: 3/span 1;
+    width: 100%;
 
   }
 
