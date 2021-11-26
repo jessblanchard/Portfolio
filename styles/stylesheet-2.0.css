@@ -54,7 +54,7 @@ h2{
   h5{
     font-family: Avenir;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 14px;
     line-height: 150%;
     color: #35435F;
@@ -908,4 +908,96 @@ grid-row: 3/span 1;
     grid-row-start:3;
     color: #EBD7D0;
   }
+}
+
+
+
+
+
+/* Floodlight case study details below */
+
+.floodlight-summary{
+  Display: grid;
+  grid-gap:20px;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: auto auto auto auto auto auto auto;
+  max-width: 1366px;
+  margin:80px;
+
+}
+
+.project-overview-headline{
+  grid-column: 1/span 12;
+  grid-row-start:1;
+}
+
+.project-overview-copy{
+  grid-column: 1/span 12;
+  grid-row-start:2;
+}
+
+.project-problem-headline{
+  grid-column: 1/span 12;
+  grid-row-start:3;
+}
+
+.project-problem-statemnt{
+  grid-column: 1/span 12;
+  grid-row-start:4;
+}
+
+.project-solution-headline{
+  grid-column: 1/span 12;
+  grid-row-start:5;
+}
+
+.project-solution-statemnt{
+  grid-column: 1/span 12;
+  grid-row-start:6;
+}
+
+.role-list-group{
+  grid-column: 1/span 4;
+  grid-row-start:7;
+}
+
+.deliverables-list-group{
+  grid-column: 5/span 4;
+  grid-row-start:7;
+}
+
+.tools-list-group{
+  grid-column: 9/span 4;
+  grid-row-start:7;
+}
+
+/* Mobile overview settings */
+
+@media screen and (max-width: 768px){
+
+
+  .floodlight-summary{
+    Display: grid;
+    grid-gap:5px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    max-width: 1366px;
+    margin: 25px;
+  }
+
+  .role-list-group{
+    grid-column: 1/span 4;
+    grid-row-start:7;
+  }
+
+  .deliverables-list-group{
+    grid-column: 1/span 4;
+    grid-row-start:8;
+  }
+
+  .tools-list-group{
+    grid-column: 1/span 4;
+    grid-row-start:9;
+  }
+
 }
