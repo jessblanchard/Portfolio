@@ -17,6 +17,16 @@ button:hover{
   color: #35435F;
 }
 
+.secondary-cta{
+  background: #ffffff;
+  border-radius: 10px;
+  max-width: 256px;
+  min-width: 149px;
+  height: 39px;
+  border: solid 1px #35435F;
+  color: #35435F;
+}
+
 h1{
   font-family: Avenir;
   font-style: normal;
@@ -404,12 +414,14 @@ grid-row: 2/span 1;
 
 }
 
-.hero-work{
+
+
+.hero-contact{
 grid-column: 1/span 3;
 grid-row: 3/span 1;
 }
 
-.hero-contact{
+.hero-work{
 grid-column: 4/span 3;
 grid-row: 3/span 1;
 }
@@ -446,15 +458,18 @@ grid-row: 3/span 1;
 
   }
 
-  .hero-work{
+
+
+  .hero-contact{
   grid-column: 1/span 4;
   grid-row: 3/span 1;
   }
 
-  .hero-contact{
+  .hero-work{
   grid-column: 1/span 4;
   grid-row: 4/span 1;
   }
+
 }
 
 /* Desktop work section */
