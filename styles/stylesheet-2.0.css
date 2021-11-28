@@ -966,40 +966,11 @@ grid-row: 3/span 1;
   margin: 0px;
   padding-left: 80px;
   padding-right: 80px;
-  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #EBD7D0;
 
 }
 
-.project-overview-headline{
-  grid-column: 1/span 12;
-  grid-row-start:1;
-}
-
-.project-overview-copy{
-  grid-column: 1/span 12;
-  grid-row-start:2;
-}
-
-.project-problem-headline{
-  grid-column: 1/span 12;
-  grid-row-start:3;
-}
-
-.project-problem-statemnt{
-  grid-column: 1/span 12;
-  grid-row-start:4;
-}
-
-.project-solution-headline{
-  grid-column: 1/span 12;
-  grid-row-start:5;
-}
-
-.project-solution-statemnt{
-  grid-column: 1/span 12;
-  grid-row-start:6;
-}
 
 .role-deliverable-tool-grid{
   Display: grid;
@@ -1010,7 +981,7 @@ grid-row: 3/span 1;
   margin-left:-80px;
   margin-right:-80px;
   grid-column: 1/span 12;
-  grid-row-start:7;
+  grid-row-start:1;
   text-align: center;
   background-color: #35435F;
   padding-top:50px;
@@ -1042,6 +1013,37 @@ grid-row: 3/span 1;
 }
 
 
+.project-overview-headline{
+  grid-column: 1/span 12;
+  grid-row-start:2;
+}
+
+.project-overview-copy{
+  grid-column: 1/span 12;
+  grid-row-start:3;
+}
+
+.project-problem-headline{
+  grid-column: 1/span 12;
+  grid-row-start:4;
+}
+
+.project-problem-statemnt{
+  grid-column: 1/span 12;
+  grid-row-start:5;
+}
+
+.project-solution-headline{
+  grid-column: 1/span 12;
+  grid-row-start:6;
+}
+
+.project-solution-statemnt{
+  grid-column: 1/span 12;
+  grid-row-start:7;
+}
+
+
 
 /* Mobile overview settings */
 
@@ -1059,67 +1061,69 @@ grid-row: 3/span 1;
     padding-right: 25px;
   }
 
+
+    .role-deliverable-tool-grid{
+      Display: grid;
+      grid-gap:5px;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows:1;
+      max-width: 1366px;
+      margin: 0px;
+      grid-column: 1/span 4;
+      grid-row-start:1;
+      text-align: center;
+      color:#EBD7D0;
+      background-color: #35435F;
+    }
+
+    .role-list-group{
+      grid-column: 1/span 4;
+      grid-row-start:1;
+    }
+
+    .deliverables-list-group{
+      grid-column: 1/span 4;
+      grid-row-start:2;
+    }
+
+    .tools-list-group{
+      grid-column: 1/span 4;
+      grid-row-start:3;
+    }
+
+    .role-headline, .role-list p, .deliverables-headline, .deliverables-list p, .tools-headline, .tools-list p{
+      color:#EBD7D0;
+    }
+
+
   .project-overview-headline{
     grid-column: 1/span 4;
-    grid-row-start:1;
+    grid-row-start:2;
   }
 
   .project-overview-copy{
     grid-column: 1/span 4;
-    grid-row-start:2;
+    grid-row-start:3;
   }
 
   .project-problem-headline{
     grid-column: 1/span 4;
-    grid-row-start:3;
+    grid-row-start:4;
   }
 
   .project-problem-statemnt{
     grid-column: 1/span 4;
-    grid-row-start:4;
+    grid-row-start:5;
   }
 
   .project-solution-headline{
     grid-column: 1/span 4;
-    grid-row-start:5;
+    grid-row-start:6;
   }
 
   .project-solution-statemnt{
     grid-column: 1/span 4;
-    grid-row-start:6;
-  }
-
-  .role-deliverable-tool-grid{
-    Display: grid;
-    grid-gap:5px;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows:1;
-    max-width: 1366px;
-    margin: 0px;
-    grid-column: 1/span 4;
     grid-row-start:7;
-    text-align: center;
-    color:#EBD7D0;
-    background-color: #35435F;
-  }
-
-  .role-list-group{
-    grid-column: 1/span 4;
-    grid-row-start:1;
-  }
-
-  .deliverables-list-group{
-    grid-column: 1/span 4;
-    grid-row-start:2;
-  }
-
-  .tools-list-group{
-    grid-column: 1/span 4;
-    grid-row-start:3;
-  }
-
-  .role-headline, .role-list p, .deliverables-headline, .deliverables-list p, .tools-headline, .tools-list p{
-    color:#EBD7D0;
   }
 
 }
