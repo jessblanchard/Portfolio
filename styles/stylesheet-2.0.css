@@ -74,7 +74,6 @@ h2{
     font-size: 12px;
     line-height: 150%;
     color: #35435F;
-
   }
 
 p{
@@ -87,10 +86,17 @@ p{
   }
 
   strong{
-    font-weight: bold;
+  font-weight: bold;
   }
 
-
+  figcaption{
+    font-family: Avenir;
+    font-style:italic;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 500%;
+    color: #35435F;
+  }
 
 
 /* Navigation text styling */
@@ -929,6 +935,13 @@ grid-row: 3/span 1;
 
 /* Floodlight case study details below */
 
+.case-study-hero-image{
+    grid-column: 8/span 5;
+    grid-row: 1/span 3;
+    width: 100%;
+    box-shadow: 0px 0px 19px -6px #000000;
+}
+
 .floodlight-summary{
   Display: grid;
   grid-gap:20px;
@@ -938,6 +951,8 @@ grid-row: 3/span 1;
   margin: 0px;
   padding-left: 80px;
   padding-right: 80px;
+  padding-top: 80px;
+  background-color: #EBD7D0;
 
 }
 
@@ -977,11 +992,14 @@ grid-row: 3/span 1;
   grid-template-columns: repeat(12,1fr);
   grid-template-rows:1;
   max-width: 1366px;
-  margin: 0px;
+  margin-left:-80px;
+  margin-right:-80px;
   grid-column: 1/span 12;
   grid-row-start:7;
   text-align: center;
   background-color: #35435F;
+  padding-top:50px;
+  padding-bottom: 50px;
 }
 
 .role-list-group{
@@ -1025,6 +1043,7 @@ grid-row: 3/span 1;
     padding-left: 25px;
     padding-right: 25px;
   }
+
   .project-overview-headline{
     grid-column: 1/span 4;
     grid-row-start:1;
@@ -1160,9 +1179,12 @@ grid-row: 3/span 1;
   .phase-1-functional-specifications{
     grid-column: 1/span 12;
     grid-row-start:5;
-    width: 50%;
-    justify-self:center;
+    text-align:center;
+  }
 
+  .phase-1-functional-specifications-image{
+    box-shadow: 0px 0px 19px -6px #000000;
+    width: 50%;
   }
 
   .phase-1-functional-anotations-headline{
@@ -1173,8 +1195,12 @@ grid-row: 3/span 1;
   .phase-1-functional-anotations{
     grid-column: 1/span 12;
     grid-row-start:7;
+    text-align: center;
+  }
+
+  .phase-1-functional-anotations-image{
+    box-shadow: 0px 0px 19px -6px #000000;
     width: 50%;
-    justify-self:center;
   }
 
   .phase-1-wireframes-headline{
@@ -1185,8 +1211,12 @@ grid-row: 3/span 1;
   .phase-1-wireframes{
     grid-column: 1/span 12;
     grid-row-start:9;
+    text-align: center;
+  }
+
+  .phase-1-wireframes-image{
+    box-shadow: 0px 0px 19px -6px #000000;
     width: 50%;
-    justify-self:center;
   }
 
   .phase-1-communication{
@@ -1212,8 +1242,12 @@ grid-row: 3/span 1;
   .phase-1-sitemap{
     grid-column: 1/span 12;
     grid-row-start:14;
+    text-align: center;
+  }
+
+  .phase-1-sitemap-image{
+    box-shadow: 0px 0px 19px -6px #000000;
     width: 50%;
-    justify-self:center;
   }
 
   .phase-1-full-layout-headline{
@@ -1224,8 +1258,12 @@ grid-row: 3/span 1;
   .phase-1-full-layout{
     grid-column: 1/span 12;
     grid-row-start:16;
+    text-align: center;
+  }
+
+  .phase-1-full-layout-image{
+    box-shadow: 0px 0px 19px -6px #000000;
     width: 50%;
-    justify-self:center;
   }
 
   .updating-phase-1-headline{
@@ -1241,8 +1279,12 @@ grid-row: 3/span 1;
   .phase-1-update{
     grid-column: 1/span 12;
     grid-row-start:19;
+    text-align: center;
+  }
+
+  .phase-1-update-image{
+    box-shadow: 0px 0px 19px -6px #000000;
     width: 50%;
-    justify-self:center;
   }
 
 
