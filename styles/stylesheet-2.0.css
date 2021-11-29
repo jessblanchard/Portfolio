@@ -1320,13 +1320,177 @@ grid-row: 3/span 1;
     grid-template-rows: auto auto;
     max-width: 1366px;
     margin:80px;
-
   }
 
   .phase-2-headline{
     grid-column: 1/span 12;
     grid-row-start:1;
   }
+
+.inspiration-headline{
+  grid-column: 1/span 12;
+  grid-row-start:2;
+}
+
+.inspiration-intro{
+  grid-column: 1/span 12;
+  grid-row-start:3;
+}
+
+.inspiration-chart{
+  grid-column: 3/span 6;
+  grid-row-start:4;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+      .inspiration-point-1{
+        grid-column: 1;
+      }
+
+      .inspiration-point-2{
+        grid-column: 2;
+      }
+
+      .inspiration-point-3{
+        grid-column: 3;
+      }
+
+      .inspiration-point-4{
+        grid-column: 4;
+      }
+
+      .inspiration-point-5{
+        grid-column: 5;
+      }
+
+
+.user-stories-headline{
+  grid-column: 1/span 12;
+  grid-row-start:5;
+}
+
+.user-stories-intro{
+  grid-column: 1/span 12;
+  grid-row-start:6;
+}
+
+.patient-user-stories-list-title{
+  grid-column: 1/span 12;
+  grid-row-start:7;
+}
+
+.patient-user-stories-list{
+  grid-column: 1/span 12;
+  grid-row-start:8;
+}
+
+.hcp-user-stories-list-title{
+  grid-column: 1/span 12;
+  grid-row-start:9;
+}
+
+.hcp-user-stories-list{
+  grid-column: 1/span 12;
+  grid-row-start:10;
+}
+
+.sitemap-headline{
+  grid-column: 1/span 12;
+  grid-row-start:11;
+}
+
+.sitemap-intro{
+  grid-column: 1/span 12;
+  grid-row-start:12;
+}
+
+.content-strategy-summary{
+  grid-column: 1/span 12;
+  grid-row-start:13;
+}
+
+.content-strategy-intro{
+  grid-column: 1/span 12;
+  grid-row-start:14;
+}
+
+.content-strategy-list{
+  grid-column: 1/span 12;
+  grid-row-start:15;
+}
+
+.phase-2-sitemap{
+  grid-column: 1/span 12;
+  grid-row-start:16;
+}
+
+.manuscript-headline{
+  grid-column: 1/span 12;
+  grid-row-start:17;
+}
+
+.manuscript-intro{
+  grid-column: 1/span 12;
+  grid-row-start:18;
+}
+
+.floodlight-manuscript{
+  grid-column: 1/span 12;
+  grid-row-start:19;
+}
+
+.floodlight-wireframes{
+  grid-column: 1/span 12;
+  grid-row-start:20;
+}
+
+.floodlight-wireframe-intro{
+  grid-column: 1/span 12;
+  grid-row-start:21;
+}
+
+.floodlight-wireframe-homepage{
+  grid-column: 1/span 12;
+  grid-row-start:22;
+}
+
+.floodlight-wireframe-hcp-page{
+  grid-column: 1/span 12;
+  grid-row-start:23;
+}
+
+.streamlining-creative-handoff-headline{
+  grid-column: 1/span 12;
+  grid-row-start:24;
+}
+
+.streamlining-creative-handoff-intro{
+  grid-column: 1/span 12;
+  grid-row-start:25;
+}
+
+.streamlining-creative-handoff-list{
+  grid-column: 1/span 12;
+  grid-row-start:26;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* Desktop art direction Settings */
 
@@ -1362,7 +1526,7 @@ grid-row: 3/span 1;
     grid-row-start:1;
   }
 
-  /* Desktop key tekaeaways Settings */
+  /* Desktop key takeeaways Settings */
 
   .key-takeaways{
     Display: grid;
