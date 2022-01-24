@@ -734,6 +734,31 @@ grid-row: 3/span 1;
     grid-row-start:1;
   }
 
+  .art-direction-intro{
+    grid-column: 1/span 12;
+    grid-row-start:2;
+  }
+
+  .revisions-for-accessibility-headline{
+    grid-column: 1/span 12;
+    grid-row-start:3;
+  }
+
+  .revisions-for-accessibility-intro{
+    grid-column: 1/span 12;
+    grid-row-start:4;
+  }
+
+  .benefits-to-creative-design-headline{
+    grid-column: 1/span 12;
+    grid-row-start:5;
+  }
+
+  .benefits-to-creative-design-intro{
+    grid-column: 1/span 12;
+    grid-row-start:6s;
+  }
+
   /* Desktop development handoff Settings */
 
   .development-handoff{
