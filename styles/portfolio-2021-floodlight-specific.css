@@ -24,14 +24,11 @@ grid-row: 2/span 1;
 
 }
 
-.hero-image{
+.case-study-hero-image{
   grid-column: 8/span 5;
   grid-row: 1/span 3;
   width: 100%;
-
 }
-
-
 
 .hero-contact{
 grid-column: 1/span 3;
@@ -62,30 +59,33 @@ grid-row: 3/span 1;
     align-self:flex-end;
   }
 
-  .hero-copy{
-  grid-column: 1/span 4;
-  grid-row: 2/span 1;
 
-  }
-
-  .hero-image{
+  .case-study-hero-image{
     grid-column: 1/span 4;
-    grid-row: 3/span 1;
+    grid-row: 2/span 1;
     width: 100%;
-
+    box-shadow: 0px 0px 19px -6px #000000;
   }
 
-
-
-  .hero-contact{
+  .hero-copy{
   grid-column: 1/span 4;
   grid-row: 3/span 1;
   }
 
-  .hero-work{
-  grid-column: 1/span 4;
-  grid-row: 4/span 1;
+  .floodlight-summary{
+    Display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto auto auto auto auto auto;
+    max-width: 1366px;
+    margin: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    background-color: #EBD7D0;
+
   }
+
 
 }
 
@@ -176,26 +176,8 @@ grid-row: 3/span 1;
 
 /* Floodlight case study details below */
 
-.case-study-hero-image{
-    grid-column: 8/span 5;
-    grid-row: 1/span 3;
-    width: 100%;
-    box-shadow: 0px 0px 19px -6px #000000;
-}
 
-.floodlight-summary{
-  Display: grid;
-  grid-gap:20px;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-rows: auto auto auto auto auto auto auto;
-  max-width: 1366px;
-  margin: 0px;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 80px;
-  background-color: #EBD7D0;
 
-}
 
 
 .role-deliverable-tool-grid{
@@ -634,6 +616,7 @@ grid-row: 3/span 1;
 .content-strategy-summary{
   grid-column: 1/span 12;
   grid-row-start:13;
+  text-align: center;
 }
 
 .content-strategy-intro{
@@ -649,6 +632,7 @@ grid-row: 3/span 1;
 .phase-2-sitemap{
   grid-column: 1/span 12;
   grid-row-start:16;
+  text-align: center;
 }
 
 .manuscript-headline{
@@ -664,6 +648,7 @@ grid-row: 3/span 1;
 .floodlight-manuscript{
   grid-column: 1/span 12;
   grid-row-start:19;
+  text-align: center;
 }
 
 .floodlight-wireframes{
@@ -679,11 +664,13 @@ grid-row: 3/span 1;
 .floodlight-wireframe-homepage{
   grid-column: 1/span 12;
   grid-row-start:22;
+  text-align: center;
 }
 
 .floodlight-wireframe-hcp-page{
   grid-column: 1/span 12;
   grid-row-start:23;
+  text-align: center;
 }
 
 .streamlining-creative-handoff-headline{
@@ -704,16 +691,19 @@ grid-row: 3/span 1;
 .floodlight-wireframe-sketch-workspace{
   grid-column: 1/span 12;
   grid-row-start:27;
+  text-align: center;
 }
 
 .floodlight-consistent-labeling{
   grid-column: 1/span 12;
   grid-row-start:28;
+  text-align: center;
 }
 
 .floodlight-sketch-symbols{
   grid-column: 1/span 12;
   grid-row-start:29;
+  text-align: center;
 }
 
 
@@ -756,8 +746,54 @@ grid-row: 3/span 1;
 
   .benefits-to-creative-design-intro{
     grid-column: 1/span 12;
-    grid-row-start:6s;
+    grid-row-start:6;
   }
+
+  .creative-layout-homepage{
+    grid-column: 1/span 5;
+    grid-row-start:7;
+    text-align: center;
+  }
+
+  .creative-layout-homepage-mobile{
+    grid-column: 8/span 5;
+    grid-row-start:7;
+    text-align: center;
+  }
+
+  .creative-layout-hcp{
+    grid-column: 1/span 5;
+    grid-row-start:8;
+    text-align: center;
+  }
+
+  .creative-layout-hcp-mobile{
+    grid-column: 8/span 5;
+    grid-row-start:8;
+    text-align: center;
+  }
+
+  .activity-video-and-form-dropdown{
+    grid-column: 1/span 4;
+    grid-row-start:9;
+    text-align: center;
+  }
+
+  .form-error-state{
+    grid-column: 5/span 4;
+    grid-row-start:9;
+    text-align: center;
+  }
+
+  .intended-use-accordion{
+    grid-column: 9/span 4;
+    grid-row-start:9;
+    text-align: center;
+  }
+
+
+
+
 
   /* Desktop development handoff Settings */
 
@@ -776,6 +812,81 @@ grid-row: 3/span 1;
     grid-row-start:1;
   }
 
+  .functional-specifications{
+    grid-column: 1/span 12;
+    grid-row-start:2;
+  }
+
+  .functional-specifications-intro{
+    grid-column: 1/span 12;
+    grid-row-start:3;
+  }
+
+  .specifications-list-headline{
+    grid-column: 1/span 12;
+    grid-row-start:4;
+  }
+
+  .specifications-list{
+    grid-column: 1/span 12;
+    grid-row-start:5;
+  }
+
+  .functional-specification-image{
+    grid-column: 1/span 12;
+    grid-row-start:6;
+    text-align: center;
+  }
+
+  .handoff-intro{
+    grid-column: 1/span 12;
+    grid-row-start:7;
+  }
+
+  .zeplin-1{
+    grid-column: 1/span 12;
+    grid-row-start:8;
+    text-align: center;
+  }
+
+  .zeplin-2{
+    grid-column: 1/span 12;
+    grid-row-start:9;
+    text-align: center;
+  }
+
+  .zeplin-3{
+    grid-column: 1/span 12;
+    grid-row-start:10;
+    text-align: center;
+  }
+
+  .user-acceptance-testing{
+    grid-column: 1/span 12;
+    grid-row-start:11;
+  }
+
+  .user-acceptance-testing-intro{
+    grid-column: 1/span 12;
+    grid-row-start:12;
+  }
+
+  .final-homepage-layout{
+    grid-column: 1/span 5;
+    grid-row-start:13;
+    text-align: center;
+  }
+
+  .final-hcp-page-layout{
+    grid-column: 8/span 5;
+    grid-row-start:13;
+    text-align: center;
+  }
+
+
+
+
+
   /* Desktop key takeeaways Settings */
 
   .key-takeaways{
@@ -791,4 +902,25 @@ grid-row: 3/span 1;
   .key-takeaways-headline{
     grid-column: 1/span 12;
     grid-row-start:1;
+  }
+
+
+  .key-takeaways-intro{
+    grid-column: 1/span 12;
+    grid-row-start:2;
+  }
+
+  .tips{
+    grid-column: 1/span 12;
+    grid-row-start:3;
+  }
+
+  .tips-intro{
+    grid-column: 1/span 12;
+    grid-row-start:4;
+  }
+
+  .tips-list{
+    grid-column: 1/span 12;
+    grid-row-start:5;
   }
