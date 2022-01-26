@@ -404,6 +404,7 @@ grid-row: 3/span 1;
   .phase-1-functional-specifications-headline{
     grid-column: 1/span 12;
     grid-row-start:4;
+    text-align: center;
   }
 
   .phase-1-functional-specifications{
@@ -420,6 +421,7 @@ grid-row: 3/span 1;
   .phase-1-functional-anotations-headline{
     grid-column: 1/span 12;
     grid-row-start:6;
+    text-align: center;
   }
 
   .phase-1-functional-anotations{
@@ -436,6 +438,7 @@ grid-row: 3/span 1;
   .phase-1-wireframes-headline{
     grid-column: 1/span 12;
     grid-row-start:8;
+    text-align: center;
   }
 
   .phase-1-wireframes{
@@ -467,6 +470,7 @@ grid-row: 3/span 1;
   .phase-1-sitemap-headline{
     grid-column: 1/span 12;
     grid-row-start:13;
+    text-align: center;
   }
 
   .phase-1-sitemap{
@@ -483,6 +487,7 @@ grid-row: 3/span 1;
   .phase-1-full-layout-headline{
     grid-column: 1/span 12;
     grid-row-start:15;
+    text-align: center;
   }
 
   .phase-1-full-layout{
@@ -614,6 +619,12 @@ grid-row: 3/span 1;
 .sitemap-intro{
   grid-column: 1/span 12;
   grid-row-start:12;
+}
+
+.content-strategy-summary-table{
+  grid-column: 1/span 12;
+  grid-row-start: 13;
+  text-align: center;
 }
 
 .content-strategy-summary{
