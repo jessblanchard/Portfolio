@@ -680,6 +680,11 @@ grid-row: 3/span 1;
   text-align: center;
 }
 
+.phase-2-sitemap-image{
+  box-shadow: 0px 0px 19px -6px #000000;
+  width: 50%;
+}
+
 .manuscript-headline{
   grid-column: 1/span 12;
   grid-row-start:18;
@@ -696,6 +701,11 @@ grid-row: 3/span 1;
   text-align: center;
 }
 
+.floodlight-manuscript-image{
+  box-shadow: 0px 0px 19px -6px #000000;
+  width: 50%;
+}
+
 .floodlight-wireframes{
   grid-column: 1/span 12;
   grid-row-start:21;
@@ -707,47 +717,58 @@ grid-row: 3/span 1;
 }
 
 .floodlight-wireframe-homepage{
-  grid-column: 1/span 12;
+  grid-column: 1/span 6;
   grid-row-start:23;
-  text-align: center;
+  text-align: right;
 }
 
+.floodlight-wireframe-homepage-image{
+  box-shadow: 0px 0px 19px -6px #000000;
+  width: 75%;
+
+  }
+
 .floodlight-wireframe-hcp-page{
-  grid-column: 1/span 12;
-  grid-row-start:24;
-  text-align: center;
+  grid-column: 7/span 6;
+  grid-row-start:23;
+  text-align: left;
 }
+
+.floodlight-wireframe-hcp-image{
+  box-shadow: 0px 0px 19px -6px #000000;
+  width: 75%;
+  }
 
 .streamlining-creative-handoff-headline{
   grid-column: 1/span 12;
-  grid-row-start:25;
+  grid-row-start:24;
 }
 
 .streamlining-creative-handoff-intro{
   grid-column: 1/span 12;
-  grid-row-start:26;
+  grid-row-start:25;
 }
 
 .streamlining-creative-handoff-list{
   grid-column: 1/span 12;
-  grid-row-start:27;
+  grid-row-start:26;
 }
 
 .floodlight-wireframe-sketch-workspace{
   grid-column: 1/span 12;
-  grid-row-start:28;
+  grid-row-start:27;
   text-align: center;
 }
 
 .floodlight-consistent-labeling{
   grid-column: 1/span 12;
-  grid-row-start:29;
+  grid-row-start:28;
   text-align: center;
 }
 
 .floodlight-sketch-symbols{
   grid-column: 1/span 12;
-  grid-row-start:30;
+  grid-row-start:29;
   text-align: center;
 }
 
