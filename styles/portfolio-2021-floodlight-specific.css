@@ -866,8 +866,7 @@ grid-row: 3/span 1;
   }
 
   .creative-layout-homepage-mobile-image{
-    box-shadow: 0px 0px 19px -6px #000000;
-    width: 30%;
+    width: 75%;
   }
 
   .creative-layout-hcp{
@@ -888,8 +887,7 @@ grid-row: 3/span 1;
   }
 
   .creative-layout-hcp-mobile-image{
-    box-shadow: 0px 0px 19px -6px #000000;
-    width: 30%;
+    width: 75%;
   }
 
   .activity-video-and-form-dropdown{
