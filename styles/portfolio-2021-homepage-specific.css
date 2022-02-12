@@ -33,13 +33,8 @@ grid-row: 2/span 1;
 
 
 
-.hero-contact{
+.hero button{
 grid-column: 1/span 3;
-grid-row: 3/span 1;
-}
-
-.hero-work{
-grid-column: 4/span 3;
 grid-row: 3/span 1;
 }
 
@@ -143,10 +138,15 @@ grid-row: 3/span 1;
   grid-row: 3/span 1;
 }
 
-.see-the-full-case-study{
+.featured-work button{
   grid-column: 7/span 6;
   grid-row: 4/span 1;
 }
+/* 
+.see-the-full-case-study{
+  grid-column: 7/span 6;
+  grid-row: 4/span 1;
+} */
 
 .additional-case-studies-headline{
   grid-column: 1/span 12;

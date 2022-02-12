@@ -164,8 +164,9 @@ p{
     grid-column: 11/span 1;
   }
 
-  .nav-contact{
+  .primary-navigation button{
     grid-column: 12/span 1;
+    align-self: center;
   }
 
 /* This line ensures that anchor links dont scroll up behind sticky nav */
