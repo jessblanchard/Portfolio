@@ -1,6 +1,16 @@
 
 /* Global Settings */
 
+ul {
+  list-style-type: disc;
+  padding-left: 15px;
+}
+
+li{
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
 button{
   background: #35435F;
   border-radius: 10px;
@@ -45,6 +55,7 @@ h2{
   line-height: 150%;
   color: #35435F;
   margin-bottom: 20px;
+  margin-top:50px;
   }
 
   h3{
@@ -55,6 +66,7 @@ h2{
     line-height: 150%;
     color: #35435F;
     margin-bottom: 20px;
+    margin-top:50px;
   }
 
   h4{
@@ -65,6 +77,7 @@ h2{
     line-height: 150%;
     color: #35435F;
     margin-bottom: 16px;
+    margin-top:50px;
   }
 
   h5{
