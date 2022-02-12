@@ -69,6 +69,8 @@ grid-row: 3/span 1;
     grid-row: 2/span 1;
     width: 100%;
     box-shadow: 0px 0px 19px -6px #000000;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
 
   .hero-copy{
@@ -202,6 +204,10 @@ grid-row: 3/span 1;
   text-align: center;
 }
 
+.role-list{
+  list-style-type: none;
+}
+
 
 
 .deliverables-list-group{
@@ -210,10 +216,18 @@ grid-row: 3/span 1;
   text-align: center;
 }
 
+.deliverables-list{
+  list-style-type: none;
+}
+
 .tools-list-group{
   grid-column: 9/span 4;
   grid-row-start:1;
   text-align: center;
+}
+
+.tools-list{
+  list-style-type: none;
 }
 
 .role-headline, .role-list p, .deliverables-headline, .deliverables-list p, .tools-headline, .tools-list p{
@@ -290,16 +304,28 @@ grid-row: 3/span 1;
       margin-top:50px;
     }
 
+    .role-list{
+      list-style-type: none;
+    }
+
     .deliverables-list-group{
       grid-column: 1/span 4;
       grid-row-start:2;
       margin-top:50px;
     }
 
+    .deliverables-list{
+      list-style-type: none;
+    }
+
     .tools-list-group{
       grid-column: 1/span 4;
       grid-row-start:3;
       margin-top:50px;
+    }
+
+    .tools-list{
+      list-style-type: none;
     }
 
     .role-headline, .role-list p, .deliverables-headline, .deliverables-list p, .tools-headline, .tools-list p{
