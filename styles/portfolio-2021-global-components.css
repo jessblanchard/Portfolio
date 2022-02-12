@@ -220,6 +220,10 @@ p{
    display:none;
  }
 
+.primary-navigation button{
+  display: none;
+   }
+
  .logo{
    grid-column: 2/span 2;
    text-align: center;
