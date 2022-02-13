@@ -237,6 +237,10 @@ p{
   display: none;
    }
 
+.mobilescreen button{
+  display:inline;
+}
+
  .logo{
    grid-column: 2/span 2;
    text-align: center;
@@ -397,5 +401,7 @@ p{
        transform: scale(1.0, 1.0);
        opacity: 1;
    }
+
+
 
 }
