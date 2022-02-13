@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -16,97 +15,170 @@
     <!-- Reset -->
     <link rel=stylesheet href="styles/reset.css">
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles/maingridversion.css">
+    <link rel="stylesheet" href="styles/portfolio-2021-global-components.css">
+    <link rel="stylesheet" href="styles/portfolio-2021-homepage-specific.css">
     <link rel="shortcut icon" type="image/x-icon" href="jess-logo-blue.ico">
+
+    <!-- Mobile nav settings to close on clicking anchor link -->
+
+    <!-- <script>
+    var menu = document.getElementById('menu');
+      var closeIcon = document.getElementById("closeIcon");
+
+      menu.addEventListener('click', handleMenuClick);
+
+      function handleMenuClick(event) {
+        if (event.target instanceof HTMLAnchorElement) {
+          closeIcon.checked = false;
+        }
+      }
+    </script> -->
+
   </head>
 
-  <body class = "homepage">
+  <body class="body">
 
-      <header class="navigation">
-        <a class="logo" href="index.html">
-          <img class="navigation-logo" src="images/jess-logo-blue.png" alt="Jess logo" width="62" style="padding:0px;">
-          </a>
-        <a class="navigation-work" href="#work">Work</a>
-        <a class="navigation-about" href="#about">About</a>
-        <a class="navigation-resume" href="documents/jessica_blanchard_resume_2.9.2.pdf" target="_blank">Resume</a>
-      </header>
+    <nav class="primary-navigation">
+      <a class="logo" href="index.html">
+        <img class="navigation-logo" src="images/jess-logo-blue.png" alt="Jess logo" width="62" style="padding:0px;"></a>
+      <a class="nav-work" href="#work">About my work</a>
+      <a class="nav-about" href="#about">About me</a>
+      <a class="nav-resume" href="documents/jessica_blanchard_resume_02112022.pdf" target="_blank">Download my resume</a>
+      <button onclick="window.location.href = 'contact-2.0.html';">Get in contact</button>
+      <!-- Original MOBILE NAV -->
+          <nav class="mobilescreen">
+                    <div title="Menu" id="menuToggle">
+                      <input id="closeIcon" type="checkbox">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                         <ul id="menu">
+                          <li>
+                            <a class="nav-work-mobile" href="#work">About my work</a>
+                           </li>
+                           <li>
+                            <a class="nav-about-mobile" href="#about">About Me</a>
+                           </li>
+                           <li>
+                             <a class="nav-resume-mobile" href="documents/jessica_blanchard_resume_02112022.pdf" target="_blank">Download my resume</a>
+                           </li>
+                            <li>
+                              <button onclick="window.location.href = 'contact-2.0.html';">Get in contact</button>
+                            </li>
+                          </ul>
+                      </div>
+          </nav>
 
-      <section class="hero">
-          <h1>Hi! I'm Jess,</h1>
-          <h2>a <strong class="hero-emphasis">product designer</strong> from <strong class="hero-emphasis">NYC</strong>. I specialize in strategizing and designing unique and personal digital experiences.</h2>
-        </section>
 
-      <div class="recent-work-header">
-        <a name="work"></a>
-        <h1>Featured Work</h1>
+    </nav>
+
+
+
+
+    <section class="hero">
+      <h1 class="hero-headline">Hi, I’m Jess, a lead UX designer from New York</h1>
+      <p class="hero-copy">I specialize in creating joyful and personal digital experiences that deliver true ROI every time.</p>
+      <button onclick="window.location.href = '#work';">Read case studies</button>
+
+
+    </section>
+
+    <a name="work"></a>
+
+    <section class="work">
+
+      <h2 class="work-headline">Recent Projects</h2>
+
+      <h3 class="featured-case-study-headline">Featured Case Study</h3>
+
+      <div class="featured-work">
+        <img class="featured-project-image" src="images/floodlightms-homepage-atf-screenshot.png" alt="Floodlight MS homepage screenshot"></img>
+        <h6 class="eyebrow-text">Pharmaceutical | Multiple Sclerosis</h6>
+        <h5 class="featured-project-title">Floodlight MS responsive web design</h5>
+        <p class="featured-project-description">Floodlight MS is an iOS and Android app that allows MS patients to engage in simple daily activities to objectively monitor symptoms and disease progression, while sharing the details with their care team. <br><br>My team designed an accessible website for the app, building upon the look and feel of an earlier microsite, while incorporating an expanded content strategy and applying a mobile first approach.</br></br>Ultimately we obtained project approval through the client’s promotional reviews committee, facilitated a successful implementation process and handed off to the client’s development team earlier than anticipated as a result of our workflow, allowing this brand to advertise their app sooner and increasing opportunity to build value. </p>
+        <!-- <button class="see-the-full-case-study">See the full case study</button> -->
+        <button onclick="window.location.href = 'floodlight-ms.html';">See the full case study</button>
+
       </div>
 
-      <section class="recent-work">
-          <a class = "project-image" href="intentpartners.html">
-            <img class="verve-image" src="intent_partners_images/intent_partners_thumbnail.png" width="323" height="323" alt="Verve preview">
-          </a>
-          <div class="project-details">
-            <a href="intentpartners.html">
-              <img class="intent-logo" src="intent_partners_images/intent_logo.png" alt="Intent logo">
-            </a>
-            <p>Intent Partners is a social impact consultancy that empowers businesses and consumers to work together and improve communities.</p>
-            <button onclick="window.location.href = 'intentpartners.html';">READ the case Study</button>
-          </div>
-          <a class = "project-image" href="verve.html">
-            <img class="verve-image" src="images/verve-thumbnail.png" width="323" height="323" alt="Verve preview">
-          </a>
-          <div class="project-details">
-            <a href="verve.html">
-              <img class="project-logo" src="images/verve-logo.png" alt="Verve logo">
-            </a>
-            <p>Verve for iOS is a cloud storage app that makes it easier for users to manage a healthy lifestyle while staying organized.</p>
-            <button onclick="window.location.href = 'verve.html';">READ the case Study</button>
-          </div>
-        </section>
+      <h3 class="additional-case-studies-headline">Additional case studies</h3>
+
+      <div class="additional-work">
+
+        <div class="card1">
+          <img class="card-project-image" src="intent_partners_images/intent_partners_thumbnail.png" alt="Intent Partners homepage screenshot" width="233px" height="133.65px"></img>
+          <h6 class="card-eyebrow-text">Non-profit | Community consulting</h6>
+          <h5 class="card-project-title">Intent Partners responsive web experience redesign </h5>
+          <button onclick="window.location.href = 'intentpartners-2.0.html';">See the full case study</button>
+        </div>
+
+        <div class="card2">
+          <img class="card-project-image" src="images/verve-thumbnail.png" alt="Verve App homepage screenshot" width="233px" height="133.65px"></img>
+          <h6 class="card-eyebrow-text">Wellness | Healthy lifestyle management</h6>
+          <h5 class="card-project-title">Verve ios app experience design </h5>
+          <button onclick="window.location.href = 'verve-2.0.html';">See the full case study</button>
+        </div>
+
+        <div class="card3">
+          <img class="card-project-image" src="images/nuplazid-homepage-screenshot.png" alt="Floodlight MS homepage screenshot" width="233px" height="133.65px"></img>
+          <h6 class="card-eyebrow-text">Pharmaceutical | Parkinsons-disease psychosis</h6>
+          <h5 class="card-project-title">NUPLAZID healthcare provider responsive web experience redesign</h5>
+          <button>Coming soon</button>
+        </div>
+
+        <div class="card4">
+          <img class="card-project-image" src="images/nih-homepage-screenshot.png" alt="Floodlight MS homepage screenshot" width="233px" height="133.65px"></img>
+          <h6 class="card-eyebrow-text">Life sciences | Technology database</h6>
+          <h5 class="card-project-title">NIH Office of Technology Transfer responsive web experience design</h5>
+          <button>Coming soon</button>
+        </div>
+
+        <!-- <div class="card5">
+          <img class="card-project-image" src="images/nuplazid-homepage-screenshot.png" alt="Floodlight MS homepage screenshot" width="233px" height="133.65px"></img>
+          <h6 class="card-eyebrow-text">Finance | Pre-approved offers</h6>
+          <h5 class="card-project-title">Cunexus storefront responsive web experience redesign </h5>
+          <button class="card-see-the-full-case-study">Coming soon</button>
+        </div> -->
 
 
 
 
-      <div class="about-me-header">
-        <a name="about"></a>
-        <h1>About Me</h1>
       </div>
+    </section>
 
-      <section class="about-me">
-        <!-- <h1>About Me</h1> -->
-        <div class="about-me-image">
-          <div class="homepage-portrait">
-          <img class=personal-image src="images/jb-headshot5.jpg" alt="Jessica Portrait">
-        </div>
-          </div>
-        <div class="about-me-details">
-          <p>Hi, I’m Jessica Blanchard, user experience designer and brand strategist. I’m also an urban homesteader, Persian cat and boy mom, true crime sleuth, contemporary art collector and prison reform advocate. I’m passionate about designing solutions for real people, driven by real research and data. I work to make the internet a healthier place for users and a more profitable place for businesses.</p>
-          <button onclick="window.location.href = 'about.html';">LEARN MORE</button>
-        </div>
-      </section>
+    <a name="about"></a>
 
-      <footer class="footer">
-        <h1 class="footer-header">Let's Work Together!</h1>
-        <p class = "footer-email">hello@jessblanchard.design</p>
-        <div class="footer-links">
-            <a href="https://www.linkedin.com/in/jessdesignedit" target="_blank">
-              <img src="images/icons/icons8-linkedin-2-500.png" alt="LinkedIn logo">
-              </a>
-            <a href="https://www.github.com/jessblanchard" target="_blank">
-              <img src="images/icons/icons8-github-500.png" alt="GitHub logo">
-              </a>
-            <a href="https://www.instagram.com/jessytribble" target="_blank">
-              <img src="images/icons/icons8-instagram-camera-500.png" alt="Instagram logo">
-              </a>
-            <a href="https://www.twitter.com/jesstribble" target="_blank">
-              <img src= "images/icons/icons8-twitter-500.png" alt="Twitter logo">
-              </a>
-            <a href="contact.html" target="_blank">
-              <img src="images/icons/icons8-email-envelope-500.png" alt="Mail Icon">
-              </a>
-        </div>
-        <p class="footer-text">Copyright © 2021, designed and developed by Jessica Blanchard</p>
-      </footer>
+    <section class="about">
+      <h2 class=about-headline>About me</h2>
+      <p class="about-copy">Hi, I’m Jessica Blanchard, senior UX designer, design mentor and educator. I’m passionate about accessible solutions that drive conversions. My experience spans, healthcare, fintech, non-profit, goverment, and self care in responsive web and mobile applications.</p>
+      <button onclick="window.location.href = 'about-2.0.html';">Read more</button>
+    </section>
+
+    <footer class="footer">
+      <p class = "footer-email">hello@jessblanchard.design</p>
+      <div class="footer-links">
+          <a href="https://www.linkedin.com/in/jessblanchard" target="_blank">
+            <img src="images/icons/icons8-linkedin-2-500.png" alt="LinkedIn logo">
+            </a>
+          <a href="https://www.github.com/jessblanchard" target="_blank">
+            <img src="images/icons/icons8-github-500.png" alt="GitHub logo">
+            </a>
+          <a href="https://www.instagram.com/jessytribble" target="_blank">
+            <img src="images/icons/icons8-instagram-camera-500.png" alt="Instagram logo">
+            </a>
+          <a href="https://www.twitter.com/jesstribble" target="_blank">
+            <img src= "images/icons/icons8-twitter-500.png" alt="Twitter logo">
+            </a>
+          <a href="contact.html" target="_blank">
+            <img src="images/icons/icons8-email-envelope-500.png" alt="Mail Icon">
+            </a>
+      </div>
+      <p class="footer-text">Copyright © 2021, designed and developed by Jessica Blanchard</p>
+    </footer>
+
+
 
   </body>
+
+
 </html>
