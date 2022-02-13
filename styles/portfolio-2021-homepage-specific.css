@@ -368,6 +368,7 @@ grid-row: 3/span 1;
   .featured-work button {
     grid-column: 1/span 4;
     grid-row: 8;
+    margin-top: 50px;
   }
 
   .additional-case-studies-headline{
