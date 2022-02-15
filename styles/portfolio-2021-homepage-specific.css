@@ -91,6 +91,248 @@ margin-top: 50px;
 
 }
 
+
+  /* Desktop brands callout section */
+
+  .brands-callout{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto auto;
+    max-width: 1366px;
+    margin:80px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .brands-callout-headline{
+    grid-column: 1/span 12;
+    grid-row: 1;
+    text-align: center;
+    padding-top:20px;
+  }
+
+  .nih-image{
+    grid-column: 1/span 2;
+    grid-row: 2;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .acadia-image{
+    grid-column: 3/span 2;
+    grid-row: 2;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .genentech-image{
+    grid-column: 5/span 2;
+    grid-row: 2;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .roche-image{
+    grid-column: 7/span 2;
+    grid-row: 2;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .sanofi-image{
+    grid-column: 9/span 2;
+    grid-row: 2;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .pfizer-image{
+    grid-column: 11/span 2;
+    grid-row: 2;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .agile-image{
+    grid-column: 1/span 2;
+    grid-row: 3;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+    padding-top:20px;
+  }
+
+  .parexel-image{
+    grid-column: 3/span 2;
+    grid-row: 3;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .cuna-image{
+    grid-column: 5/span 2;
+    grid-row: 3;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .discover-image{
+    grid-column: 7/span 2;
+    grid-row: 3;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .sunovion-image{
+    grid-column: 9/span 2;
+    grid-row: 3;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .intent-image{
+    grid-column: 11/span 2;
+    grid-row: 3;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+
+/* Mobile brands callout section */
+
+@media screen and (max-width: 768px){
+
+  .brands-callout{
+    display:grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto auto auto auto auto;
+    max-width: 768px;
+    margin:25px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .brands-callout-headline{
+    grid-column: 1/span 3;
+    grid-row: 1;
+    text-align: center;
+    padding-top:20px;
+  }
+
+  .nih-image{
+    grid-column: 1/span 1;
+    grid-row: 2;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .acadia-image{
+    grid-column: 2/span 1;
+    grid-row: 2;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .genentech-image{
+    grid-column: 3/span 1;
+    grid-row: 2;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .roche-image{
+    grid-column: 1/span 1;
+    grid-row: 3;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .sanofi-image{
+    grid-column: 2/span 1;
+    grid-row: 3;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .pfizer-image{
+    grid-column: 3/span 1;
+    grid-row: 3;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .agile-image{
+    grid-column: 1/span 1;
+    grid-row: 4;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+    padding-top:20px;
+  }
+
+  .parexel-image{
+    grid-column: 2/span 1;
+    grid-row: 4;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .cuna-image{
+    grid-column: 3/span 1;
+    grid-row: 4;
+    height:auto;
+    width:100%;
+    padding-top:20px;
+  }
+
+  .discover-image{
+    grid-column: 1/span 1;
+    grid-row: 5;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .sunovion-image{
+    grid-column: 2/span 1;
+    grid-row: 5;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+  .intent-image{
+    grid-column: 3/span 1;
+    grid-row: 5;
+    height:20px;
+    width:auto;
+    padding-top:20px;
+  }
+
+
+}
+
+
 /* Desktop work section */
 
 .work{
