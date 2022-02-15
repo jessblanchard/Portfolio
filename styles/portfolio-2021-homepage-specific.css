@@ -322,6 +322,7 @@ margin-top: 50px;
   .see-more-work-headline{
     grid-column: 1/span 6;
     grid-row:1;
+    align-self:end;
   }
 
   .see-more-work-intro{
@@ -334,6 +335,7 @@ margin-top: 50px;
     grid-row:1/span 3;
     height:300px;
     width:auto;
+    justify-self:center;
   }
 
   .see-more-work button{
