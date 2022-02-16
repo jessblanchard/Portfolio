@@ -103,13 +103,16 @@ margin-top: 50px;
     margin:80px;
     justify-items: center;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .brands-callout-headline{
     grid-column: 1/span 12;
     grid-row: 1;
     text-align: center;
-    padding-top:20px;
+    /* padding-top:20px; */
+    margin-top:0px;
   }
 
   .nih-image{
