@@ -250,8 +250,8 @@ grid-row: 2/span 1;
 }
 
 .card1 img{
-  width: auto;
-  height: 152.5px;
+  width: 100%;
+  height: auto;
   border-bottom: none;
   place-self: center;
   border-bottom: .5px solid #c4c4c4;
