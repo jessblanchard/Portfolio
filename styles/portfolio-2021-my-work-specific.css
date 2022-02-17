@@ -265,10 +265,9 @@ grid-row: 2/span 1;
 }
 
 .card2 img{
-  width: auto;
-  height: 152.5px;
-  margin:10px;
-  border-bottom: none;
+  width: 100%;
+  height: auto;
+  border-bottom: .5px solid #c4c4c4;
   place-self: center;
 }
 
@@ -493,10 +492,9 @@ grid-row: 2/span 1;
   }
 
   .card2 img{
-    width: auto;
-    height: 152.5px;
-    margin:10px;
-    border-bottom: none;
+    width: 100%;
+    height: auto;
+    border-bottom: .5px solid #c4c4c4;
     place-self: center;
   }
 
