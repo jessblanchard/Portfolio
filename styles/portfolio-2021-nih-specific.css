@@ -1896,3 +1896,40 @@ grid-row: 3/span 1;
 @media screen and (max-width: 768px){
 
 }
+
+
+
+/* Desktop key takeaways settings */
+
+.key-takeaways{
+  Display: grid;
+  grid-gap:20px;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: auto;
+  max-width: 1366px;
+  margin:80px;
+  margin-left: 20%;
+  margin-right:20%;
+}
+
+.key-takeaways-headline{
+  grid-column: 1/span 12;
+  grid-row-start:1;
+}
+
+.key-takeaways-intro{
+  grid-column: 1/span 12;
+  grid-row-start:2;
+}
+
+
+
+
+
+
+
+/* Mobile key takaways settings */
+
+@media screen and (max-width: 768px){
+
+}
