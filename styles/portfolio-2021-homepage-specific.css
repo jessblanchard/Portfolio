@@ -72,9 +72,10 @@ margin-top: 50px;
 
   }
 
-  .hero-image{
+  .hero-portrait{
     grid-column: 1/span 4;
-    grid-row: 3/span 1;
+    grid-row: 4/span 1;
+    padding-top:50px;
     width: 100%;
 
   }
@@ -92,9 +93,10 @@ margin-top: 50px;
   }
 
   .hero button{
-  grid-column: 1/span 3;
+  grid-column: 1/span 4;
   grid-row: 3/span 1;
   margin-top: 50px;
+  max-width: none;
   }
 
 }
@@ -652,7 +654,7 @@ margin-top: 50px;
   .work{
     display:grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto auto auto;
     max-width: 768px;
     margin:25px;
@@ -709,6 +711,7 @@ margin-top: 50px;
     grid-column: 1/span 4;
     grid-row: 8;
     margin-top: 50px;
+    max-width: none;
   }
 
   .featured-work-2{
@@ -752,6 +755,7 @@ margin-top: 50px;
     grid-column: 1/span 4;
     grid-row: 8;
     margin-top: 50px;
+    max-width: none;
   }
 
 
@@ -1014,6 +1018,7 @@ margin-top: 50px;
      grid-column: 1/span 4;
      grid-row:3;
      margin-top: 50px;
+     max-width: none;
    }
  }
 
