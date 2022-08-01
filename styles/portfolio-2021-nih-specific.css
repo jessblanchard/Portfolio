@@ -777,7 +777,15 @@ grid-row: 3/span 1;
   /* Mobile content-audit Settings */
 
   @media screen and (max-width: 768px){
-
+    .content-audit{
+      Display: grid;
+      grid-gap:20px;
+      grid-template-columns: repeat(12,1fr);
+      grid-template-rows: auto auto;
+      max-width: 1366px;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
   }
 
 
@@ -1063,6 +1071,15 @@ grid-row: 3/span 1;
   /* Mobile content-audit  findings and recommendations  Settings */
 
   @media screen and (max-width: 768px){
+      .content-audit-findings-and-recommendations{
+        Display: grid;
+        grid-gap:20px;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: auto auto;
+        max-width: 1366px;
+        margin-left: 25px;
+        margin-right: 25px;
+      }
 
   }
 
@@ -1478,7 +1495,15 @@ grid-row: 3/span 1;
 
 
 @media screen and (max-width: 768px){
-
+  .site-architecture{
+    Display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto;
+    max-width: 1366px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
 
 
@@ -1695,7 +1720,15 @@ grid-row: 3/span 1;
 
 
 @media screen and (max-width: 768px){
-
+  .preparing-wireframes{
+    Display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto;
+    max-width: 1366px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
 
 /* Desktop interactive prototype settings */
@@ -1785,7 +1818,15 @@ grid-row: 3/span 1;
 /* Mobile interactive prototype settings */
 
 @media screen and (max-width: 768px){
-
+  .interactive-prototype{
+    Display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto;
+    max-width: 1366px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
 
 /* Desktop looking ahead settings */
@@ -1820,7 +1861,15 @@ grid-row: 3/span 1;
 /* Mobile looking ahead settings */
 
 @media screen and (max-width: 768px){
-
+  .looking-ahead{
+    Display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto;
+    max-width: 1366px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
 
 /* Desktop final layout settings */
@@ -1894,7 +1943,15 @@ grid-row: 3/span 1;
 /* Mobile final layout settings */
 
 @media screen and (max-width: 768px){
-
+  .final-layout{
+    Display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto;
+    max-width: 1366px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
 
 
@@ -1931,5 +1988,13 @@ grid-row: 3/span 1;
 /* Mobile key takaways settings */
 
 @media screen and (max-width: 768px){
-
+  .key-takeaways{
+    Display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto;
+    max-width: 1366px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
