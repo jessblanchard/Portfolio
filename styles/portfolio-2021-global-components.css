@@ -190,7 +190,7 @@ p{
 
 /* Hides mobile nav in Desktop */
 
-  @media screen and (min-width: 991px){
+  @media screen and (min-width: 769px){
 
    .mobilescreen{
      display:none;
