@@ -584,94 +584,67 @@ grid-row: 3/span 1;
     grid-row-start:1;
   }
 
-  .audit-findings-list-headline{
+  .audit-findings-recommendations-intro{
     grid-column: 1/span 12;
     grid-row-start:2;
   }
 
-  .audit-findings-list{
+
+  .audit-recommendations-list{
     grid-column: 1/span 12;
     grid-row-start:3;
   }
 
-  .audit-recommendations-list-headline{
+  .detailed-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:4;
   }
 
-  .audit-recommendations-list{
+  .detailed-findings-intro{
     grid-column: 1/span 12;
     grid-row-start:5;
   }
 
-  .detailed-findings-headline{
-    grid-column: 1/span 12;
-    grid-row-start:6;
-  }
-
-  .page-findings-headline{
-    grid-column: 1/span 12;
-    grid-row-start:7;
-  }
-
-  .page-findings{
-    grid-column: 1/span 12;
-    grid-row-start:8;
-  }
-
-  .page-findings-image{
-    width:100%;
-  }
-
   .navigation-content-headline{
     grid-column: 1/span 12;
-    grid-row-start:9;
+    grid-row-start:6;
     text-align: center;
   }
 
   .navigation-content-findings{
     grid-column: 1/span 12;
-    grid-row-start:10;
+    grid-row-start:7;
   }
 
   .navigation-content-findings-image{
     width: 100%
   }
 
-  .navigation-content-recommendation{
-    grid-column: 1/span 12;
-    grid-row-start:11;
-  }
-
   .page-findings-headline{
     grid-column: 1/span 12;
-    grid-row-start:12;
+    grid-row-start:8;
     text-align: center;
   }
 
   .page-findings{
     grid-column: 1/span 12;
-    grid-row-start:13;
+    grid-row-start:9;
   }
 
   .page-findings-image{
     width:100%;
   }
 
-  .page-findings-recommendation{
-    grid-column: 1/span 12;
-    grid-row-start:14;
-  }
 
   .abstract-findings-headline{
     grid-column: 1/span 12;
-    grid-row-start:15;
+    grid-row-start:10;
     text-align: center;
   }
 
   .abstract-findings{
     grid-column: 1/span 12;
-    grid-row-start:16;
+    grid-row-start:11;
   }
 
   .abstract-findings-image{
@@ -680,17 +653,17 @@ grid-row: 3/span 1;
 
   .reviewing-abstrats-headline{
     grid-column: 1/span 12;
-    grid-row-start:17;
+    grid-row-start:12;
   }
 
   .reviewing-abstracts-list{
     grid-column: 1/span 12;
-    grid-row-start:18;
+    grid-row-start:13;
   }
 
   .reviewing-abstracts{
     grid-column: 1/span 12;
-    grid-row-start:19;
+    grid-row-start:14;
   }
 
   .reviewing-abstracts-image{
@@ -699,13 +672,13 @@ grid-row: 3/span 1;
 
   .inventor-page-headline{
     grid-column: 1/span 12;
-    grid-row-start:20;
+    grid-row-start:15;
     text-align: center;
   }
 
   .inventor-page-findings{
     grid-column: 1/span 12;
-    grid-row-start:21;
+    grid-row-start:16;
   }
 
   .inventor-page-findings-image{
@@ -714,141 +687,123 @@ grid-row: 3/span 1;
 
   .reviewing-inventory-pages-headline{
     grid-column: 1/span 12;
-    grid-row-start:22;
+    grid-row-start:17;
   }
 
   .reviewing-inventory-pages-list{
     grid-column: 1/span 12;
-    grid-row-start:23;
+    grid-row-start:18;
   }
 
   .reviewing-inventory-pages{
     grid-column: 1/span 12;
-    grid-row-start:24;
+    grid-row-start:19;
   }
 
   .reviewing-inventory-pages-image{
     width:100%;
   }
 
-  .reviewing-inventory-recommendation{
-    grid-column: 1/span 12;
-    grid-row-start:25;
-  }
 
   .product-findings-headline{
     grid-column: 1/span 12;
-    grid-row-start:26;
+    grid-row-start:20;
   }
 
   .product-findings-recommendation{
     grid-column: 1/span 12;
-    grid-row-start:27;
+    grid-row-start:21;
   }
 
   .product-findings-list{
     grid-column: 1/span 12;
-    grid-row-start:28;
+    grid-row-start:22;
   }
 
   .document-findings-headline{
     grid-column: 1/span 12;
-    grid-row-start:29;
+    grid-row-start:23;
     text-align: center;
   }
 
   .documnent-findings{
     grid-column: 1/span 12;
-    grid-row-start:30;
+    grid-row-start:24;
   }
 
   .document-findings-image{
     width:100%;
   }
 
-  .document-findings-recommendation{
-    grid-column: 1/span 12;
-    grid-row-start:31;
-  }
-
   .rss-findings-headline{
     grid-column: 1/span 12;
-    grid-row-start:32;
+    grid-row-start:25;
     text-align: center;
   }
 
   .rss-findings{
     grid-column: 1/span 12;
-    grid-row-start:33;
+    grid-row-start:26;
   }
 
   .rss-findings-image{
     width:100%;
   }
 
-  .rss-findings-recommendation{
-    grid-column: 1/span 12;
-    grid-row-start:34;
-  }
 
   .multimedia-findings-headline{
     grid-column: 1/span 12;
-    grid-row-start:35;
+    grid-row-start:27;
     text-align: center;
   }
 
   .multimedia-findings{
     grid-column: 1/span 12;
-    grid-row-start:36;
+    grid-row-start:28;
   }
 
   .multimedia-findings-image{
     width:100%;
   }
 
-  .multimedia-findings-recommendation{
-    grid-column: 1/span 12;
-    grid-row-start:37;
-  }
-
   .global-navigation-findings-headline{
     grid-column: 1/span 12;
-    grid-row-start:38;
+    grid-row-start:29;
   }
 
   .navigation-findings-content{
     grid-column: 1/span 12;
-    grid-row-start:39;
+    grid-row-start:30;
   }
 
   .current-experience-headline{
     grid-column: 1/span 12;
-    grid-row-start:40;
+    grid-row-start:31;
   }
 
   .current-experience-list{
     grid-column: 1/span 12;
-    grid-row-start:41;
+    grid-row-start:32;
   }
 
   .opportunities-for-improvement-headline{
     grid-column: 1/span 12;
-    grid-row-start:42;
+    grid-row-start:33;
   }
 
   .opportunties-for-improvement-list{
     grid-column: 1/span 12;
-    grid-row-start:43;
+    grid-row-start:34;
   }
 
   .next-steps-after-audit-headline{
     grid-column: 1/span 12;
-    grid-row-start:44;
+    grid-row-start:35;
   }
 
   .next-steps-after-audit-intro{
     grid-column: 1/span 12;
-    grid-row-start:45;
+    grid-row-start:36;
   }
 
   /* Mobile content-audit  findings and recommendations  Settings */
