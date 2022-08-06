@@ -472,7 +472,7 @@ grid-row: 3/span 1;
     Display: grid;
     grid-gap:20px;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(19,auto);
+    grid-template-rows: repeat(10,auto);
     max-width: 1366px;
     margin:80px;
     margin-left: 20%;
@@ -526,252 +526,26 @@ grid-row: 3/span 1;
 
   }
 
-  .content-snapshot-headline{
-    grid-column: 1/span 12;
-    grid-row-start:8;
-    text-align: center;
-  }
-
   .content-snapshot{
     /* box-shadow: 0px 0px 19px -6px #000000; */
     grid-column: 1/span 12;
-    grid-row-start:9;
+    grid-row-start:8;
   }
 
   .content-snapshot-image{
     width:100%;
   }
 
-  .phase-1-wireframes-headline{
+  .content-audit-structure-list{
+    grid-column: 1/span 12;
+    grid-row-start:9;
+  }
+
+  .content-audit-closing{
     grid-column: 1/span 12;
     grid-row-start:10;
-    text-align: center;
-    margin-top: 50px;
-
   }
 
-  .audit-navigation-headline{
-    grid-column: 1/span 12;
-    grid-row-start:11;
-  }
-
-  .audit-navigation-content{
-    grid-column: 1/span 12;
-    grid-row-start:12;
-  }
-
-  .navigation-audit-list{
-    grid-column: 1/span 12;
-    grid-row-start:13;
-  }
-
-  .content-navigation{
-    grid-column: 1/span 12;
-    grid-row-start:14;
-  }
-
-  .content-navigation-image{
-    width:100%;
-  }
-
-  .audit-technology-abstracts-headline{
-    grid-column: 1/span 12;
-    grid-row-start:15;
-  }
-
-  .audit-technology-abstracts-content{
-    grid-column: 1/span 12;
-    grid-row-start:16;
-  }
-
-  .technology-abstract-audit-list{
-    grid-column: 1/span 12;
-    grid-row-start:17;
-  }
-
-  .content-abstracts{
-    grid-column: 1/span 12;
-    grid-row-start:18;
-  }
-
-  .content-abstracts-image{
-    width:100%;
-  }
-
-  .audit-technology-abstracts-indexes-headline{
-    grid-column: 1/span 12;
-    grid-row-start:19;
-  }
-
-  .audit-technology-abstracts-indexes-content{
-    grid-column: 1/span 12;
-    grid-row-start:20;
-  }
-
-  .technology-abstract-indexes-audit-filter-list{
-    grid-column: 1/span 12;
-    grid-row-start:21;
-  }
-
-  .technology-abstract-indexes-audit-list{
-    grid-column: 1/span 12;
-    grid-row-start:22;
-  }
-
-  .content-abstracts-indexes{
-    grid-column: 1/span 12;
-    grid-row-start:23;
-  }
-
-  .content-abstracts-indexes-image{
-    width:100%;
-  }
-
-  .audit-inventors-headline{
-    grid-column: 1/span 12;
-    grid-row-start:24;
-  }
-
-  .audit-inventors-content{
-    grid-column: 1/span 12;
-    grid-row-start:25;
-  }
-
-  .inventor-audit-list{
-    grid-column: 1/span 12;
-    grid-row-start:26;
-  }
-
-  .content-inventors{
-    grid-column: 1/span 12;
-    grid-row-start:27;
-  }
-
-  .content-inventors-image{
-    width:100%;
-  }
-
-
-
-  .audit-products-headline{
-    grid-column: 1/span 12;
-    grid-row-start:28;
-  }
-
-  .audit-products-content{
-    grid-column: 1/span 12;
-    grid-row-start:29;
-  }
-
-  .products-audit-list{
-    grid-column: 1/span 12;
-    grid-row-start:30;
-  }
-
-  .content-products{
-    grid-column: 1/span 12;
-    grid-row-start:31;
-  }
-
-  .content-products-image{
-    width:100%;
-  }
-
-  .audit-documents-headline{
-    grid-column: 1/span 12;
-    grid-row-start:32;
-  }
-
-  .audit-documents-content{
-    grid-column: 1/span 12;
-    grid-row-start:33;
-  }
-
-  .inventor-documents-list{
-    grid-column: 1/span 12;
-    grid-row-start:34;
-  }
-
-  .content-documents{
-    grid-column: 1/span 12;
-    grid-row-start:35;
-  }
-
-  .content-documents-image{
-    width:100%;
-  }
-
-  .audit-staff-headline{
-    grid-column: 1/span 12;
-    grid-row-start:36;
-  }
-
-  .audit-staff-content{
-    grid-column: 1/span 12;
-    grid-row-start:37;
-  }
-
-  .inventor-staff-list{
-    grid-column: 1/span 12;
-    grid-row-start:38;
-  }
-
-  .content-staff{
-    grid-column: 1/span 12;
-    grid-row-start:39;
-  }
-
-  .content-staff-image{
-    width:100%;
-  }
-
-  .audit-rss-headline{
-    grid-column: 1/span 12;
-    grid-row-start:40;
-  }
-
-  .audit-rss-content{
-    grid-column: 1/span 12;
-    grid-row-start:41;
-  }
-
-  .audit-rss-list{
-    grid-column: 1/span 12;
-    grid-row-start:42;
-  }
-
-  .content-rss{
-    grid-column: 1/span 12;
-    grid-row-start:43;
-  }
-
-  .content-rss-image{
-    width:100%;
-  }
-
-  .audit-news-headline{
-    grid-column: 1/span 12;
-    grid-row-start:44;
-  }
-
-  .audit-news-content{
-    grid-column: 1/span 12;
-    grid-row-start:45;
-  }
-
-  .audit-news-list{
-    grid-column: 1/span 12;
-    grid-row-start:46;
-  }
-
-  .content-news{
-    grid-column: 1/span 12;
-    grid-row-start:47;
-  }
-
-  .content-news-image{
-    width:100%;
-  }
 
 
 
