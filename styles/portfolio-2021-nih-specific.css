@@ -507,6 +507,7 @@ grid-row: 3/span 1;
   .xml-sitemap-headline{
     grid-column: 1/span 12;
     grid-row-start:5;
+    text-align: center;
 
   }
 
@@ -528,6 +529,7 @@ grid-row: 3/span 1;
   .content-snapshot-headline{
     grid-column: 1/span 12;
     grid-row-start:8;
+    text-align: center;
   }
 
   .content-snapshot{
@@ -850,6 +852,7 @@ grid-row: 3/span 1;
   .navigation-content-headline{
     grid-column: 1/span 12;
     grid-row-start:9;
+    text-align: center;
   }
 
   .navigation-content-findings{
@@ -869,6 +872,7 @@ grid-row: 3/span 1;
   .page-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:12;
+    text-align: center;
   }
 
   .page-findings{
@@ -888,6 +892,7 @@ grid-row: 3/span 1;
   .abstract-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:15;
+    text-align: center;
   }
 
   .abstract-findings{
@@ -921,6 +926,7 @@ grid-row: 3/span 1;
   .inventor-page-headline{
     grid-column: 1/span 12;
     grid-row-start:20;
+    text-align: center;
   }
 
   .inventor-page-findings{
@@ -974,6 +980,7 @@ grid-row: 3/span 1;
   .document-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:29;
+    text-align: center;
   }
 
   .documnent-findings{
@@ -993,6 +1000,7 @@ grid-row: 3/span 1;
   .rss-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:32;
+    text-align: center;
   }
 
   .rss-findings{
@@ -1012,6 +1020,7 @@ grid-row: 3/span 1;
   .multimedia-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:35;
+    text-align: center;
   }
 
   .multimedia-findings{
@@ -1171,6 +1180,7 @@ grid-row: 3/span 1;
 .search-results-categorization{
   grid-column: 1/span 12;
   grid-row-start:13;
+  text-align: center;
 }
 
 .search-resuts-flow{
@@ -1185,6 +1195,7 @@ grid-row: 3/span 1;
 .user-login{
   grid-column: 1/span 12;
   grid-row-start:15;
+  text-align: center;
 }
 
 .user-login-flow{
@@ -1199,6 +1210,7 @@ grid-row: 3/span 1;
 .saved-search-logged-in{
   grid-column: 1/span 12;
   grid-row-start:17;
+  text-align: center;
 }
 
 .saved-search-logged-in-flow{
@@ -1213,11 +1225,13 @@ grid-row: 3/span 1;
 .saved-search-cookies{
   grid-column: 1/span 12;
   grid-row-start:19;
+  text-align: center;
 }
 
 .saved-search-cookies-intro{
   grid-column: 1/span 12;
   grid-row-start:20;
+  text-align: center;
 }
 
 .saved-search-cookies-flow{
