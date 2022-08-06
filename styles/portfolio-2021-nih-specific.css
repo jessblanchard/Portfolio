@@ -635,100 +635,108 @@ grid-row: 3/span 1;
     width:100%;
   }
 
-
-  .abstract-findings-headline{
+  .reviewing-abstracts-headline{
     grid-column: 1/span 12;
     grid-row-start:10;
-    text-align: center;
   }
 
-  .abstract-findings{
+  .reviewing-abstracts-intro{
     grid-column: 1/span 12;
     grid-row-start:11;
   }
 
-  .abstract-findings-image{
-    width:100%;
-  }
-
-  .reviewing-abstrats-headline{
+  .reviewing-abstracts-list{
     grid-column: 1/span 12;
     grid-row-start:12;
   }
 
-  .reviewing-abstracts-list{
-    grid-column: 1/span 12;
-    grid-row-start:13;
-  }
-
   .reviewing-abstracts{
     grid-column: 1/span 12;
-    grid-row-start:14;
+    grid-row-start:13;
   }
 
   .reviewing-abstracts-image{
     width:100%;
   }
 
-  .inventor-page-headline{
+  .abstract-findings-headline{
     grid-column: 1/span 12;
-    grid-row-start:15;
+    grid-row-start:14;
     text-align: center;
   }
 
-  .inventor-page-findings{
+  .abstract-findings{
     grid-column: 1/span 12;
-    grid-row-start:16;
+    grid-row-start:15;
   }
 
-  .inventor-page-findings-image{
+  .abstract-findings-image{
     width:100%;
   }
 
-  .reviewing-inventory-pages-headline{
+
+
+  .inventor-page-headline{
     grid-column: 1/span 12;
-    grid-row-start:17;
+    grid-row-start:16;
+    text-align: center;
   }
 
-  .reviewing-inventory-pages-list{
+
+
+  .reviewing-inventory-pages-headline{
     grid-column: 1/span 12;
     grid-row-start:18;
   }
 
-  .reviewing-inventory-pages{
+  .reviewing-inventory-pages-intro{
     grid-column: 1/span 12;
     grid-row-start:19;
+  }
+
+  .reviewing-inventory-pages-list{
+    grid-column: 1/span 12;
+    grid-row-start:20;
+  }
+
+  .reviewing-inventory-pages{
+    grid-column: 1/span 12;
+    grid-row-start:21;
   }
 
   .reviewing-inventory-pages-image{
     width:100%;
   }
 
-
-  .product-findings-headline{
-    grid-column: 1/span 12;
-    grid-row-start:20;
-  }
-
-  .product-findings-recommendation{
-    grid-column: 1/span 12;
-    grid-row-start:21;
-  }
-
-  .product-findings-list{
+  .inventor-page-findings{
     grid-column: 1/span 12;
     grid-row-start:22;
   }
 
-  .document-findings-headline{
+  .inventor-page-findings-image{
+    width:100%;
+  }
+
+  .product-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:23;
+  }
+
+  .product-findings-recommendation{
+    grid-column: 1/span 12;
+    grid-row-start:24;
+  }
+
+
+  .document-findings-headline{
+    grid-column: 1/span 12;
+    grid-row-start:25;
     text-align: center;
   }
 
-  .documnent-findings{
+  .document-findings{
     grid-column: 1/span 12;
-    grid-row-start:24;
+    grid-row-start:26;
   }
 
   .document-findings-image{
@@ -737,13 +745,13 @@ grid-row: 3/span 1;
 
   .rss-findings-headline{
     grid-column: 1/span 12;
-    grid-row-start:25;
+    grid-row-start:27;
     text-align: center;
   }
 
   .rss-findings{
     grid-column: 1/span 12;
-    grid-row-start:26;
+    grid-row-start:28;
   }
 
   .rss-findings-image{
@@ -753,13 +761,13 @@ grid-row: 3/span 1;
 
   .multimedia-findings-headline{
     grid-column: 1/span 12;
-    grid-row-start:27;
+    grid-row-start:29;
     text-align: center;
   }
 
   .multimedia-findings{
     grid-column: 1/span 12;
-    grid-row-start:28;
+    grid-row-start:30;
   }
 
   .multimedia-findings-image{
@@ -768,42 +776,42 @@ grid-row: 3/span 1;
 
   .global-navigation-findings-headline{
     grid-column: 1/span 12;
-    grid-row-start:29;
+    grid-row-start:31;
   }
 
   .navigation-findings-content{
     grid-column: 1/span 12;
-    grid-row-start:30;
+    grid-row-start:32;
   }
 
   .current-experience-headline{
     grid-column: 1/span 12;
-    grid-row-start:31;
+    grid-row-start:33;
   }
 
   .current-experience-list{
     grid-column: 1/span 12;
-    grid-row-start:32;
+    grid-row-start:34;
   }
 
   .opportunities-for-improvement-headline{
     grid-column: 1/span 12;
-    grid-row-start:33;
+    grid-row-start:35;
   }
 
   .opportunties-for-improvement-list{
     grid-column: 1/span 12;
-    grid-row-start:34;
+    grid-row-start:36;
   }
 
   .next-steps-after-audit-headline{
     grid-column: 1/span 12;
-    grid-row-start:35;
+    grid-row-start:37;
   }
 
   .next-steps-after-audit-intro{
     grid-column: 1/span 12;
-    grid-row-start:36;
+    grid-row-start:38;
   }
 
   /* Mobile content-audit  findings and recommendations  Settings */
