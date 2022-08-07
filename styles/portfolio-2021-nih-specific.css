@@ -564,6 +564,15 @@ grid-row: 3/span 1;
       margin-left: 25px;
       margin-right: 25px;
     }
+
+    .xml-sitemap-image {
+      width: 100%;
+    }
+
+    .content-snapshot-image{
+      width: 100%;
+    }
+
   }
 
 
@@ -838,6 +847,10 @@ grid-row: 3/span 1;
         margin-right: 25px;
       }
 
+      .navigation-content-findings-image {
+        width: 100%;
+      }
+
       .reviewing-abstracts-image{
         width:100%;
       }
@@ -853,6 +866,19 @@ grid-row: 3/span 1;
       .inventor-page-findings-image{
         width:100%;
       }
+
+      .document-findings-image{
+        width:100%;
+      }
+
+      .rss-findings-image{
+        width:100%;
+      }
+
+      .multimedia-findings-image{
+        width:100%;
+      }
+
   }
 
 /* Desktop site architecture settings */
@@ -1073,13 +1099,13 @@ grid-row: 3/span 1;
   grid-row-start:32;
 }
 
-.navigation-change-symbols{
+.navigation-changes-symbols{
   grid-column: 1/span 12;
   grid-row-start:33;
   text-align: center;
 }
 
-.navigation-change-symbols-image{
+.navigation-changes-symbols-image{
   width:25%;
 }
 
@@ -1300,6 +1326,59 @@ grid-row: 3/span 1;
     margin-left: 25px;
     margin-right: 25px;
   }
+
+  .impact-feasibility-matrix-image {
+    width: 100%;
+  }
+
+  .site-search-image {
+    width: 100%;
+  }
+
+  .visit-duration-image {
+    width: 100%;
+  }
+
+  .current-navigation-image {
+    width: 100%;
+  }
+
+  .navigation-changes-symbols-image {
+    width: 50%;
+  }
+
+  .navigation-changes-licensing-image {
+    width: 75%;
+  }
+
+  .navigation-changes-policy-image {
+    width: 75%;
+  }
+
+  .navigation-changes-royalty-image {
+    width: 75%;
+  }
+
+  .navigation-changes-outreach-image {
+    width: 75%;
+  }
+
+  .navigation-changes-resources-image {
+    width: 75%;
+  }
+
+  .navigation-changes-reports-image {
+    width: 75%;
+  }
+
+  .navigation-changes-faqs-image {
+    width: 75%;
+  }
+
+  .navigation-changes-about-image {
+    width: 75%;
+  }
+
 }
 
 
@@ -1699,6 +1778,7 @@ grid-row: 3/span 1;
 
 .final-homepage-layout-image{
   width:50%;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.51);
 }
 
 .global-navigation-layout{
@@ -1709,6 +1789,7 @@ grid-row: 3/span 1;
 
 .global-navigation-layout-image{
   width:50%;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.51);
 }
 
 .final-predictive-search-layout{
@@ -1719,6 +1800,7 @@ grid-row: 3/span 1;
 
 .final-predictive-search-layout-image{
   width:50%;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.51);
 }
 
 .final-abstract-layout{
@@ -1729,6 +1811,7 @@ grid-row: 3/span 1;
 
 .final-abstract-layout-image{
   width:50%;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.51);
 }
 
 .final-technology-index-layout{
@@ -1739,6 +1822,7 @@ grid-row: 3/span 1;
 
 .final-technology-index-layout-image{
   width:50%;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.51);
 }
 
 /* Mobile final layout settings */
@@ -1753,6 +1837,27 @@ grid-row: 3/span 1;
     margin-left: 25px;
     margin-right: 25px;
   }
+
+  .final-homepage-layout-image{
+    width: 100%;
+  }
+
+  .global-navigation-layout-image{
+    width: 100%;
+  }
+
+  .final-predictive-search-layout-image{
+    width: 100%;
+  }
+
+  .final-abstract-layout-image{
+    width: 100%;
+  }
+
+  .final-technology-index-layout-image{
+    width: 100%;
+  }
+
 }
 
 
