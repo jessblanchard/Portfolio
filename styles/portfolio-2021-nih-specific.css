@@ -653,10 +653,11 @@ grid-row: 3/span 1;
   .reviewing-abstracts{
     grid-column: 1/span 12;
     grid-row-start:13;
+    text-align: center;
   }
 
   .reviewing-abstracts-image{
-    width:100%;
+    width:50%;
   }
 
   .abstract-findings-headline{
@@ -668,10 +669,11 @@ grid-row: 3/span 1;
   .abstract-findings{
     grid-column: 1/span 12;
     grid-row-start:15;
+    text-align: center;
   }
 
   .abstract-findings-image{
-    width:100%;
+    width:50%;
   }
 
 
@@ -702,10 +704,11 @@ grid-row: 3/span 1;
   .reviewing-inventory-pages{
     grid-column: 1/span 12;
     grid-row-start:21;
+    text-align: center;
   }
 
   .reviewing-inventory-pages-image{
-    width:100%;
+    width:50%;
   }
 
   .inventor-page-findings{
@@ -827,6 +830,17 @@ grid-row: 3/span 1;
         margin-right: 25px;
       }
 
+      .reviewing-abstracts-image{
+        width:100%;
+      }
+
+      .abstract-findings-image{
+        width:100%;
+      }
+
+      .reviewing-inventory-pages-image{
+        width:100%;
+      }
   }
 
 /* Desktop site architecture settings */
