@@ -1256,7 +1256,7 @@ grid-row: 3/span 1;
 }
 
 .current-sitemap-image{
-  width:25%;
+  width:100%;
 }
 
 .revised-sitemap-headline{
@@ -1694,46 +1694,51 @@ grid-row: 3/span 1;
 .final-homepage-layout{
   grid-column: 1/span 12;
   grid-row-start:3;
+  text-align: center;
 }
 
 .final-homepage-layout-image{
-  width:100%;
+  width:50%;
 }
 
 .global-navigation-layout{
   grid-column: 1/span 12;
   grid-row-start:4;
+  text-align: center;
 }
 
 .global-navigation-layout-image{
-  width:100%;
+  width:50%;
 }
 
 .final-predictive-search-layout{
   grid-column: 1/span 12;
   grid-row-start:5;
+  text-align: center;
 }
 
 .final-predictive-search-layout-image{
-  width:100%;
+  width:50%;
 }
 
 .final-abstract-layout{
   grid-column: 1/span 12;
   grid-row-start:6;
+  text-align: center;
 }
 
 .final-abstract-layout-image{
-  width:100%;
+  width:50%;
 }
 
 .final-technology-index-layout{
   grid-column: 1/span 12;
   grid-row-start:7;
+  text-align: center;
 }
 
 .final-technology-index-layout-image{
-  width:100%;
+  width:50%;
 }
 
 /* Mobile final layout settings */
