@@ -1555,39 +1555,21 @@ grid-row: 3/span 1;
   width:100%;
 }
 
-.signup-wire-list-headline{
-  grid-column: 1/span 12;
-  grid-row-start:26;
-}
-
-.signup-wire-list{
-  grid-column: 1/span 12;
-  grid-row-start:27;
-}
-
-.signup-wire{
-  grid-column: 1/span 12;
-  grid-row-start:28;
-}
-
-.signup-wire-image{
-  width:100%;
-}
 
 .preparing-wireframes button{
   grid-column: 1/span 12;
-  grid-row-start:29;
+  grid-row-start:26;
   justify-self:center;
 }
 
 .next-steps-headline{
   grid-column: 1/span 12;
-  grid-row-start:30;
+  grid-row-start:27;
 }
 
 .next-steps-close{
   grid-column: 1/span 12;
-  grid-row-start:31;
+  grid-row-start:28;
 }
 
 
