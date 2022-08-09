@@ -1415,30 +1415,27 @@ grid-row: 3/span 1;
   grid-row-start:4;
 }
 
-.homepage-wire{
+.homepage-wire-notes{
   grid-column: 1/span 12;
   grid-row-start:5;
+}
+
+.homepage-wire{
+  grid-column: 1/span 12;
+  grid-row-start:6;
 }
 
 .homepage-wire-image{
   width:100%;
 }
 
+
 .global-navigation-wire{
-  grid-column: 1/span 12;
-  grid-row-start:6;
-}
-
-.global-navigation-wire-image{
-  width:100%;
-}
-
-.global-footer-wire{
   grid-column: 1/span 12;
   grid-row-start:7;
 }
 
-.global-footer-wire-image{
+.global-navigation-wire-image{
   width:100%;
 }
 
@@ -1452,9 +1449,14 @@ grid-row: 3/span 1;
   grid-row-start:9;
 }
 
-.search-results-wire{
+.search-results-wire-notes{
   grid-column: 1/span 12;
   grid-row-start:10;
+}
+
+.search-results-wire{
+  grid-column: 1/span 12;
+  grid-row-start:11;
 }
 
 .search-results-wire-image{
@@ -1463,17 +1465,22 @@ grid-row: 3/span 1;
 
 .abstract-wire-list-headline{
   grid-column: 1/span 12;
-  grid-row-start:11;
+  grid-row-start:12;
 }
 
 .abstract-wire-list{
   grid-column: 1/span 12;
-  grid-row-start:12;
+  grid-row-start:13;
+}
+
+.abstract-wire-notes{
+  grid-column: 1/span 12;
+  grid-row-start:14;
 }
 
 .abstract-wire{
   grid-column: 1/span 12;
-  grid-row-start:13;
+  grid-row-start:15;
 }
 
 .abstract-wire-image{
@@ -1482,17 +1489,22 @@ grid-row: 3/span 1;
 
 .technology-index-wire-list-headline{
   grid-column: 1/span 12;
-  grid-row-start:14;
+  grid-row-start:16;
 }
 
 .technology-index-wire-list{
   grid-column: 1/span 12;
-  grid-row-start:15;
+  grid-row-start:17;
+}
+
+.technology-index-wire-notes{
+  grid-column: 1/span 12;
+  grid-row-start:18;
 }
 
 .technology-index{
   grid-column: 1/span 12;
-  grid-row-start:16;
+  grid-row-start:19;
 }
 
 .technology-index-wire-image{
@@ -1501,17 +1513,22 @@ grid-row: 3/span 1;
 
 .user-dashboard-wire-list-headline{
   grid-column: 1/span 12;
-  grid-row-start:17;
+  grid-row-start:20;
 }
 
 .user-dashboard-wire-list{
   grid-column: 1/span 12;
-  grid-row-start:18;
+  grid-row-start:21;
+}
+
+.user-dashboard-wire-notes{
+  grid-column: 1/span 12;
+  grid-row-start:22;
 }
 
 .user-dashboard-wire{
   grid-column: 1/span 12;
-  grid-row-start:19;
+  grid-row-start:23;
 }
 
 .user-dashboard-wire-image{
@@ -1520,17 +1537,22 @@ grid-row: 3/span 1;
 
 .contact-wire-list-headline{
   grid-column: 1/span 12;
-  grid-row-start:20;
+  grid-row-start:24;
 }
 
 .contact-wire-list{
   grid-column: 1/span 12;
-  grid-row-start:21;
+  grid-row-start:25;
+}
+
+.contact-wire-notes{
+  grid-column: 1/span 12;
+  grid-row-start:26;
 }
 
 .contact-wire{
   grid-column: 1/span 12;
-  grid-row-start:22;
+  grid-row-start:27;
 }
 
 .contact-wire-image{
@@ -1539,17 +1561,22 @@ grid-row: 3/span 1;
 
 .login-wire-list-headline{
   grid-column: 1/span 12;
-  grid-row-start:23;
+  grid-row-start:28;
 }
 
 .login-wire-list{
   grid-column: 1/span 12;
-  grid-row-start:24;
+  grid-row-start:29;
+}
+
+.login-wire-notes{
+  grid-column: 1/span 12;
+  grid-row-start:30;
 }
 
 .login-wire{
   grid-column: 1/span 12;
-  grid-row-start:25;
+  grid-row-start:31;
 }
 .login-wire-image{
   width:100%;
@@ -1558,18 +1585,18 @@ grid-row: 3/span 1;
 
 .preparing-wireframes button{
   grid-column: 1/span 12;
-  grid-row-start:26;
+  grid-row-start:32;
   justify-self:center;
 }
 
 .next-steps-headline{
   grid-column: 1/span 12;
-  grid-row-start:27;
+  grid-row-start:33;
 }
 
 .next-steps-close{
   grid-column: 1/span 12;
-  grid-row-start:28;
+  grid-row-start:34;
 }
 
 
