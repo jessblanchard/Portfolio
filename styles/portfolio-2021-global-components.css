@@ -121,6 +121,11 @@ p{
     color: #35435F;
   }
 
+  figure{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
 
 /* Navigation text styling */
 
@@ -190,7 +195,7 @@ p{
 
 /* Hides mobile nav in Desktop */
 
-  @media screen and (min-width: 991px){
+  @media screen and (min-width: 769px){
 
    .mobilescreen{
      display:none;
