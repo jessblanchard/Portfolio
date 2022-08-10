@@ -1661,40 +1661,20 @@ grid-row: 3/span 1;
   grid-row-start:7;
 }
 
-.prototype-is-not-list-headline{
+.prototype-flows-headline{
   grid-column: 1/span 12;
   grid-row-start:8;
 }
 
-.prototype-is-not-list{
-  grid-column: 1/span 12;
-  grid-row-start:9;
-}
-
-.why-prototype-list-headline{
-  grid-column: 1/span 12;
-  grid-row-start:10;
-}
-
-.why-prototype-list{
-  grid-column: 1/span 12;
-  grid-row-start:11;
-}
-
-.prototype-flows-headline{
-  grid-column: 1/span 12;
-  grid-row-start:12;
-}
-
 .prototype-flows-list{
   grid-column: 1/span 12;
-  grid-row-start:13;
+  grid-row-start:9;
   list-style: decimal;
 }
 
 .interactive-prototype button{
   grid-column: 1/span 12;
-  grid-row-start:14;
+  grid-row-start:10;
   justify-self:center;
 }
 
