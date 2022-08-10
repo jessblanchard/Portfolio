@@ -121,6 +121,11 @@ p{
     color: #35435F;
   }
 
+  figure{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
 
 /* Navigation text styling */
 

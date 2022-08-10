@@ -504,16 +504,11 @@ grid-row: 3/span 1;
     grid-row-start:4;
   }
 
-  .xml-sitemap-headline{
-    grid-column: 1/span 12;
-    grid-row-start:5;
-    text-align: center;
 
-  }
 
   .xml-sitemap{
     grid-column: 1/span 12;
-    grid-row-start:6;
+    grid-row-start:5;
     text-align: center;
   }
 
@@ -523,29 +518,30 @@ grid-row: 3/span 1;
 
   .excel-content-intro{
     grid-column: 1/span 12;
-    grid-row-start:7;
+    grid-row-start:6;
 
   }
 
   .content-snapshot{
     /* box-shadow: 0px 0px 19px -6px #000000; */
     grid-column: 1/span 12;
-    grid-row-start:8;
+    grid-row-start:7;
     text-align: center;
   }
 
   .content-snapshot-image{
     width:50%;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.51);
   }
 
   .content-audit-structure-list{
     grid-column: 1/span 12;
-    grid-row-start:9;
+    grid-row-start:8;
   }
 
   .content-audit-closing{
     grid-column: 1/span 12;
-    grid-row-start:10;
+    grid-row-start:9;
   }
 
 
@@ -619,7 +615,7 @@ grid-row: 3/span 1;
   .navigation-content-headline{
     grid-column: 1/span 12;
     grid-row-start:6;
-    text-align: center;
+    text-align: left;
   }
 
   .navigation-content-findings{
@@ -635,7 +631,7 @@ grid-row: 3/span 1;
   .page-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:8;
-    text-align: center;
+    text-align: left;
   }
 
   .page-findings{
@@ -677,7 +673,7 @@ grid-row: 3/span 1;
   .abstract-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:14;
-    text-align: center;
+    text-align: left;
   }
 
   .abstract-findings{
@@ -750,7 +746,7 @@ grid-row: 3/span 1;
   .document-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:25;
-    text-align: center;
+    text-align:left;
   }
 
   .document-findings{
@@ -766,7 +762,7 @@ grid-row: 3/span 1;
   .rss-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:27;
-    text-align: center;
+    text-align: left;
   }
 
   .rss-findings{
@@ -783,7 +779,7 @@ grid-row: 3/span 1;
   .multimedia-findings-headline{
     grid-column: 1/span 12;
     grid-row-start:29;
-    text-align: center;
+    text-align: left;
   }
 
   .multimedia-findings{
