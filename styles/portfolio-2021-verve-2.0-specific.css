@@ -554,6 +554,9 @@
   margin:0 auto;
   scroll-behavior: smooth;
   /* margin:5%; */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1366px;
 }
 
 

@@ -166,6 +166,8 @@ p{
     top: 0px;
     background: rgba(255, 255, 255, 0.9);
     height:auto;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   /* Primary navigation link positions */
@@ -416,9 +418,10 @@ p{
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: auto auto;
   max-width: 1366px;
-  margin:0px;
   padding:80px;
   background-color: #35435F;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-email{

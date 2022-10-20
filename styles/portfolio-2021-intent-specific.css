@@ -401,6 +401,8 @@
   max-width: 1366px;
   margin:80px;
   height:416;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -481,6 +483,9 @@
     padding: 2em;
     margin-bottom: 100px;
     background-color: #EBD7D0;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -544,6 +549,11 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1366px;
+    margin-left: 5%;
+    margin-right: 5%;
 
   }
 
@@ -1074,8 +1084,9 @@
     grid-row-start: 11;
     text-align: center;
     margin-top: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1366px;
 
   }
 
@@ -1113,8 +1124,9 @@
 
   @media screen and (min-width: 991px){
     .site-map-and-content{
-      margin-left: 20%;
-      margin-right: 20%;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1366px;
       margin-bottom: 50px;
     }
   }
@@ -1245,8 +1257,9 @@
 
   @media screen and (min-width: 991px){
     .branding-indented1{
-      margin-left: 20%;
-      margin-right: 20%;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1366px;
     }
   }
 
@@ -1294,6 +1307,9 @@
           display: block;
           width:100%;
           margin: 0 auto;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 1366px;
         }
       }
 
@@ -1595,8 +1611,9 @@ text-align: center;
 
   @media screen and (min-width: 991px){
       .lessons-learned{
-      margin-left: 20%;
-      margin-right: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1366px;
     }
   }
 
@@ -1931,6 +1948,9 @@ text-align: center;
     width: 100%;
     /* height: 155.13px; */
     display:inline-block;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .intent-logo-round{
@@ -2054,6 +2074,9 @@ text-align: center;
   .intent-discovery-section2{
     grid-column: 1/span 4;
     grid-row-start: 6;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .intent-discovery-section2 img{
@@ -2242,6 +2265,9 @@ text-align: center;
     margin:0px;
     padding:80px;
     background-color: #35435F;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1366px;
   }
 
   .footer-email{
