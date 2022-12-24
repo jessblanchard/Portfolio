@@ -398,7 +398,7 @@
   grid-gap: 20px;
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: 1fr auto 1fr;;
-  max-width: 1366px;
+  max-width: 1000px;
   margin:80px;
   height:416;
   margin-left: auto;
@@ -483,7 +483,7 @@
     padding: 2em;
     margin-bottom: 100px;
     background-color: #EBD7D0;
-    max-width: 1366px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -559,8 +559,10 @@
 
   @media screen and (min-width: 991px){
     .tldr{
-      margin-left: 20%;
-      margin-right: 20%;
+      /* margin-left: 20%;
+      margin-right: 20%; */
+      margin:0 auto;
+      max-width:1000px;
     }
   }
 
@@ -589,9 +591,16 @@
 
   @media screen and (min-width: 991px){
     .discovery-section1{
-      margin-left: 20%;
-      margin-right: 20%;
+      margin: 0 auto;
+      max-width: 1000px;
     }
+
+    .user-personas{
+      margin: 0 auto;
+      margin-bottom:50px;
+      max-width: 1000px;
+    }
+
   }
 
   .discovery-section2{
@@ -648,8 +657,8 @@
 
   @media screen and (min-width: 991px){
     .discovery-section3{
-      margin-left: 20%;
-      margin-right: 20%;
+      margin: 0 auto;
+      max-width: 1000px;
     }
   }
 
@@ -1005,8 +1014,8 @@
 
   @media screen and (min-width: 991px){
     .information-architecture-indented1{
-      margin-left: 20%;
-      margin-right: 20%;
+      margin: 0 auto;
+      max-width: 1000px;
     }
   }
 
@@ -1022,8 +1031,8 @@
 
   @media screen and (min-width: 991px){
     .information-architecture-fullwidth2{
-      margin-left: 20%;
-      margin-right: 20%;
+      margin: 0 auto;
+      max-width: 1000px;
     }
   }
 
@@ -1074,8 +1083,8 @@
 
   @media screen and (min-width: 991px){
     .information-architecture-indented3{
-      margin-left: 20%;
-      margin-right: 20%;
+      margin: 0 auto;
+      max-width: 1000px;
     }
   }
 
@@ -1083,10 +1092,9 @@
     grid-column: 1/span 4;
     grid-row-start: 11;
     text-align: center;
+    margin: 0 auto;
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1366px;
+    max-width: 1000px;
 
   }
 
@@ -1124,9 +1132,8 @@
 
   @media screen and (min-width: 991px){
     .site-map-and-content{
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 1366px;
+      margin: 0 auto;
+      max-width: 1000px;
       margin-bottom: 50px;
     }
   }
@@ -1163,8 +1170,8 @@
 
   @media screen and (min-width: 991px){
       .sketches-intro{
-      margin-left: 20%;
-      margin-right: 20%;
+      margin:0 auto;
+      max-width: 1000px;
     }
   }
 
@@ -1259,7 +1266,7 @@
     .branding-indented1{
       margin-left: auto;
       margin-right: auto;
-      max-width: 1366px;
+      max-width: 1000px;
     }
   }
 
@@ -1355,8 +1362,8 @@
 
   @media screen and (min-width: 991px){
       .branding-fullwidth2{
-      margin-left: 20%;
-      margin-right: 20%;
+      margin: 0 auto;
+      max-width: 1000px;
     }
   }
 
@@ -1373,8 +1380,8 @@
   @media screen and (min-width: 991px){
     .type-chart{
       grid-template-columns: 1fr 1fr;
-      margin-left: 10%;
-      margin-right: 10%;
+      margin:0 auto;
+      max-width: 1000px;
     }
   }
 
@@ -1417,8 +1424,8 @@
 
   @media screen and (min-width: 991px){
       .branding-indented3{
-      margin-left: 20%;
-      margin-right: 20%;
+      margin: 0 auto;
+      max-width: 1000px;
 
     }
   }
@@ -1611,9 +1618,9 @@ text-align: center;
 
   @media screen and (min-width: 991px){
       .lessons-learned{
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1366px;
+        margin:0 auto;
+        margin-bottom: 50px;
+        max-width: 1000px;
     }
   }
 
@@ -1907,8 +1914,8 @@ text-align: center;
 
   @media screen and (min-width: 991px){
     .intent-wireframes{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin:0 auto;
+    max-width: 1000px;
 
     }
   }
@@ -2386,6 +2393,7 @@ grid-row: 2/span 1;
   }
 
 }
+
 
 .user-personas p{
   margin-bottom: 50px;
