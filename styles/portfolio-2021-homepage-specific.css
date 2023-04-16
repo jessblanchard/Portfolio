@@ -23,7 +23,7 @@
 .hero-portrait{
   grid-column: 9/span 4;
   grid-row: 1/span 3;
-  align-self:flex-end;
+  /* align-self:flex-end; */
   width: 100%;
   height: auto;
 }
